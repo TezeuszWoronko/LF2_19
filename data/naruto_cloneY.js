@@ -15,8 +15,8 @@ define({
       }
     ],
     name: "CloneY",
-    head: "sprite/sys/naruto_clone_f.png",
-    small: "sprite/sys/naruto_s.png",
+    head: "sprite/naruto_clone_f.png",
+    small: "sprite/naruto_s.png",
     walking_frame_rate: 3,
     walking_speed: 4,
     walking_speedz: 2,

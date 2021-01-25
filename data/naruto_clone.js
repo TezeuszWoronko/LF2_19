@@ -2,21 +2,21 @@ define({
   bmp: {
     file: [
       {
-        "file(0-69)": "sprite/sys/naruto_0.png", w: 79, h: 79, row: 10, col: 7
+        "file(0-69)": "sprite/naruto_0.png", w: 79, h: 79, row: 10, col: 7
       },
       {
-        "file(70-139)": "sprite/sys/naruto_2.png", w: 79, h: 79, row: 10, col: 7
+        "file(70-139)": "sprite/naruto_2.png", w: 79, h: 79, row: 10, col: 7
       },
       {
-        "file(140-209)": "sprite/sys/naruto_0.png", w: 79, h: 79, row: 10, col: 7
+        "file(140-209)": "sprite/naruto_0.png", w: 79, h: 79, row: 10, col: 7
       },
       {
-        "file(210-279)": "sprite/sys/naruto_2.png", w: 79, h: 79, row: 10, col: 7
+        "file(210-279)": "sprite/naruto_2.png", w: 79, h: 79, row: 10, col: 7
       }
     ],
     name: "Clone",
-    head: "sprite/sys/naruto_clone_f.png",
-    small: "sprite/sys/naruto_s.png",
+    head: "sprite/naruto_clone_f.png",
+    small: "sprite/naruto_s.png",
     walking_frame_rate: 3,
     walking_speed: 4,
     walking_speedz: 2,
