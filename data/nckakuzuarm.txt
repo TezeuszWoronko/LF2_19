@@ -1,0 +1,87 @@
+<bmp_begin>
+file(0-4): sprite\sys\nc_kakuzuarm.bmp  w: 35 h: 71  row: 5 col: 1
+<bmp_end>
+
+<frame> 0 ground_fist
+   pic: 0 state: 3005 wait: 1 next: 1 dvx: 0 dvy: 0 centerx: 18 centery: 71 hit_a: 0 hit_j: 0 hit_d: 0
+<frame_end>
+
+<frame> 1 ground_fist
+   pic: 1 state: 3005 wait: 1 next: 2 dvx: 0 dvy: 0 centerx: 18 centery: 71 hit_a: 0 hit_j: 0 hit_d: 0
+sound: data\021.wav
+   itr:
+      kind: 0 x: 0 y: 0 w: 36 h: 71 fall: 100 bdefend: 100 arest: 15 injury: 40 dvx: 8 dvy: -13
+   itr_end:
+<frame_end>
+
+<frame> 2 ground_fist
+   pic: 2 state: 3005 wait: 4 next: 3 dvx: 0 dvy: 0 centerx: 18 centery: 71 hit_a: 0 hit_j: 0 hit_d: 0
+<frame_end>
+
+<frame> 3 ground_fist
+   pic: 3 state: 3005 wait: 2 next: 4 dvx: 0 dvy: 0 centerx: 18 centery: 71 hit_a: 0 hit_j: 0 hit_d: 0
+<frame_end>
+
+<frame> 4 ground_fist
+   pic: 4 state: 3005 wait: 2 next: 1000 dvx: 0 dvy: 0 centerx: 18 centery: 71 hit_a: 0 hit_j: 0 hit_d: 0
+<frame_end>
+
+<frame> 5 delete
+   pic: 999 state: 3005 wait: 0 next: 1000 dvx: 0 dvy: 0 centerx: 18 centery: 71 hit_a: 0 hit_j: 0 hit_d: 0
+<frame_end>
+
+<frame> 10 ground_fist
+   pic: 999 state: 3005 wait: 1 next: 1000 dvx: 0 dvy: 0 centerx: 18 centery: 71 hit_a: 0 hit_j: 0 hit_d: 0
+<frame_end>
+
+<frame> 122 absorbing
+   pic: 999  state: 18  wait: 1  next: 123  dvx: 0  dvy: 0  centerx: 17  centery: 41  hit_a: 0  hit_d: 0  hit_j: 0
+   itr:
+      kind: 0  x: 15  y: 10000000  w: 12  h: 23  dvx: 0  vrest: 1 fall: -1  bdefend: -1  injury: -400  effect: 5
+   itr_end:
+<frame_end>
+
+<frame> 123 absorbing
+   pic: 999  state: 18  wait: 1  next: 124  dvx: 0  dvy: 0  centerx: 17  centery: 41  hit_a: 0  hit_d: 0  hit_j: 0
+   itr:
+      kind: 0  x: 15  y: 10000000  w: 12  h: 23  dvx: 0  vrest: 3 fall: -1  bdefend: -1  injury: 350  effect: 5
+   itr_end:
+<frame_end>
+
+<frame> 124 absorbing
+   pic: 999  state: 18  wait: 1  next: 1000  dvx: 0  dvy: 0  centerx: 17  centery: 41  hit_a: 0  hit_d: 0  hit_j: 0
+sound: data\049.wav
+   itr:
+      kind: 8  x: 15  y: 10000000  w: 12  h: 23  dvx: 5  injury: 200
+   itr_end:
+<frame_end>
+
+<frame> 125 absorbing
+   pic: 999  state: 18  wait: 1  next: 126  dvx: 0  dvy: 0  centerx: 17  centery: 41  hit_a: 0  hit_d: 0  hit_j: 0
+   itr:
+      kind: 0  x: 15  y: 10000000  w: 12  h: 23  dvx: 0  vrest: 1 fall: -1  bdefend: -1  injury: -300  effect: 5
+   itr_end:
+<frame_end>
+
+<frame> 126 absorbing
+   pic: 999  state: 18  wait: 1  next: 124  dvx: 0  dvy: 0  centerx: 17  centery: 41  hit_a: 0  hit_d: 0  hit_j: 0
+   itr:
+      kind: 0  x: 15  y: 10000000  w: 12  h: 23  dvx: 0  vrest: 3 fall: -1  bdefend: -1  injury: 200  effect: 5
+   itr_end:
+<frame_end>
+
+<frame> 127 absorbing
+   pic: 999  state: 18  wait: 1  next: 128  dvx: 0  dvy: 0  centerx: 17  centery: 41  hit_a: 0  hit_d: 0  hit_j: 0
+   itr:
+      kind: 0  x: 15  y: 10000000  w: 12  h: 23  dvx: 0  vrest: 1 fall: -1  bdefend: -1  injury: -200  effect: 5
+   itr_end:
+<frame_end>
+
+<frame> 128 absorbing
+   pic: 999  state: 18  wait: 1  next: 124  dvx: 0  dvy: 0  centerx: 17  centery: 41  hit_a: 0  hit_d: 0  hit_j: 0
+   itr:
+      kind: 0  x: 15  y: 10000000  w: 12  h: 23  dvx: 0  vrest: 3 fall: -1  bdefend: -1  injury: 100  effect: 5
+   itr_end:
+<frame_end>
+
+%

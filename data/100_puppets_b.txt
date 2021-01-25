@@ -1,0 +1,277 @@
+<bmp_begin>
+file(0-99): sprite\sys\puppet_2.bmp  w: 79  h: 79  row: 10  col: 10
+file(100-149): sprite\sys\puppet_2.bmp  w: 159  h: 79  row: 5  col: 10
+file(150-199): sprite\sys\puppet_2.bmp  w: 79  h: 159  row: 10  col: 5
+file(200-224): sprite\sys\puppet_2.bmp  w: 159  h: 159  row: 5  col: 5
+<bmp_end>
+
+<frame> 0 puppet_2_start_1
+   pic: 999 state: 400 wait: 2 next: 1 dvx: 0 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0 hit_j: 0
+<frame_end>
+<frame> 1 puppet_2_start_1
+   pic: 94 state: 3006 wait: 1 next: 2 dvx: 0 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0 hit_j: 0
+<frame_end>
+<frame> 2 puppet_2_start_1
+   pic: 95 state: 3006 wait: 1 next: 3 dvx: 5 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0 hit_j: 0
+   bdy:
+      kind: 0  x: 20  y: 10  w: 40  h: 69
+   bdy_end:
+<frame_end>
+
+<frame> 3 puppet_2_attack_1
+   pic: 37 state: 3006 wait: 1 next: 4 dvx: 0 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0  hit_j: 0
+   bdy:
+      kind: 0  x: 20  y: 10  w: 40  h: 69
+   bdy_end:
+<frame_end>
+<frame> 4 puppet_2_attack_1
+   pic: 38 state: 3006 wait: 1 next: 5 dvx: 0 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0  hit_j: 0
+   bdy:
+      kind: 0  x: 20  y: 10  w: 40  h: 69
+   bdy_end:
+<frame_end>
+<frame> 5 puppet_2_attack_1
+   pic: 41 state: 3006 wait: 1 next: 6 dvx: 0 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0  hit_j: 0
+   bdy:
+      kind: 0  x: 20  y: 10  w: 40  h: 69
+   bdy_end:
+<frame_end>
+<frame> 6 puppet_2_attack_1
+   pic: 42 state: 3006 wait: 1 next: 7 dvx: 0 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0  hit_j: 0
+   bdy:
+      kind: 0  x: 20  y: 10  w: 40  h: 69
+   bdy_end:
+<frame_end>
+<frame> 7 puppet_2_attack_1
+   pic: 39 state: 3006 wait: 3 next: 8 dvx: 30 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0  hit_j: 0
+   itr:
+      kind: 0  x: 39 y: 30  w: 50  h: 30  bdefend: 60 dvx: 5 dvy: -6  injury: 15 effect: 1 fall: 2  vrest: 10 
+   itr_end:
+   bdy:
+      kind: 0  x: 60  y: 10  w: 40  h: 69
+   bdy_end:
+<frame_end>
+<frame> 8 puppet_2_attack_1
+   pic: 40 state: 3006 wait: 1 next: 10 dvx: 0 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0  hit_j: 0
+   itr:
+      kind: 0  x: 39 y: 30  w: 50  h: 30  bdefend: 30 dvx: 5 dvy: -6  injury: 15 effect: 1 fall: 2  vrest: 10 
+   itr_end:
+   bdy:
+      kind: 0  x: 60  y: 10  w: 40  h: 69
+   bdy_end:
+<frame_end>
+
+<frame> 10 puppet_2_end_1
+   pic: 96 state: 3006 wait: 1 next: 11 dvx: 5 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0 hit_j: 0
+<frame_end>
+<frame> 11 puppet_2_end_1
+   pic: 97 state: 3006 wait: 1 next: 12 dvx: 0 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0 hit_j: 0
+<frame_end>
+<frame> 12 puppet_2_end_1
+   pic: 999 state: 3005 wait: 15 next: 1000 dvx: 550 dvy: 550 dvz: 550 centerx: 39 centery: 79 hit_a: 0  hit_d: 0 hit_j: 0
+<frame_end>
+
+<frame> 20 puppet_2_end_2
+   pic: 98 state: 3006 wait: 1 next: 21 dvx: 0 dvy: -5 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0 hit_j: 0
+<frame_end>
+<frame> 21 puppet_2_end_2
+   pic: 99 state: 3006 wait: 1 next: 22 dvx: 0 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0 hit_j: 0
+<frame_end>
+<frame> 22 puppet_2_end_2
+   pic: 999 state: 3005 wait: 30 next: 1000 dvx: 550 dvy: 550 dvz: 550 centerx: 39 centery: 79 hit_a: 0  hit_d: 0 hit_j: 0
+<frame_end>
+
+<frame> 30 puppet_2_end_2
+   pic: 94 state: 3006 wait: 1 next: 31 dvx: -5 dvy: -5 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0 hit_j: 0
+<frame_end>
+<frame> 31 puppet_2_end_2
+   pic: 95 state: 3006 wait: 1 next: 32 dvx: 0 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0 hit_j: 0
+<frame_end>
+<frame> 32 puppet_2_end_2
+   pic: 999 state: 3005 wait: 30 next: 1000 dvx: 550 dvy: 550 dvz: 550 centerx: 39 centery: 79 hit_a: 0  hit_d: 0 hit_j: 0
+<frame_end>
+
+<frame> 40 puppet_2_start_2
+   pic: 999 state: 400 wait: 2 next: 41 dvx: 0 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0 hit_j: 0
+<frame_end>
+<frame> 41 puppet_2_start_2
+   pic: 96 state: 3006 wait: 1 next: 42 dvx: 0 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0 hit_j: 0
+<frame_end>
+<frame> 42 puppet_2_start_2
+   pic: 97 state: 3006 wait: 1 next: 43 dvx: 12 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0 hit_j: 0
+   bdy:
+      kind: 0  x: 20  y: 10  w: 40  h: 69
+   bdy_end:
+<frame_end>
+
+<frame> 43 puppet_2_attack_2
+   pic: 37 state: 3006 wait: 1 next: 44 dvx: 0 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0  hit_j: 0
+   bdy:
+      kind: 0  x: 20  y: 10  w: 40  h: 69
+   bdy_end:
+<frame_end>
+<frame> 44 puppet_2_attack_2
+   pic: 38 state: 3006 wait: 1 next: 45 dvx: 0 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0  hit_j: 0
+   bdy:
+      kind: 0  x: 20  y: 10  w: 40  h: 69
+   bdy_end:
+<frame_end>
+<frame> 45 puppet_2_attack_2
+   pic: 41 state: 3006 wait: 1 next: 46 dvx: 0 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0  hit_j: 0
+   bdy:
+      kind: 0  x: 20  y: 10  w: 40  h: 69
+   bdy_end:
+<frame_end>
+<frame> 46 puppet_2_attack_2
+   pic: 42 state: 3006 wait: 1 next: 47 dvx: 0 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0  hit_j: 0
+   bdy:
+      kind: 0  x: 20  y: 10  w: 40  h: 69
+   bdy_end:
+<frame_end>
+<frame> 47 puppet_2_attack_2
+   pic: 43 state: 3006 wait: 1 next: 48 dvx: 0 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0  hit_j: 0
+   bdy:
+      kind: 0  x: 20  y: 50  w: 40  h: 69
+   bdy_end:
+<frame_end>
+<frame> 48 puppet_2_attack_2
+   pic: 212 state: 3006 wait: 1 next: 49 dvx: 0 dvy: 0 dvz: 0 centerx: 79 centery: 120 hit_a: 0  hit_d: 0  hit_j: 0
+   itr:
+      kind: 0  x: 30 y: 30  w: 100  h: 100  bdefend: 60 dvx: 3 dvy: -6  injury: 15 effect: 1 fall: 2  vrest: 10 
+   itr_end:
+   bdy:
+      kind: 0  x: 20  y: 50  w: 40  h: 69
+   bdy_end:
+<frame_end>
+<frame> 49 puppet_2_attack_2
+   pic: 123 state: 3006 wait: 1 next: 50 dvx: 0 dvy: 0 dvz: 0 centerx: 79 centery: 79 hit_a: 0  hit_d: 0  hit_j: 0
+   itr:
+      kind: 0  x: 79 y: 10  w: 39  h: 60  bdefend: 30 dvx: 3 dvy: -6  injury: 15 effect: 1 fall: 2  vrest: 10 
+   itr_end:
+   bdy:
+      kind: 0  x: 20  y: 10  w: 40  h: 69
+   bdy_end:
+<frame_end>
+<frame> 50 puppet_2_attack_2
+   pic: 124 state: 3006 wait: 1 next: 51 dvx: 0 dvy: 0 dvz: 0 centerx: 79 centery: 79 hit_a: 0  hit_d: 0  hit_j: 0
+   bdy:
+      kind: 0  x: 20  y: 10  w: 40  h: 69
+   bdy_end:
+<frame_end>
+<frame> 51 puppet_2_attack_2
+   pic: 125 state: 3006 wait: 1 next: 52 dvx: 0 dvy: 0 dvz: 0 centerx: 79 centery: 79 hit_a: 0  hit_d: 0  hit_j: 0
+   bdy:
+      kind: 0  x: 20  y: 10  w: 40  h: 69
+   bdy_end:
+<frame_end>
+<frame> 52 puppet_2_attack_2
+   pic: 52 state: 3006 wait: 1 next: 53 dvx: 0 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0  hit_j: 0
+   bdy:
+      kind: 0  x: 20  y: 10  w: 40  h: 69
+   bdy_end:
+<frame_end>
+<frame> 53 puppet_2_attack_2
+   pic: 53 state: 3006 wait: 1 next: 20 dvx: 0 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0  hit_j: 0
+   bdy:
+      kind: 0  x: 20  y: 10  w: 40  h: 69
+   bdy_end:
+<frame_end>
+
+<frame> 60 puppet_2_start_3
+   pic: 999 state: 400 wait: 2 next: 61 dvx: 0 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0 hit_j: 0
+<frame_end>
+<frame> 61 puppet_2_start_3
+   pic: 96 state: 3006 wait: 1 next: 62 dvx: 0 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0 hit_j: 0
+<frame_end>
+<frame> 62 puppet_2_start_3
+   pic: 97 state: 3006 wait: 1 next: 63 dvx: 0 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0 hit_j: 0
+   bdy:
+      kind: 0  x: 20  y: 10  w: 40  h: 69
+   bdy_end:
+<frame_end>
+
+<frame> 63 puppet_2_attack_2
+   pic: 56 state: 3006 wait: 1 next: 66 dvx: 0 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0  hit_j: 0
+   bdy:
+      kind: 0  x: 20  y: 10  w: 40  h: 69
+   bdy_end:
+<frame_end>
+<frame> 66 puppet_2_attack_2
+   pic: 57 state: 3006 wait: 1 next: 67 dvx: 25 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0  hit_j: 0
+   bdy:
+      kind: 0  x: 20  y: 10  w: 40  h: 69
+   bdy_end:
+<frame_end>
+<frame> 67 puppet_2_attack_2
+   pic: 129 state: 3006 wait: 3 next: 68 dvx: 0 dvy: 0 dvz: 0 centerx: 79 centery: 79 hit_a: 0  hit_d: 0  hit_j: 0
+   itr:
+      kind: 0  x: 79 y: 30  w: 79  h: 30  bdefend: 60 dvx: 1 dvy: -6  injury: 15 effect: 1 fall: 2  vrest: 10 
+   itr_end:
+   bdy:
+      kind: 0  x: 20  y: 50  w: 40  h: 69
+   bdy_end:
+<frame_end>
+<frame> 68 puppet_2_attack_2
+   pic: 130 state: 3006 wait: 2 next: 69 dvx: 0 dvy: 0 dvz: 0 centerx: 79 centery: 79 hit_a: 0  hit_d: 0  hit_j: 0
+   itr:
+      kind: 0  x: 79 y: 30  w: 79  h: 30  bdefend: 30 dvx: 1 dvy: -6 injury: 15 effect: 1 fall: 2  vrest: 10 
+   itr_end:
+   bdy:
+      kind: 0  x: 20  y: 50  w: 40  h: 69
+   bdy_end:
+<frame_end>
+<frame> 69 puppet_2_attack_2
+   pic: 57 state: 3006 wait: 1 next: 70 dvx: 0 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0  hit_j: 0
+   bdy:
+      kind: 0  x: 20  y: 50  w: 40  h: 69
+   bdy_end:
+<frame_end>
+<frame> 70 puppet_2_attack_2
+   pic: 53 state: 3006 wait: 1 next: 30 dvx: 0 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0  hit_j: 0
+   bdy:
+      kind: 0  x: 20  y: 50  w: 40  h: 69
+   bdy_end:
+<frame_end>
+
+<frame> 88 summoning
+   pic: 999 state: 3005 wait: 0 next: 89 dvx: 550 dvy: 550 dvz: 550 centerx: 39 centery: 79 hit_a: 0  hit_d: 0 hit_j: 0
+<frame_end>
+<frame> 89 summoning
+   pic: 999 state: 3005 wait: 0 next: 1000 dvx: 550 dvy: 550 dvz: 550 centerx: 39 centery: 79 hit_a: 0  hit_d: 0 hit_j: 0
+ opoint:
+      kind: 1  x: 42  y: 51  action: 90  dvx: 0  dvy: 0  oid: 511  facing: 0
+   opoint_end:   
+<frame_end>
+
+
+<frame> 90 summoning
+   pic: 999 state: 3005 wait: 0 next: 91 dvx: 550 dvy: 550 dvz: 550 centerx: 39 centery: 79 hit_a: 0  hit_d: 0 hit_j: 0
+<frame_end>
+<frame> 91 summoning
+   pic: 999 state: 3005 wait: 0 next: 92 dvx: 100 dvy: 550 dvz: 0 centerx: 39 centery: 79 hit_a: 32  hit_d: 32 hit_j: 25
+ opoint:
+      kind: 1  x: 42  y: 51  action: 0  dvx: 0  dvy: 0  oid: 511  facing: 0
+   opoint_end:   
+<frame_end>
+<frame> 92 summoning
+   pic: 999 state: 3005 wait: 31 next: 93 dvx: 550 dvy: 550 dvz: 550 centerx: 39 centery: 79 hit_a: 0  hit_d: 0 hit_j: 0
+<frame_end>
+<frame> 93 summoning
+   pic: 999 state: 3005 wait: 0 next: 94 dvx: -200 dvy: 550 dvz: 0 centerx: 39 centery: 79 hit_a: 32  hit_d: 32 hit_j: 99
+ opoint:
+      kind: 1  x: 42  y: 51  action: 40  dvx: 0  dvy: 0  oid: 511  facing: 1
+   opoint_end:   
+<frame_end>
+<frame> 94 summoning
+   pic: 999 state: 3005 wait: 32 next: 95 dvx: 550 dvy: 550 dvz: 550 centerx: 39 centery: 79 hit_a: 0  hit_d: 0 hit_j: 0
+<frame_end>
+<frame> 95 summoning
+   pic: 999 state: 3005 wait: 0 next: 1000 dvx: 100 dvy: 550 dvz: 0 centerx: 39 centery: 79 hit_a: 32  hit_d: 32 hit_j: 25
+ opoint:
+      kind: 1  x: 42  y: 51  action: 60  dvx: 0  dvy: 0  oid: 511  facing: 0
+   opoint_end:   
+<frame_end>
+<frame> 96 summoning
+   pic: 999 state: 3005 wait: 33 next: -91 dvx: 550 dvy: 550 dvz: 550 centerx: 39 centery: 79 hit_a: 0  hit_d: 0 hit_j: 0
+<frame_end>
+,

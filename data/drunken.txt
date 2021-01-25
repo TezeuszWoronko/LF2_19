@@ -1,0 +1,675 @@
+<bmp_begin>
+file(0-35): sprite\sys\drunken.bmp  w: 79  h: 79  row: 4  col: 9
+file(36): sprite\sys\genjutsu1.bmp  w: 500  h: 500  row: 1  col: 1
+file(37): sprite\sys\white.bmp  w: 4000  h: 800  row: 1  col: 1
+file(38-61): sprite\sys\slashes.bmp w: 224  h: 224  row: 4  col: 6
+file(62): sprite\sys\genjutsu2.bmp  w: 500  h: 500  row: 1  col: 1
+file(63): sprite\sys\genjutsu3.bmp  w: 500  h: 500  row: 1  col: 1
+file(64): sprite\sys\genjutsu4.bmp  w: 500  h: 500  row: 1  col: 1
+file(65): sprite\sys\genjutsu5.bmp  w: 500  h: 500  row: 1  col: 1
+file(66): sprite\sys\meteor.bmp  w: 500  h: 500  row: 1  col: 1
+file(67): sprite\sys\meteor2.bmp  w: 500  h: 500  row: 1  col: 1
+
+<bmp_end>
+
+<frame> 0 flying
+   pic: 999 state: 3000  wait: 2  next: 1000  dvx: 0  dvy: 0  centerx: 39  centery: 71  hit_a: 0  hit_d: 0  hit_j: 0
+  bdy:
+      kind: 0  x: -25 y: 18  w: 120  h: 100 
+   bdy_end:
+<frame_end>
+
+<frame> 6 flyings
+   pic: 4 state: 3006  wait: 0 next: 7  dvx: 30 dvy: 0  centerx: 39  centery: 79  hit_a: 0  hit_d: 0  hit_j: 0
+ itr:
+      kind: 0  x: 0  y: 0  w: 79  h: 79 dvx: 30 dvy: -10 fall: 999 vrest: 15  bdefend: 100  injury: 95  
+effect: 2   
+itr_end:
+opoint:
+      kind: 1  x: 135 y: 109 action: 90  dvx: 0  dvy: 0  oid: 229  facing: 0
+   opoint_end: 
+  bdy:
+      kind: 0  x: 60  y: 50  w: 100  h: 100
+   bdy_end:
+<frame_end>
+<frame> 7 flyings
+   pic: 5 state: 3006  wait: 0 next: 8 dvx: 30 dvy: 0  centerx: 39  centery: 79  hit_a: 0  hit_d: 0  hit_j: 0
+ itr:
+      kind: 0  x: 0  y: 0  w: 79  h: 79 dvx: 30 dvy: -10  fall: 999 vrest: 15  bdefend: 100  injury: 95  
+effect: 2   
+itr_end:
+  opoint:
+      kind: 1  x: 39  y: 39  action: 0  dvx: 0  dvy: 0  oid: 211  facing: 1
+   opoint_end:
+  bdy:
+      kind: 0  x: 60  y: 50  w: 100  h: 100
+   bdy_end:
+<frame_end>
+<frame> 8 flyings
+   pic: 6 state: 3006  wait: 0  next: 9 dvx: 30 dvy: 0  centerx: 39  centery: 79  hit_a: 0  hit_d: 0  hit_j: 0
+ itr:
+      kind: 0  x: 0  y: 0  w: 79  h: 79 dvx: 30 dvy: -10  fall: 999 vrest: 15  bdefend: 100  injury: 95  
+effect: 2   
+itr_end:
+opoint:
+      kind: 1  x: 135 y: 109 action: 90  dvx: 0  dvy: 0  oid: 229  facing: 0
+   opoint_end: 
+  bdy:
+      kind: 0  x: 60  y: 50  w: 100  h: 100
+   bdy_end:
+<frame_end>
+<frame> 9 flyings
+   pic: 5 state: 3006  wait: 0 next: 6 dvx: 30 dvy: 0  centerx: 39  centery: 79  hit_a: 0  hit_d: 0  hit_j: 0
+ itr:
+      kind: 0  x: 0  y: 0  w: 79  h: 79 dvx: 30 dvy: -10  fall: 999 vrest: 15  bdefend: 100  injury: 95  
+effect: 2   
+itr_end:
+  opoint:
+      kind: 1  x: 39  y: 39  action: 0  dvx: 0  dvy: 0  oid: 211  facing: 1
+   opoint_end:
+  bdy:
+      kind: 0  x: 60  y: 50  w: 100  h: 100
+   bdy_end:
+<frame_end>
+
+<frame> 10 hiting
+   pic: 0  state: 3001  wait: 2  next: 1000  dvx: 27  dvy: 0  centerx: 39  centery: 79  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+
+<frame> 20 hit
+   pic: 1  state: 3001  wait: 2  next: 1000  dvx: 27  dvy: 0  centerx: 39  centery: 79  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+
+<frame> 30 rebounding
+   pic: 999  state: 3001 wait: 2  next: 1000  dvx: 27  dvy: 0  centerx: 39  centery: 79  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+
+
+<frame> 1 zZz
+   pic: 2  state: 3005  wait: 10  next: 2  dvx: -1  dvy: -1  centerx: 2  centery: 80  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+
+<frame> 2 zZz
+   pic: 3  state: 3005  wait: 10  next: 3  dvx: 1  dvy: 0  centerx: 4  centery: 85  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+
+<frame> 3 zZz
+   pic: 7  state: 3005  wait: 10  next: 1000  dvx: -1  dvy: 0  centerx: 6  centery: 90  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+
+<frame> 50 kirby
+   pic: 8 state: 3006  wait: 10 next: 1000 dvx: 15 dvy: 0  centerx: 39  centery: 79  hit_a: 0  hit_d: 0  hit_j: 0
+ itr:
+      kind: 0  x: 0  y: 0  w: 79  h: 79 dvx: 30 dvy: -10  fall: 100 vrest: 25  bdefend: 100  injury: 30  
+effect: 1   
+itr_end:
+<frame_end>
+<frame> 51 rasengan
+   pic: 9 state: 3005  wait: 2  next: 52  dvx: 0  dvy: 0  centerx: 39  centery: 39  hit_a: 0  hit_d: 0  hit_j: 0
+ itr:
+      kind: 0  x: 20  y: 20  w: 19  h: 19 dvx: 0 dvy: 0  fall: -1 vrest: 3  bdefend: 100  injury: 10  
+effect: 0   
+itr_end:
+<frame_end>
+<frame> 52 rasengan
+   pic: 10 state: 3005  wait: 3  next: 53  dvx: 0  dvy: 0  centerx: 39  centery: 39  hit_a: 0  hit_d: 0  hit_j: 0
+ itr:
+      kind: 0  x: 20  y: 20  w: 19  h: 19 dvx: 0 dvy: 0  fall: -1 vrest: 3  bdefend: 100  injury: 10  
+effect: 0   
+itr_end:
+<frame_end>
+<frame> 53 rasengan
+   pic: 11 state: 3005  wait: 2  next: 1000  dvx: 0  dvy: 0  centerx: 39  centery: 39  hit_a: 0  hit_d: 0  hit_j: 0
+ itr:
+      kind: 0  x: 20  y: 20  w: 19  h: 19 dvx: 0 dvy: 0  fall: -1 vrest: 3  bdefend: 100  injury: 10  
+effect: 0   
+itr_end:
+<frame_end>
+
+<frame> 54 chidori_charge
+   pic: 12 state: 3005  wait: 1  next: 55  dvx: 0  dvy: 0  centerx: 39  centery: 39  hit_a: 0  hit_d: 0  hit_j: 0
+sound: data\103.wav      
+ itr:
+      kind: 0  x: 20  y: 20  w: 39  h: 39 dvx: 0 dvy: 0  fall: 100 vrest: 3  bdefend: 100  injury: 10
+effect: 1   
+itr_end:
+<frame_end>
+<frame> 55 chidori_charge
+   pic: 13 state: 3005  wait: 0  next: 56  dvx: 0  dvy: 0  centerx: 39  centery: 39  hit_a: 0  hit_d: 0  hit_j: 0
+ opoint:
+      kind: 1  x: 39  y: 5  action: 50  dvx: 0  dvy: 0  oid: 200  facing: 0
+   opoint_end:   
+ itr:
+      kind: 0  x: 20  y: 20  w: 39  h: 39 dvx: 0 dvy: 0  fall: 100 vrest: 3  bdefend: 100  injury: 10
+effect: 1   
+itr_end:
+<frame_end>
+<frame> 56 chidori_charge
+   pic: 14 state: 3005  wait: 1  next: 57  dvx: 0  dvy: 0  centerx: 39  centery: 39  hit_a: 0  hit_d: 0  hit_j: 0
+ itr:
+      kind: 0  x: 20  y: 20  w: 39  h: 39 dvx: 0 dvy: 0  fall: 100 vrest: 3  bdefend: 100  injury: 10
+effect: 1   
+itr_end:
+<frame_end>
+<frame> 57 chidori_charge
+   pic: 15 state: 3005  wait: 0  next: 58  dvx: 0  dvy: 0  centerx: 39  centery: 39  hit_a: 0  hit_d: 0  hit_j: 0
+ itr:
+      kind: 0  x: 20  y: 20  w: 39  h: 39 dvx: 0 dvy: 0  fall: 100 vrest: 3  bdefend: 100  injury: 10
+effect: 1   
+itr_end:
+<frame_end>
+<frame> 58 chidori_charge
+   pic: 16 state: 3005  wait: 1  next: 59  dvx: 0  dvy: 0  centerx: 39  centery: 39  hit_a: 0  hit_d: 0  hit_j: 0
+ itr:
+      kind: 0  x: 20  y: 20  w: 39  h: 39 dvx: 0 dvy: 0  fall: 100 vrest: 3  bdefend: 100  injury: 10
+effect: 1   
+itr_end:
+<frame_end>
+<frame> 59 chidori_charge
+   pic: 17 state: 3005  wait: 0  next: 60  dvx: 0  dvy: 0  centerx: 39  centery: 39  hit_a: 0  hit_d: 0  hit_j: 0
+ itr:
+      kind: 0  x: 20  y: 20  w: 39  h: 39 dvx: 0 dvy: 0  fall: 100 vrest: 3  bdefend: 100  injury: 10
+effect: 1   
+itr_end:
+<frame_end>
+<frame> 60 chidori_charge
+   pic: 18 state: 3005  wait: 1  next: 1000  dvx: 0  dvy: 0  centerx: 39  centery: 39  hit_a: 0  hit_d: 0  hit_j: 0
+ itr:
+      kind: 0  x: 20  y: 20  w: 39  h: 39 dvx: 0 dvy: 0  fall: 100 vrest: 3  bdefend: 100  injury: 10
+effect: 1   
+itr_end:
+<frame_end>
+
+<frame> 61 chidori_speed
+   pic: 19 state: 3005  wait: 0  next: 62  dvx: 0  dvy: 0  centerx: 39  centery: 39  hit_a: 0  hit_d: 0  hit_j: 0
+sound: data\103.wav      
+ itr:
+      kind: 0  x: 0  y: 20  w: 109  h: 39 dvx: 0 dvy: 0  fall: 100 vrest: 3  bdefend: 100  injury: 10
+effect: 1   
+itr_end:
+<frame_end>
+<frame> 62 chidori_speed
+   pic: 20 state: 3005  wait: 0  next: 1000  dvx: 0  dvy: 0  centerx: 39  centery: 39  hit_a: 0  hit_d: 0  hit_j: 0
+ itr:
+      kind: 0  x: 0  y: 20  w: 109  h: 39 dvx: 0 dvy: 0  fall: 100 vrest: 3  bdefend: 100  injury: 10
+effect: 1   
+itr_end:
+<frame_end>
+
+<frame> 63 chidori
+   pic: 21 state: 3005  wait: 1  next: 64  dvx: 0  dvy: 0  centerx: 39  centery: 39  hit_a: 0  hit_d: 0  hit_j: 0
+sound: data\103.wav      
+ itr:
+      kind: 0  x: 0  y: 20  w: 109  h: 39 dvx: 0 dvy: 0  fall: -1 vrest: 3  bdefend: 100  injury: 10
+effect: 1   
+itr_end:
+<frame_end>
+<frame> 64 chidori
+   pic: 22 state: 3005  wait: 1  next: 65  dvx: 0  dvy: 0  centerx: 39  centery: 39  hit_a: 0  hit_d: 0  hit_j: 0
+ itr:
+      kind: 0  x: 0  y: 20  w: 109  h: 39 dvx: 0 dvy: 0  fall: -1 vrest: 3  bdefend: 100  injury: 10
+effect: 1   
+itr_end:
+<frame_end>
+<frame> 65 chidori
+   pic: 23 state: 3005  wait: 1  next: 66  dvx: 0  dvy: 0  centerx: 39  centery: 39  hit_a: 0  hit_d: 0  hit_j: 0
+ itr:
+      kind: 0  x: 0  y: 20  w: 109  h: 39 dvx: 0 dvy: 0  fall: -1 vrest: 3  bdefend: 100  injury: 10
+effect: 1   
+itr_end:
+<frame_end>
+<frame> 66 chidori
+   pic: 24 state: 3005  wait: 1  next: 67  dvx: 0  dvy: 0  centerx: 39  centery: 39  hit_a: 0  hit_d: 0  hit_j: 0
+ itr:
+      kind: 0  x: 0  y: 20  w: 109  h: 39 dvx: 0 dvy: 0  fall: -1 vrest: 3  bdefend: 100  injury: 10
+effect: 1   
+itr_end:
+<frame_end>
+<frame> 67 chidori
+   pic: 25 state: 3005  wait: 1  next: 68  dvx: 0  dvy: 0  centerx: 39  centery: 39  hit_a: 0  hit_d: 0  hit_j: 0
+sound: data\103.wav      
+ itr:
+      kind: 0  x: 0  y: 20  w: 109  h: 39 dvx: 0 dvy: 0  fall: -1 vrest: 3  bdefend: 100  injury: 10
+effect: 1   
+itr_end:
+<frame_end>
+<frame> 68 chidori
+   pic: 26 state: 3005  wait: 1  next: 69  dvx: 0  dvy: 0  centerx: 39  centery: 39  hit_a: 0  hit_d: 0  hit_j: 0
+ itr:
+      kind: 0  x: 0  y: 20  w: 109  h: 39 dvx: 0 dvy: 0  fall: -1 vrest: 3  bdefend: 100  injury: 10
+effect: 1   
+itr_end:
+<frame_end>
+<frame> 69 chidori
+   pic: 27 state: 3005  wait: 1  next: 70  dvx: 0  dvy: 0  centerx: 39  centery: 39  hit_a: 0  hit_d: 0  hit_j: 0
+ itr:
+      kind: 0  x: 0  y: 20  w: 109  h: 39 dvx: 0 dvy: 0  fall: -1 vrest: 3  bdefend: 100  injury: 10
+effect: 1   
+itr_end:
+<frame_end>
+<frame> 70 chidori
+   pic: 28 state: 3005  wait: 1  next: 71  dvx: 0  dvy: 0  centerx: 39  centery: 39  hit_a: 0  hit_d: 0  hit_j: 0
+ itr:
+      kind: 0  x: 0  y: 20  w: 109  h: 39 dvx: 0 dvy: 0  fall: -1 vrest: 3  bdefend: 100  injury: 10
+effect: 1   
+itr_end:
+<frame_end>
+<frame> 71 chidori
+   pic: 29 state: 3005  wait: 1  next: 72  dvx: 0  dvy: 0  centerx: 39  centery: 39  hit_a: 0  hit_d: 0  hit_j: 0
+sound: data\103.wav      
+ itr:
+      kind: 0  x: 0  y: 20  w: 109  h: 39 dvx: 0 dvy: 0  fall: -1 vrest: 3  bdefend: 100  injury: 10
+effect: 1   
+itr_end:
+<frame_end>
+<frame> 72 chidori
+   pic: 30 state: 3005  wait: 1  next: 73  dvx: 0  dvy: 0  centerx: 39  centery: 39  hit_a: 0  hit_d: 0  hit_j: 0
+ itr:
+      kind: 0  x: 0  y: 20  w: 109  h: 39 dvx: 0 dvy: 0  fall: -1 vrest: 3  bdefend: 100  injury: 10
+effect: 1   
+itr_end:
+<frame_end>
+<frame> 73 chidori
+   pic: 31 state: 3005  wait: 1  next: 1000  dvx: 0  dvy: 0  centerx: 39  centery: 39  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+
+
+<frame> 74 star
+   pic: 32 state: 3005  wait: 1  next: 75  dvx: 1  dvy: -2  centerx: 39  centery: 39  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+<frame> 75 star
+   pic: 33 state: 3005  wait: 1  next: 76  dvx: 2  dvy: 0  centerx: 39  centery: 39  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+<frame> 76 star
+   pic: 34 state: 3005  wait: 1  next: 82  dvx: 3  dvy: 0  centerx: 39  centery: 39  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+
+<frame> 77 sasori
+   pic: 999  state: 18  wait: 1 next: 78 dvx: 0  dvy: 550  dvz: 550  centerx: 34  centery: 79  hit_a: 0  hit_d: 0  hit_j: 0
+itr:
+      kind: 0  x: 15 y: 70000 w: 100 h: 100 arest: 50 effect: 6291 
+   itr_end:
+itr:
+      kind: 0  x: 15  y: 90000 w: 100 h: 100 arest: 50 effect: 6245
+   itr_end:
+itr:
+      kind: 0  x: 15  y: 100000  w: 100 h: 100 arest: 50 effect: 6255
+   itr_end:
+<frame_end>
+<frame> 78 end
+   pic: 999  state: 18 wait: 1 next: 1000  dvx: 0  dvy: 0  centerx: 34  centery: 79  hit_a: 0  hit_d: 0  hit_j: 0
+itr:
+      kind: 0  x: 15  y: 110000 w: 100 h: 100 arest: 50 effect: 6346
+   itr_end:
+itr:
+      kind: 0  x: 15  y: 120000 w: 100 h: 100 arest: 50 effect: 6365
+   itr_end:
+itr:
+      kind: 0  x: 15  y: 130000 w: 100 h: 100 arest: 50 effect: 6370
+   itr_end:
+itr:
+      kind: 0  x: 15  y: 140000 w: 100 h: 100 arest: 50 effect: 6155
+   itr_end:
+<frame_end>
+
+<frame> 82 star
+   pic: 35 state: 3005  wait: 1  next: 83  dvx: 4  dvy: -1  centerx: 39  centery: 39  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+<frame> 83 star
+   pic: 32 state: 3005  wait: 1  next: 84  dvx: 4  dvy: 0  centerx: 39  centery: 39  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+<frame> 84 star
+   pic: 33 state: 3005  wait: 1  next: 85  dvx: 3  dvy: 1  centerx: 39  centery: 39  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+<frame> 85 star
+   pic: 34 state: 3005  wait: 1  next: 86  dvx: 2  dvy: 2  centerx: 39  centery: 39  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+<frame> 86 star
+   pic: 35 state: 3005  wait: 1  next: 1000  dvx: 1  dvy: 0  centerx: 39  centery: 39  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+
+<frame> 87 kirby
+   pic: 999 state: 3005  wait: 5 next: 1000 dvx: 0 dvy: 0  centerx: 39  centery: 79  hit_a: 0  hit_d: 0  hit_j: 0
+ itr:
+      kind: 0  x: 39  y: 39  w: 1  h: 39 dvx: 15 dvy: -2  fall: 70 vrest: 15  bdefend: 1  injury: 10
+effect: 4   
+itr_end:
+<frame_end>
+
+
+
+<frame> 88 ground_line
+   pic: 999 state: 3006 wait: 0 next: 89 dvx: 50 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0  hit_j: 0
+opoint:
+      kind: 1  x: 60  y: 70  action: 0  dvx: 0  dvy: 0  oid: 412  facing: 0
+   opoint_end:  
+<frame_end>
+<frame> 89 ground_line
+   pic: 999 state: 3006 wait: 0 next: 88 dvx: 50 dvy: 0 dvz: 0 centerx: 39 centery: 79 hit_a: 0  hit_d: 0  hit_j: 0
+opoint:
+      kind: 1  x: 60  y: 70  action: 0  dvx: 0  dvy: 0  oid: 412  facing: 0
+   opoint_end:  
+<frame_end>
+
+
+<frame> 90 sandstorm
+   pic: 100  state: 3005 wait: 0  next: 91  dvx: 0  dvy: 0  dvz: 0  centerx: 0  centery: 0
+   hit_a: 0  hit_d: 0 hit_j: 0
+<frame_end>
+<frame> 91 sandstorm
+   pic: 100  state: 3005 wait: 0  next: 92  dvx: 0  dvy: 0  dvz: 0  centerx: 0  centery: 0
+   hit_a: 0  hit_d: 0 hit_j: 0
+  opoint:
+   kind: 1  x: 0  y: 0  action: 92  dvx: 0  dvy: 0  oid: 435  facing: 1
+  opoint_end:
+<frame_end>
+<frame> 92 sandstorm
+   pic: 100  state: 3005 wait: 0  next: 93  dvx: 0  dvy: 0  dvz: 0  centerx: 0  centery: 0
+   hit_a: 0  hit_d: 0 hit_j: 0
+<frame_end>
+<frame> 93 sandstorm
+   pic: 100  state: 3005  wait: 0  next: 94  dvx: 0  dvy: 0  dvz: 0  centerx: 0  centery: 0
+   hit_a: 0  hit_d: 0 hit_j: 0
+  opoint:
+   kind: 1  x: 110  y: 0  action: 100  dvx: 0  dvy: 0  oid: 435 facing: 1
+  opoint_end:
+<frame_end>
+<frame> 94 sandstorm
+   pic: 100  state: 3005  wait: 0  next: 95  dvx: 0  dvy: 0  dvz: 0  centerx: 0  centery: 0
+   hit_a: 0  hit_d: 0 hit_j: 0
+  opoint:
+   kind: 1  x: 80  y: 0  action: 96  dvx: 0  dvy: 0  oid: 435 facing: 1
+  opoint_end:
+<frame_end>
+<frame> 95 sandstorm
+   pic: 100  state: 3005  wait: 0  next: 1000  dvx: 0  dvy: 0  dvz: 0  centerx: 0  centery: 0
+   hit_a: 0  hit_d: 0 hit_j: 0
+  opoint:
+   kind: 1  x: 80  y: 0  action: 98  dvx: 0  dvy: 0  oid: 435 facing: 1
+  opoint_end:
+<frame_end>
+<frame> 96 sandstorm
+   pic: 100  state: 3005  wait: 1  next: 97  dvx: 0  dvy: 0  dvz: 0  centerx: 0  centery: 0
+   hit_a: 0  hit_d: 0 hit_j: 70
+<frame_end>
+<frame> 97 sandstorm
+   pic: 100  state: 3005  wait: 1  next: 1000  dvx: 550  dvy: 550  dvz: 550  centerx: 0  centery: 0
+   hit_a: 0  hit_d: 0 hit_j: 0
+  opoint:
+   kind: 1  x: 40  y: 0  action: 101  dvx: 0  dvy: 0  oid: 435 facing: 1
+  opoint_end:
+<frame_end>
+<frame> 98 sandstorm
+   pic: 100  state: 3005  wait: 1  next: 99  dvx: 0  dvy: 0  dvz: 0  centerx: 0  centery: 0
+   hit_a: 0  hit_d: 0 hit_j: 30
+<frame_end>
+<frame> 99 sandstorm
+   pic: 100  state: 3005  wait: 1  next: 1000  dvx: 550  dvy: 550  dvz: 550  centerx: 0  centery: 0
+   hit_a: 0  hit_d: 0 hit_j: 0
+  opoint:
+   kind: 1  x: 40  y: 0  action: 102  dvx: 0  dvy: 0  oid: 435 facing: 1
+  opoint_end:
+<frame_end>
+<frame> 100 sandstorm
+   pic: 100 state: 3005 wait: 2 next: 101  dvx: 0  dvy: 0  dvz: 0  centerx: 0  centery: 0
+   hit_a: 0  hit_d: 0 hit_j: 0
+<frame_end>
+<frame> 101 sandstorm
+   pic: 100 state: 3005 wait: 1 next: 102  dvx: 0  dvy: 0  dvz: 0  centerx: 0  centery: 0
+   hit_a: 0  hit_d: 0 hit_j: 0
+<frame_end>
+<frame> 102 sandstorm
+   pic: 100 state: 3005 wait: 1 next: 103  dvx: 0  dvy: 0  dvz: 0  centerx: 0  centery: 0
+   hit_a: 0  hit_d: 0 hit_j: 0
+<frame_end>
+<frame> 103 sandstorm (activate object)
+   pic: 100 state: 3005 wait: 1 next: 1000  dvx: 0  dvy: 0  dvz: 0  centerx: 0  centery: 0
+   hit_a: 0  hit_d: 0 hit_j: 0
+ opoint:
+      kind: 1  x: 39  y: 79  action: 190  dvx: 0  dvy: 0  oid: 462  facing: 0
+   opoint_end:   
+<frame_end>
+
+
+<frame> 110 genjutsu
+   pic: 999 state: 3005  wait: 55 next: 1000 dvx: 50 dvy: 0  centerx: 250  centery: 250  hit_a: 0  hit_d: 0  hit_j: 0
+ itr:
+      kind: 8  x: 100  y: 0  w: 300  h: 500 dvx: 111 
+itr_end:
+<frame_end>
+<frame> 111 genjutsu
+   pic: 37 state: 3005  wait: 1 next: 112 dvx: 550 dvy: 0  centerx: 2000  centery: 400  hit_a: 0  hit_d: 0  hit_j: 48
+<frame_end>
+<frame> 112 genjutsu
+   pic: 36 state: 3003  wait: 1 next: 113 dvx: 550 dvy: 0  centerx: 250  centery: 250  hit_a: 0  hit_d: 0  hit_j: 0
+ itr:
+      kind: 0  x: 100  y: 50  w: 300  h: 9999 dvx: 0 dvy: -5  fall: 70 vrest: 3  bdefend: 100  injury: 4
+effect: 1000 
+itr_end:
+ opoint:
+      kind: 1  x: 39 y: 600 action: 56 dvx: 0 dvy: 0  oid: 214 facing: 2
+   opoint_end: 
+<frame_end>
+<frame> 113 genjutsu
+   pic: 36 state: 3003 wait: 2 next: 129 dvx: 550 dvy: 0 dvz: 550  centerx: 250  centery: 250  hit_a: 15  hit_d: 114  hit_j: 0
+ itr:
+      kind: 0  x: 100  y: 50  w: 300  h: 9999 dvx: 0 dvy: 0  fall: 70 vrest: 1  bdefend: 1  injury: 4
+effect: 5   
+itr_end:
+<frame_end>
+<frame> 136 genjutsu
+   pic: 36 state: 3003 wait: 5 next: 115 dvx: 0 dvy: 0  centerx: 250  centery: 250  hit_a: 0  hit_d: 0  hit_j: 0
+  sound: data\028.wav
+ itr:
+      kind: 0  x: 100  y: 50  w: 300  h: 400 dvx: 20 dvy: -5  fall: 5000 vrest: 15  bdefend: 100  injury: 4
+effect: 5   
+itr_end:
+<frame_end>
+<frame> 115 genjutsu
+   pic: 37 state: 3005  wait: 1 next: 1000 dvx: 0 dvy: 0  centerx: 2000  centery: 400  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+<frame> 114 genjutsu
+   pic: 36 state: 3003 wait: 1 next: 136 dvx: 550 dvy: 0 dvz: 550  centerx: 250  centery: 250  hit_a: 0  hit_d: 0  hit_j: 0
+ itr:
+      kind: 0  x: 100  y: 50  w: 300  h: 9999 dvx: 0 dvy: 0  fall: 70 vrest: 1  bdefend: 1  injury: 4
+effect: 5   
+itr_end:
+<frame_end>
+
+<frame> 116 spark
+   pic: 38  state: 3005  wait: 0  next: 117  dvx: 0  dvy: 0  centerx: 112  centery: 112  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+<frame> 117 spark
+   pic: 39  state: 3005  wait: 0  next: 118  dvx: 0  dvy: 0  centerx: 112  centery: 112  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+<frame> 118 spark
+   pic: 40  state: 3005  wait: 0  next: 119  dvx: 0  dvy: 0  centerx: 112  centery: 112  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+<frame> 119 spark
+   pic: 41  state: 3005  wait: 0  next: 120  dvx: 0  dvy: 0  centerx: 112  centery: 112  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+<frame> 120 spark
+   pic: 42  state: 3005  wait: 0  next: 121  dvx: 0  dvy: 0  centerx: 112  centery: 112  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+<frame> 121 spark
+   pic: 43  state: 3005  wait: 0  next: 122  dvx: 0  dvy: 0  centerx: 112  centery: 112  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+<frame> 122 spark
+   pic: 44  state: 3005  wait: 0  next: 123  dvx: 0  dvy: 0  centerx: 112  centery: 112  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+<frame> 123 spark
+   pic: 45  state: 3005  wait: 0  next: 1000  dvx: 0  dvy: 0  centerx: 112  centery: 112  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+
+
+<frame> 124 slash3
+   pic: 46  state: 3005  wait: 1  next: 125  dvx: 7  dvy: 0  centerx: 112  centery: 112  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+<frame> 125 slash3
+   pic: 47  state: 3005  wait: 3  next: 126  dvx: 0  dvy: 0  centerx: 112  centery: 112  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+<frame> 126 slash3
+   pic: 48  state: 3005  wait: 1  next: 127  dvx: 0  dvy: 0  centerx: 112  centery: 112  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+<frame> 127 slash3
+   pic: 49  state: 3005  wait: 1  next: 128  dvx: 0  dvy: 0  centerx: 112  centery: 112  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+<frame> 128 slash3
+   pic: 50  state: 3005  wait: 1  next: 1000  dvx: 0  dvy: 0  centerx: 112  centery: 112  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+
+
+<frame> 129 genjutsu
+   pic: 62 state: 3003  wait: 1 next: 130 dvx: 550 dvy: 0 dvz: 550  centerx: 250  centery: 250  hit_a: 8  hit_d: 114  hit_j: 0
+ itr:
+      kind: 0  x: 100  y: 50  w: 300  h: 9999 dvx: 0 dvy: 0  fall: 70 vrest: 1  bdefend: 1  injury: 2
+effect: 5   
+itr_end:
+<frame_end>
+<frame> 130 genjutsu
+   pic: 65 state: 3003 wait: 1 next: 131 dvx: 550 dvy: 0 dvz: 550  centerx: 250  centery: 250  hit_a: 8  hit_d: 114  hit_j: 0
+ itr:
+      kind: 0  x: 100  y: 50  w: 300  h: 9999 dvx: 0 dvy: 0  fall: 70 vrest: 1  bdefend: 1  injury: 2
+effect: 5   
+itr_end:
+<frame_end>
+<frame> 131 genjutsu
+   pic: 64 state: 3003 wait: 1 next: 132 dvx: 550 dvy: 0 dvz: 550  centerx: 250  centery: 250  hit_a: 8  hit_d: 114  hit_j: 0
+ itr:
+      kind: 0  x: 100  y: 50  w: 300  h: 9999 dvx: 0 dvy: 0  fall: 70 vrest: 1  bdefend: 1  injury: 2
+effect: 5   
+itr_end:
+<frame_end>
+<frame> 132 genjutsu
+   pic: 63 state: 3003  wait: 2 next: 133 dvx: 550 dvy: 0 dvz: 550  centerx: 250  centery: 250  hit_a: 15  hit_d: 114  hit_j: 0
+sound: data\016.wav
+ itr:
+      kind: 0  x: 100  y: 50  w: 300  h: 9999 dvx: 0 dvy: 0  fall: 70 vrest: 1  bdefend: 1  injury: 2
+effect: 5   
+itr_end:
+<frame_end>
+<frame> 133 genjutsu
+   pic: 64 state: 3003 wait: 1 next: 134 dvx: 550 dvy: 0 dvz: 550  centerx: 250  centery: 250  hit_a: 8  hit_d: 114  hit_j: 0
+sound: data\016.wav
+ itr:
+      kind: 0  x: 100  y: 50  w: 300  h: 9999 dvx: 0 dvy: 0  fall: 70 vrest: 1  bdefend: 1  injury: 2
+effect: 5   
+itr_end:
+<frame_end>
+<frame> 134 genjutsu
+   pic: 65 state: 3003 wait: 1 next: 135 dvx: 550 dvy: 0 dvz: 550  centerx: 250  centery: 250  hit_a: 8  hit_d: 114  hit_j: 0
+ itr:
+      kind: 0  x: 100  y: 50  w: 300  h: 9999 dvx: 0 dvy: 0  fall: 70 vrest: 1  bdefend: 1  injury: 2
+effect: 5   
+itr_end:
+<frame_end>
+<frame> 135 genjutsu
+   pic: 62 state: 3003 wait: 1 next: 114 dvx: 550 dvy: 0 dvz: 550  centerx: 250  centery: 250  hit_a: 8  hit_d: 114  hit_j: 0
+ itr:
+      kind: 0  x: 100  y: 50  w: 300  h: 9999 dvx: 0 dvy: 0  fall: 70 vrest: 1  bdefend: 1  injury: 2
+effect: 5   
+itr_end:
+<frame_end>
+
+<frame> 140 flash
+   pic: 37 state: 9997 wait: 5 next: 1000 dvx: 550 dvy: 550  centerx: 2000  centery: 400  hit_a: 0  hit_d: 0  hit_j: 48
+<frame_end>
+
+<frame> 141 white
+   pic: 37 state: 9997 wait: 80 next: 1000 dvx: 550 dvy: 550  centerx: 2000  centery: 600  hit_a: 0  hit_d: 0  hit_j: 100
+<frame_end>
+
+
+
+
+<frame> 161 genjutsu
+   pic: 37 state: 3005  wait: 1 next: 162 dvx: 550 dvy: 0  centerx: 2000  centery: 400  hit_a: 0  hit_d: 0  hit_j: 48
+<frame_end>
+<frame> 162 genjutsu
+   pic: 36 state: 3003  wait: 1 next: 163 dvx: 550 dvy: 0  centerx: 250  centery: 250  hit_a: 0  hit_d: 0  hit_j: 0
+ itr:
+      kind: 0  x: 100  y: 50  w: 300  h: 9999 dvx: 0 dvy: -5  fall: 70 vrest: 3  bdefend: 100  injury: 7
+effect: 1000 
+itr_end:
+ opoint:
+      kind: 1  x: 39 y: 600 action: 56 dvx: 0 dvy: 0  oid: 214 facing: 2
+   opoint_end: 
+<frame_end>
+<frame> 163 genjutsu
+   pic: 36 state: 3003 wait: 2 next: 169 dvx: 550 dvy: 0 dvz: 550  centerx: 250  centery: 250  hit_a: 15  hit_d: 164  hit_j: 0
+ itr:
+      kind: 0  x: 100  y: 50  w: 300  h: 9999 dvx: 0 dvy: 0  fall: 70 vrest: 1  bdefend: 1  injury: 7
+effect: 5   
+itr_end:
+<frame_end>
+<frame> 166 genjutsu
+   pic: 36 state: 3003 wait: 5 next: 165 dvx: 0 dvy: 0  centerx: 250  centery: 250  hit_a: 0  hit_d: 0  hit_j: 0
+  sound: data\028.wav
+ itr:
+      kind: 0  x: 100  y: 50  w: 300  h: 400 dvx: 20 dvy: -5  fall: 5000 vrest: 15  bdefend: 100  injury: 7
+effect: 5   
+itr_end:
+<frame_end>
+<frame> 165 genjutsu
+   pic: 37 state: 3005  wait: 1 next: 1000 dvx: 0 dvy: 0  centerx: 2000  centery: 400  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+<frame> 164 genjutsu
+   pic: 36 state: 3003 wait: 1 next: 166 dvx: 550 dvy: 0 dvz: 550  centerx: 250  centery: 250  hit_a: 0  hit_d: 0  hit_j: 0
+ itr:
+      kind: 0  x: 100  y: 50  w: 300  h: 9999 dvx: 0 dvy: 0  fall: 70 vrest: 1  bdefend: 1  injury: 7
+effect: 5   
+itr_end:
+<frame_end>
+
+<frame> 169 genjutsu
+   pic: 62 state: 3003  wait: 1 next: 170 dvx: 550 dvy: 0 dvz: 550  centerx: 250  centery: 250  hit_a: 8  hit_d: 164  hit_j: 0
+ itr:
+      kind: 0  x: 100  y: 50  w: 300  h: 9999 dvx: 0 dvy: 0  fall: 70 vrest: 1  bdefend: 1  injury: 7
+effect: 5   
+itr_end:
+<frame_end>
+<frame> 170 genjutsu
+   pic: 65 state: 3003 wait: 1 next: 171 dvx: 550 dvy: 0 dvz: 550  centerx: 250  centery: 250  hit_a: 8  hit_d: 164  hit_j: 0
+ itr:
+      kind: 0  x: 100  y: 50  w: 300  h: 9999 dvx: 0 dvy: 0  fall: 70 vrest: 1  bdefend: 1  injury: 7
+effect: 5   
+itr_end:
+<frame_end>
+<frame> 171 genjutsu
+   pic: 64 state: 3003 wait: 1 next: 172 dvx: 550 dvy: 0 dvz: 550  centerx: 250  centery: 250  hit_a: 8  hit_d: 164  hit_j: 0
+ itr:
+      kind: 0  x: 100  y: 50  w: 300  h: 9999 dvx: 0 dvy: 0  fall: 70 vrest: 1  bdefend: 1  injury: 7
+effect: 5   
+itr_end:
+<frame_end>
+<frame> 172 genjutsu
+   pic: 63 state: 3003  wait: 2 next: 173 dvx: 550 dvy: 0 dvz: 550  centerx: 250  centery: 250  hit_a: 15  hit_d: 164  hit_j: 0
+sound: data\016.wav
+ itr:
+      kind: 0  x: 100  y: 50  w: 300  h: 9999 dvx: 0 dvy: 0  fall: 70 vrest: 1  bdefend: 1  injury: 7
+effect: 5   
+itr_end:
+<frame_end>
+<frame> 173 genjutsu
+   pic: 64 state: 3003 wait: 1 next: 174 dvx: 550 dvy: 0 dvz: 550  centerx: 250  centery: 250  hit_a: 8  hit_d: 164  hit_j: 0
+sound: data\016.wav
+ itr:
+      kind: 0  x: 100  y: 50  w: 300  h: 9999 dvx: 0 dvy: 0  fall: 70 vrest: 1  bdefend: 1  injury: 7
+effect: 5   
+itr_end:
+<frame_end>
+<frame> 174 genjutsu
+   pic: 65 state: 3003 wait: 1 next: 175 dvx: 550 dvy: 0 dvz: 550  centerx: 250  centery: 250  hit_a: 8  hit_d: 164  hit_j: 0
+ itr:
+      kind: 0  x: 100  y: 50  w: 300  h: 9999 dvx: 0 dvy: 0  fall: 70 vrest: 1  bdefend: 1  injury: 7
+effect: 5   
+itr_end:
+<frame_end>
+<frame> 175 genjutsu
+   pic: 62 state: 3003 wait: 1 next: 164 dvx: 550 dvy: 0 dvz: 550  centerx: 250  centery: 250  hit_a: 8  hit_d: 164  hit_j: 0
+ itr:
+      kind: 0  x: 100  y: 50  w: 300  h: 9999 dvx: 0 dvy: 0  fall: 70 vrest: 1  bdefend: 1  injury: 7
+effect: 5   
+itr_end:
+<frame_end>
+:!

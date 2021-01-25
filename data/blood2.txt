@@ -1,0 +1,16 @@
+<bmp_begin>
+file(0-34): sprite\sys\blood.bmp  w: 9 h: 9 row: 6 col: 1
+<bmp_end>
+
+<frame> 0 blood
+   pic: 1  state: 3005 wait: 1  next: 999  dvx: 0  dvy: 1  centerx: 5 centery: 10 hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+
+
+<frame> 60 blood_ground
+   pic: 4  state: 3005 wait: 30  next: 61  dvx: 0  dvy: 0  centerx: 5 centery: 10 hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+<frame> 61 blood_ground
+   pic: 5  state: 3005 wait: 30  next: 1000  dvx: 0  dvy: 0  centerx: 5 centery: 10 hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+&

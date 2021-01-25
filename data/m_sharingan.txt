@@ -1,0 +1,139 @@
+<bmp_begin>
+file(0-50): sprite\sys\sakura_ball.bmp  w: 81  h: 82  row: 8  col: 6
+
+<bmp_end>
+
+
+<frame> 0 flying
+   pic: 0  state: 3000  wait: 2  next: 40  dvx: 3 dvy: 0  dvz: 0  centerx: 40  centery: 79  hit_a: 0  hit_d: 0  hit_j: 0
+  itr:
+      kind: 3  x: 40  y: 16  w: 35  h: 65  
+      catchingact: 10 10  caughtact: 399 399  
+   itr_end:
+<frame_end>
+
+<frame> 1 flying
+   pic: 1  state: 3000  wait: 1  next: 2  dvx: 0  dvy: 0  dvz: 0 centerx: 40  centery: 79  hit_a: 7  hit_d: 1  hit_j: 0 hit_Fa: 2
+  itr:
+      kind: 3  x: 40  y: 16  w: 35  h: 65  
+      catchingact: 10 10  caughtact: 399 399  
+   itr_end:
+<frame_end>
+
+<frame> 2 flying
+   pic: 2  state: 3000  wait: 1  next: 1  dvx: 0  dvy: 0  dvz: 0  centerx: 40  centery: 79  hit_a: 7  hit_d: 2  hit_j: 0 hit_Fa: 2
+  itr:
+      kind: 3  x: 40  y: 16  w: 35  h: 65  
+      catchingact: 10 10  caughtact: 399 399  
+   itr_end:
+<frame_end>
+
+<frame> 3 flying
+   pic: 2  state: 3000  wait: 1  next: 4  dvx: 0  dvy: 0  dvz: 0  centerx: 40  centery: 79 hit_a: 7  hit_d: 3  hit_j: 0 hit_Fa: 2
+  itr:
+      kind: 3  x: 40  y: 16  w: 35  h: 65  
+      catchingact: 10 10  caughtact: 399 399  
+   itr_end:
+<frame_end>
+
+<frame> 4 flying
+   pic: 0  state: 3000  wait: 1  next: 3  dvx: 0  dvy: 0  dvz: 0  centerx: 40  centery: 79  hit_a: 7  hit_d: 4  hit_j: 0 hit_Fa: 2
+  itr:
+      kind: 3  x: 40  y: 16  w: 35  h: 65  
+      catchingact: 10 10  caughtact: 399 399  
+   itr_end:
+<frame_end>
+
+<frame> 5 flying
+   pic: 1  state: 3000  wait: 1  next: 6  dvx: 0  dvy: 0  dvz: 0  centerx: 40  centery: 79  hit_a: 7  hit_d: 5  hit_j: 0 hit_Fa: 2
+   itr:
+      kind: 3  x: 40  y: 16  w: 35  h: 65  
+      catchingact: 10 10  caughtact: 399 399  
+   itr_end:
+<frame_end>
+
+<frame> 6 flying
+   pic: 2  state: 3000  wait: 1  next: 5  dvx: 0  dvy: 0  dvz: 0  centerx: 40  centery: 79  hit_a: 7  hit_d: 6  hit_j: 0 hit_Fa: 2
+  itr:
+      kind: 3  x: 40  y: 16  w: 35  h: 65  
+      catchingact: 10 10  caughtact: 399 399  
+   itr_end:
+<frame_end>
+
+<frame> 10 hiting
+   pic: 4  state: 3002  wait: 1  next: 11  dvx: 0  dvy: 0  centerx: 40  centery: 79  hit_a: 0  hit_d: 0  hit_j: 0
+  sound: data\078.wav 
+<frame_end>
+
+<frame> 11 hiting
+   pic: 5  state: 3001  wait: 1  next: 12  dvx: 0  dvy: 0  dvz: 0  centerx: 40  centery: 79  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+
+<frame> 12 hiting
+   pic: 6  state: 3001  wait: 1  next: 13  dvx: 0  dvy: 0  dvz: 0  centerx: 40  centery: 79  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+
+<frame> 13 hiting
+   pic: 7  state: 3001  wait: 1  next: 1000  dvx: 0  dvy: 0  dvz: 0  centerx: 40  centery: 79  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+
+<frame> 20 hit
+   pic: 4  state: 3002  wait: 1  next: 21  dvx: 0  dvy: 0  dvz: 0  centerx: 40  centery: 79  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+
+<frame> 21 hit
+   pic: 5  state: 3002  wait: 1  next: 22  dvx: 0  dvy: 0  dvz: 0  centerx: 40  centery: 79  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+
+<frame> 22 hit
+   pic: 6  state: 3002  wait: 1  next: 23  dvx: 0  dvy: 0  dvz: 0  centerx: 40  centery: 79  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+
+<frame> 23 hit
+   pic: 7  state: 3002  wait: 1  next: 1000  dvx: 0  dvy: 0  dvz: 0  centerx: 40  centery: 79  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+
+<frame> 30 rebounding
+   pic: 1  state: 3000  wait: 3  next: 31  dvx: -14  dvy: 0  dvz: 0  centerx: 40  centery: 79  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+
+<frame> 31 rebounding
+   pic: 2  state: 3000  wait: 3  next: 1  dvx: -14  dvy: 0  dvz: 0  centerx: 40  centery: 79  hit_a: 0  hit_d: 0  hit_j: 0
+   opoint:
+      kind: 1  x: 41 y: 41 action: 20  dvx: 0  dvy: 0  oid: 215  facing: 1
+   opoint_end:
+<frame_end>
+
+<frame> 40 flying
+   pic: 0  state: 3000  wait: 2  next: 41  dvx: 5 dvy: 0  dvz: 0  centerx: 40  centery: 79  hit_a: 0  hit_d: 0  hit_j: 0
+  itr:
+      kind: 3  x: 40  y: 16  w: 35  h: 65  
+      catchingact: 10 10  caughtact: 399 399  
+   itr_end:
+<frame_end>
+
+
+<frame> 41 flying
+   pic: 1  state: 3000  wait: 2  next: 42  dvx: 7 dvy: 0  dvz: 0  centerx: 40  centery: 79  hit_a: 0  hit_d: 0  hit_j: 0
+   itr:
+      kind: 3  x: 40  y: 16  w: 35  h: 65  
+      catchingact: 10 10  caughtact: 399 399  
+   itr_end:
+<frame_end>
+
+<frame> 42 flying
+   pic: 2  state: 3000  wait: 2  next: 43  dvx: 10 dvy: 0  dvz: 0  centerx: 40  centery: 79  hit_a: 0  hit_d: 0  hit_j: 0
+  itr:
+      kind: 3  x: 40  y: 16  w: 35  h: 65  
+      catchingact: 10 10  caughtact: 399 399  
+   itr_end:
+<frame_end>
+
+<frame> 43 flying
+   pic: 0  state: 3000  wait: 2  next: 1  dvx: 13 dvy: 0  dvz: 0  centerx: 40  centery: 79  hit_a: 0  hit_d: 0  hit_j: 0
+  itr:
+      kind: 3  x: 40  y: 16  w: 35  h: 65  
+      catchingact: 10 10  caughtact: 399 399  
+   itr_end:
+<frame_end>
+7%

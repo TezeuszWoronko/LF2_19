@@ -1,0 +1,116 @@
+<bmp_begin>
+file(0-8): sprite\sys\akamaru.bmp  w: 155  h: 95  row: 3  col: 3
+weapon_hit_sound: data\020.wav
+weapon_drop_sound: data\020.wav
+weapon_broken_sound: data\020.wav
+<bmp_end>
+
+<frame> 0 flying
+   pic: 0  state: 3000  wait: 1  next: 1  dvx: 0  dvy: 550  dvz: 0  centerx: 80  centery: 52  hit_a: 3  hit_d: 100  hit_j: 0 hit_Fa: 12
+   sound: data\003.wav   
+   itr:
+      kind: 0  x: 28  y: 30  w: 102  h: 36 vrest: 15 dvx: 10 dvy: -7 fall: 999 bdefend: 150 injury: 30 effect: 1
+   itr_end:
+   itr:
+      kind: 0  x: 10  y: 9880000  w: 137  h: 200 vrest: 15 dvx: 10 dvy: -7 fall: 999 bdefend: 150 injury: 30 effect: 1
+   itr_end:
+   bdy:
+      kind: 0 x: 20 y: 32 w: 100 h: 32
+   bdy_end:
+<frame_end>
+<frame> 1 flying
+   pic: 1  state: 3000  wait: 1  next: 2  dvx: 0  dvy: 1  dvz: 0  centerx: 80  centery: 52  hit_a: 3  hit_d: 100  hit_j: 0 hit_Fa: 12
+   itr:
+      kind: 0  x: 28  y: 30  w: 102  h: 36 vrest: 15 dvx: 10 dvy: -7 fall: 999 bdefend: 150 injury: 30 effect: 1
+   itr_end:
+   itr:
+      kind: 0  x: 10  y: 9880000  w: 137  h: 200 vrest: 15 dvx: 10 dvy: -7 fall: 999 bdefend: 150 injury: 30 effect: 1
+   itr_end:
+   bdy:
+      kind: 0 x: 20 y: 32 w: 100 h: 32
+   bdy_end:
+<frame_end>
+<frame> 2 flying
+   pic: 2  state: 3000  wait: 1  next: 3  dvx: 0  dvy: 550  dvz: 0  centerx: 80  centery: 52  hit_a: 3  hit_d: 100  hit_j: 0 hit_Fa: 12
+   sound: data\004.wav    
+   itr:
+      kind: 0  x: 28  y: 30  w: 102  h: 36 vrest: 15 dvx: 10 dvy: -7 fall: 999 bdefend: 150 injury: 30 effect: 1
+   itr_end:
+   itr:
+      kind: 0  x: 10  y: 9880000  w: 137  h: 200 vrest: 15 dvx: 10 dvy: -7 fall: 999 bdefend: 150 injury: 30 effect: 1
+   itr_end:
+   bdy:
+      kind: 0 x: 20 y: 32 w: 100 h: 32
+   bdy_end:
+<frame_end>
+<frame> 3 flying
+   pic: 3  state: 3000  wait: 1  next: 999  dvx: 0  dvy: 1  dvz: 0  centerx: 80  centery: 52  hit_a: 3  hit_d: 100  hit_j: 0 hit_Fa: 12
+   itr:
+      kind: 0  x: 28  y: 30  w: 102  h: 36 vrest: 15 dvx: 10 dvy: -7 fall: 999 bdefend: 150 injury: 30 effect: 1
+   itr_end:
+   itr:
+      kind: 0  x: 10  y: 9880000  w: 137  h: 200 vrest: 15 dvx: 10 dvy: -7 fall: 999 bdefend: 150 injury: 30 effect: 1
+   itr_end:
+   bdy:
+      kind: 0 x: 20 y: 32 w: 100 h: 32
+   bdy_end:
+<frame_end>
+
+<frame> 20 hiting
+   pic: 4  state: 3001  wait: 5  next: 101  dvx: 0  dvy: 0  dvz: 550  centerx: 80  centery: 60  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+<frame> 30 hiting
+   pic: 4  state: 3001  wait: 5  next: 101  dvx: 0  dvy: 0  dvz: 550  centerx: 80  centery: 60  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+<frame> 40 hiting
+   pic: 4  state: 3001  wait: 5  next: 101  dvx: 0  dvy: 0  dvz: 550  centerx: 80  centery: 60  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+<frame> 50 hiting
+   pic: 4  state: 3001  wait: 5  next: 101  dvx: 0  dvy: 0  dvz: 550  centerx: 80  centery: 60  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+<frame> 60 hiting
+   pic: 4  state: 3001  wait: 5  next: 101  dvx: 0  dvy: 0  dvz: 550  centerx: 80  centery: 60  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+
+<frame> 100 hiting
+   pic: 4  state: 3001  wait: 7  next: 101  dvx: 550  dvy: 550  dvz: 550  centerx: 80  centery: 60  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+<frame> 101 hiting
+   pic: 5 state: 3001  wait: 1  next: 1000  dvx: 550  dvy: 550  dvz: 550  centerx: 80  centery: 60  hit_a: 0  hit_d: 0  hit_j: 0
+ opoint:
+      kind: 1  x: 80  y: 120  action: 125 dvx: 0  dvy: 0  oid: 216  facing: 0
+   opoint_end:
+<frame_end>
+
+<frame> 10 attacking
+   pic: 8  state: 3  wait: 0  next: 35  dvx: 550  dvy: 550  dvz: 550  centerx: 80  centery: 60  hit_a: 0  hit_d: 0  hit_j: 0     
+sound: data\017.wav
+<frame_end>
+
+<frame> 35 attacking
+   pic: 8  state: 300  wait: 3  next: 36  dvx: 155  dvy: 550  dvz: 550  centerx: 80  centery: 60  hit_a: 0  hit_d: 0  hit_j: 0     
+   itr:
+      kind: 0  x: 28  y: 30  w: 102  h: 36 vrest: 15 dvx: 10 dvy: -7 fall: 999 bdefend: 150 injury: 30 effect: 1
+   itr_end:
+   itr:
+      kind: 0  x: 0  y: 9880000  w: 155  h: 200 vrest: 15 dvx: 10 dvy: -7 fall: 999 bdefend: 150 injury: 30 effect: 1
+   itr_end:
+<frame_end>
+
+<frame> 36 attacking
+   pic: 4  state: 3  wait: 7  next: 101  dvx: 550  dvy: 550  dvz: 550  centerx: 80  centery: 60  hit_a: 0  hit_d: 0  hit_j: 0     
+<frame_end>
+
+<frame> 37 stand
+   pic: 4  state: 3001  wait: 7  next: 38  dvx: 550  dvy: 550  dvz: 550  centerx: 80  centery: 60  hit_a: 0  hit_d: 0  hit_j: 0
+   bdy:
+      kind: 0 x: 20 y: 32 w: 100 h: 32
+   bdy_end:
+<frame_end>
+<frame> 38 stand
+   pic: 5 state: 3001  wait: 5  next: 999  dvx: 550  dvy: 550  dvz: 550  centerx: 80  centery: 60  hit_a: 0  hit_d: 0  hit_j: 0
+   bdy:
+      kind: 0 x: 20 y: 32 w: 100 h: 32
+   bdy_end:
+<frame_end>
+E%

@@ -1,0 +1,60 @@
+<bmp_begin>
+file(0-7): sprite\sys\senbon.bmp  w: 81  h: 82  row: 4  col: 6
+weapon_hit_sound: data\032.wav
+weapon_drop_sound: data\032.wav
+weapon_broken_sound: data\032.wav
+<bmp_end>
+
+<frame> 0 flying
+   pic: 10  state: 3005  wait: 0 next: 1  dvx: 0  dvy: 0  dvz: 0  centerx: 40  centery: 41  hit_a: 14  hit_d: 0  hit_j: 0 hit_Fa: 12
+itr:
+      kind: 0  x: 3  y: 17  w: 40  h: 10 dvx: 2  fall: 1  bdefend: 12 injury: 10  effect: 1
+   itr_end:
+<frame_end>
+
+<frame> 1 flying
+   pic: 11  state: 3005  wait: 0 next: 2  dvx: 0  dvy: 0  dvz: 0  centerx: 32  centery: 42  hit_a: 14  hit_d: 1  hit_j: 0 hit_Fa: 12
+itr:
+      kind: 0  x: 3  y: 17  w: 40  h: 10 dvx: 2  fall: 1  bdefend: 12 injury: 10 effect: 1
+   itr_end:
+<frame_end>
+
+<frame> 2 flying
+   pic: 10  state: 3005  wait: 0  next: 3 dvx: 0  dvy: 0  dvz: 0  centerx: 39  centery: 42  hit_a: 14  hit_d: 2  hit_j: 0 hit_Fa: 12
+itr:
+      kind: 0  x: 3  y: 17  w: 40  h: 10 dvx: 2  fall: 1  bdefend: 12 injury: 10 effect: 1
+   itr_end:
+<frame_end>
+
+<frame> 3 flying
+   pic: 11 state: 3005  wait: 0  next: 999  dvx: 0  dvy: 0  dvz: 0  centerx: 39  centery: 42  hit_a: 14  hit_d: 2  hit_j: 0 hit_Fa: 12
+itr:
+      kind: 0  x: 3  y: 17  w: 40  h: 10 dvx: 2  fall: 1  bdefend: 12 injury: 10 effect: 1
+   itr_end:
+<frame_end>
+
+<frame> 4 flying
+   pic: 0 state: 3006  wait: 1  next: 5  dvx: 0  dvy: 0  dvz: 0  centerx: 39  centery: 42  hit_a: 0 hit_d: 0 hit_j: 0
+sound: data\053.wav
+<frame_end>
+
+<frame> 5 flying
+   pic: 1 state: 3005  wait: 1  next: 6 dvx: 0  dvy: 0  dvz: 0  centerx: 39  centery: 42 hit_a: 0 hit_d: 0 hit_j: 0
+<frame_end>
+
+<frame> 6 flying
+   pic: 2 state: 3005  wait: 1  next: 7  dvx: 0  dvy: 0  dvz: 0  centerx: 39  centery: 42 hit_a: 0 hit_d: 0 hit_j: 0
+<frame_end>
+
+<frame> 7 flying
+   pic: 3 state: 3005  wait: 1  next: 1000 dvx: 0  dvy: 0  dvz: 0  centerx: 39  centery: 42 hit_a: 0 hit_d: 0 hit_j: 0
+<frame_end>
+
+<frame> 10 hiting
+   pic: 999 state: 3001  wait: 0  next: 1000 dvx: 0  dvy: 0  dvz: 0  centerx: 34  centery: 36  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+
+<frame> 20 hit
+   pic: 999  state: 3002  wait: 0  next: 1000  dvx: 0  dvy: 0  dvz: 0  centerx: 38  centery: 41  hit_a: 0  hit_d: 0  hit_j: 0
+<frame_end>
+H
