@@ -4464,8 +4464,7 @@ define({
       }
     ]
   },
-  {
-    name: "17 tree_jump",
+  17: { name: "tree_jump",
     pic: 68, state: 3, wait: 1, next: 18, dvx: 550, dvy: 550, dvz: 550, centerx: 0, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0
   }
   }

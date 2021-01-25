@@ -690,6 +690,9 @@ define({
   168: { name: "flying",
     pic: 4, state: 3000, wait: 0, next: 169, dvx: 0, dvy: 0, centerx: 65, centery: 140, hit_a: 0, hit_d: 0, hit_j: 0
   },
+  169: { name: "flying",
+    pic: 3, state: 3005, wait: 5, next: 170, dvx: 0, dvy: 15, centerx: 65, centery: 140, hit_a: 0, hit_d: 0, hit_j: 0
+  },
   170: { name: "flying",
     pic: 2, state: 3005, wait: 2, next: 171, dvx: 550, dvy: 550, centerx: 65, centery: 140, hit_a: 0, hit_d: 0, hit_j: 0
   },
@@ -711,10 +714,6 @@ define({
     opoint: {
       kind: 1, x: 65, y: 100, action: 20, dvx: -5, dvy: 0, oid: 204, facing: 30
     }
-  },
-  {
-    name: "169 flying",
-    pic: 3, state: 3005, wait: 5, next: 170, dvx: 0, dvy: 15, centerx: 65, centery: 140, hit_a: 0, hit_d: 0, hit_j: 0
   }
   }
 });

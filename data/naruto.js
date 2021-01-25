@@ -2,15 +2,15 @@ define({
   bmp: {
     file: [
       {
-        "file(0-69)": "sprite/sys/naruto_0.png", w: 79, h: 79, row: 10, col: 7
+        "file(0-69)": "sprite/naruto_0.png", w: 79, h: 79, row: 10, col: 7
       },
       {
-        "file(70-139)": "sprite/sys/naruto_2.png", w: 79, h: 79, row: 10, col: 7
+        "file(70-139)": "sprite/naruto_2.png", w: 79, h: 79, row: 10, col: 7
       }
     ],
     name: "Naruto",
     head: "sprite/naruto_f.png",
-    small: "sprite/sys/naruto_s.png",
+    small: "sprite/naruto_s.png",
     walking_frame_rate: 3,
     walking_speed: 4,
     walking_speedz: 2,
@@ -1444,7 +1444,7 @@ define({
     }
   },
   150: { name: "kyubii",
-    pic: 130, state: 9, wait: 0, next: 371, dvx: 0, dvy: 550, centerx: 29, centery: 78, hit_a: 0, hit_d: 0, hit_j: 0, #mp: 499,
+    pic: 130, state: 9, wait: 0, next: 371, dvx: 0, dvy: 550, centerx: 29, centery: 78, hit_a: 0, hit_d: 0, hit_j: 0,
     cpoint: {
       kind: 1, x: 95, y: 39, vaction: 130, throwvz: -842150451, hurtable: 1, throwinjury: -842150451, decrease: 10
     },

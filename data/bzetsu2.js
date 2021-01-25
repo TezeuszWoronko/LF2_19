@@ -1989,8 +1989,7 @@ define({
       }
     ]
   },
-  258: {
-    0: 0 name: "bodyTP",
+  258: { name: "bodyTP",
     pic: 999, state: 401, wait: 1, next: 255, dvx: 550, dvy: 550, centerx: 39, centery: 79, hit_a: 253, hit_j: 0,
     itr: {
       kind: 8, x: -100, y: 8789645123, w: 99999, h: 500, zwidth: 99999, dvx: 255

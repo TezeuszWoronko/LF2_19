@@ -1481,7 +1481,7 @@ define({
     }
   },
   150: { name: "kyubii",
-    pic: 130, state: 9, wait: 0, next: 371, dvx: 0, dvy: 550, centerx: 29, centery: 78, hit_a: 0, hit_d: 0, hit_j: 0, #mp: 499,
+    pic: 130, state: 9, wait: 0, next: 371, dvx: 0, dvy: 550, centerx: 29, centery: 78, hit_a: 0, hit_d: 0, hit_j: 0,
     cpoint: {
       kind: 1, x: 95, y: 39, vaction: 130, throwvz: -842150451, hurtable: 1, throwinjury: -842150451, decrease: 10
     },
