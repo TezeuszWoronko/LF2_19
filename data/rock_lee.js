@@ -2,7 +2,7 @@ define({
   bmp: {
     file: [
       {
-        "file(0-69)": "sprite/sys/rock_lee.png", w: 79, h: 79, row: 10, col: 7
+        "file(0-69)": "sprite//rock_lee.png", w: 79, h: 79, row: 10, col: 7
       },
       {
         "file(70-139)": "sprite/rock_lee2.png", w: 79, h: 79, row: 10, col: 7

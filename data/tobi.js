@@ -2,7 +2,7 @@ define({
   bmp: {
     file: [
       {
-        "file(0-69)": "sprite/sys/tobi.png", w: 79, h: 79, row: 10, col: 7
+        "file(0-69)": "sprite//tobi.png", w: 79, h: 79, row: 10, col: 7
       },
       {
         "file(70-78)": "sprite/tobi2.png", w: 155, h: 95, row: 3, col: 3

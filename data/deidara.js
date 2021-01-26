@@ -5,10 +5,10 @@ define({
         "file(0-69)": "sprite/deidara_0.png", w: 79, h: 79, row: 10, col: 7
       },
       {
-        "file(70-139)": "sprite/sys/deidara_2.png", w: 79, h: 79, row: 10, col: 7
+        "file(70-139)": "sprite//deidara_2.png", w: 79, h: 79, row: 10, col: 7
       },
       {
-        "file(140-154)": "sprite/sys/deidara_3.png", w: 159, h: 159, row: 5, col: 3
+        "file(140-154)": "sprite//deidara_3.png", w: 159, h: 159, row: 5, col: 3
       },
       {
         "file(155-199)": "sprite/deidaraO_2.png", w: 79, h: 79, row: 10, col: 7

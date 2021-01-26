@@ -5,10 +5,10 @@ define({
         "file(0-50)": "sprite/amaterasu.png", w: 110, h: 170, row: 5, col: 10
       },
       {
-        "file(51-67)": "sprite/sys/sand2.png", w: 265, h: 190, row: 3, col: 6
+        "file(51-67)": "sprite//sand2.png", w: 265, h: 190, row: 3, col: 6
       },
       {
-        "file(68-137)": "sprite/sys/timer.png", w: 79, h: 79, row: 10, col: 2
+        "file(68-137)": "sprite//timer.png", w: 79, h: 79, row: 10, col: 2
       }
     ],
     weapon_hit_sound: "1/020"

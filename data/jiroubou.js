@@ -14,7 +14,7 @@ define({
         "file(210-279)": "sprite/jiroubou_2.png", w: 79, h: 79, row: 10, col: 7
       },
       {
-        "file(280-292)": "sprite/sys/jiroubou_3.png", w: 159, h: 159, row: 5, col: 2
+        "file(280-292)": "sprite//jiroubou_3.png", w: 159, h: 159, row: 5, col: 2
       },
       {
         "file(293-302)": "sprite/cave.png", w: 229, h: 190, row: 5, col: 2

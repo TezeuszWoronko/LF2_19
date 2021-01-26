@@ -2,7 +2,7 @@ define({
   bmp: {
     file: [
       {
-        "file(0-15)": "sprite/sys/zabuza2.png", w: 200, h: 206, row: 5, col: 4
+        "file(0-15)": "sprite//zabuza2.png", w: 200, h: 206, row: 5, col: 4
       }
     ]
   },

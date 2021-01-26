@@ -2,10 +2,10 @@ define({
   bmp: {
     file: [
       {
-        "file(0-27)": "sprite/sys/charge.png", w: 81, h: 82, row: 4, col: 7
+        "file(0-27)": "sprite//charge.png", w: 81, h: 82, row: 4, col: 7
       },
       {
-        "file(28-60)": "sprite/sys/charge2.png", w: 81, h: 82, row: 4, col: 7
+        "file(28-60)": "sprite//charge2.png", w: 81, h: 82, row: 4, col: 7
       }
     ]
   },

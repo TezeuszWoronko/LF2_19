@@ -5,24 +5,24 @@ define({
         "file(0-69)": "sprite/kyubi.png", w: 79, h: 79, row: 10, col: 7
       },
       {
-        "file(70-139)": "sprite/sys/naruto_2.png", w: 79, h: 79, row: 10, col: 7
+        "file(70-139)": "sprite//naruto_2.png", w: 79, h: 79, row: 10, col: 7
       },
       {
-        "file(195-145)": "sprite/sys/kyubi_3.png", w: 711, h: 95, row: 1, col: 6
+        "file(195-145)": "sprite//kyubi_3.png", w: 711, h: 95, row: 1, col: 6
       },
       {
-        "file(146-165)": "sprite/sys/4tk.png", w: 200, h: 135, row: 4, col: 5
+        "file(146-165)": "sprite//4tk.png", w: 200, h: 135, row: 4, col: 5
       },
       {
-        "file(166-200)": "sprite/sys/4tk2.png", w: 200, h: 135, row: 4, col: 8
+        "file(166-200)": "sprite//4tk2.png", w: 200, h: 135, row: 4, col: 8
       },
       {
-        "file(201-220)": "sprite/sys/kyubi_3.png", w: 711, h: 95, row: 1, col: 12
+        "file(201-220)": "sprite//kyubi_3.png", w: 711, h: 95, row: 1, col: 12
       }
     ],
     name: "Naruto",
     head: "sprite/kyubi_f.png",
-    small: "sprite/sys/kyubi_s.png",
+    small: "sprite//kyubi_s.png",
     walking_frame_rate: 3,
     walking_speed: 9,
     walking_speedz: 2.5,

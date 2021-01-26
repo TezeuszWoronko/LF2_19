@@ -2,22 +2,22 @@ define({
   bmp: {
     file: [
       {
-        "file(0-23)": "sprite/sys/wind.png", w: 81, h: 82, row: 4, col: 6
+        "file(0-23)": "sprite//wind.png", w: 81, h: 82, row: 4, col: 6
       },
       {
         "file(24-29)": "sprite/hakke.png", w: 200, h: 95, row: 6, col: 1
       },
       {
-        "file(30-41)": "sprite/sys/smoke.png", w: 79, h: 79, row: 6, col: 2
+        "file(30-41)": "sprite//smoke.png", w: 79, h: 79, row: 6, col: 2
       },
       {
-        "file(42-49)": "sprite/sys/temari_wind.png", w: 81, h: 82, row: 4, col: 2
+        "file(42-49)": "sprite//temari_wind.png", w: 81, h: 82, row: 4, col: 2
       },
       {
-        "file(50-54)": "sprite/sys/temari_ww.png", w: 159, h: 320, row: 5, col: 1
+        "file(50-54)": "sprite//temari_ww.png", w: 159, h: 320, row: 5, col: 1
       },
       {
-        "file(55-60)": "sprite/sys/temari_www.png", w: 145, h: 180, row: 4, col: 2
+        "file(55-60)": "sprite//temari_www.png", w: 145, h: 180, row: 4, col: 2
       }
     ],
     weapon_drop_sound: "1/001",

@@ -15,7 +15,7 @@ define({
       }
     ],
     name: "Black_Zetsu",
-    head: "sprite/sys/bzetsu_f.png",
+    head: "sprite//bzetsu_f.png",
     small: "sprite/bzetsu_s.png",
     walking_frame_rate: 3,
     walking_speed: 4,

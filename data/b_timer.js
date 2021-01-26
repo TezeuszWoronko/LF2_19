@@ -2,7 +2,7 @@ define({
   bmp: {
     file: [
       {
-        "file(0-19)": "sprite/sys/timer.png", w: 79, h: 79, row: 10, col: 2
+        "file(0-19)": "sprite//timer.png", w: 79, h: 79, row: 10, col: 2
       },
       {
         "file(20-99)": "sprite/timer2.png", w: 79, h: 79, row: 10, col: 2

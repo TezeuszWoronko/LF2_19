@@ -18,7 +18,7 @@ define({
       }
     ],
     name: "Zetsus",
-    head: "sprite/sys/wzetsu_f.png",
+    head: "sprite//wzetsu_f.png",
     small: "sprite/wzetsu_s.png",
     walking_frame_rate: 3,
     walking_speed: 2,
