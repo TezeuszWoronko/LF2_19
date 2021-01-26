@@ -66,6 +66,15 @@ define({
       kind: 0, x: 6, y: 9, w: 44, h: 46
     }
   },
+  6: { name: "in_the_sky2",
+    pic: 0, state: 2000, wait: 3, next: 6, dvx: 0, dvy: 50, centerx: 29, centery: 56,
+    itr: {
+      kind: 0, x: 6, y: 9, w: 44, h: 46, dvx: 5, dvy: -7, fall: 70, vrest: 17, bdefend: 30, injury: 60
+    },
+    bdy: {
+      kind: 0, x: 6, y: 9, w: 44, h: 46
+    }
+  },
   10: { name: "on_hand",
     pic: 5, state: 2001, wait: 0, next: 0, dvx: 0, dvy: 0, centerx: 29, centery: 56,
     wpoint: {

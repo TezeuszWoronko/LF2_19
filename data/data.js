@@ -95,18 +95,18 @@ define({
 		{"id": 68, "type": "character", "file": "data/hachibi.js", "name": "hachibi", "pic": "sprite/hachibi_f.png"},
 		{"id": 8, "type": "character", "file": "data/madara.js", "name": "madara", "pic": "sprite/madara_f.png"},
 		{"id": 69, "type": "character", "file": "data/hashirama.js", "name": "hashirama", "pic": "sprite/hashirama_f.png"},
-		{"id": 100, "type": "effect", "file": "data/weapon6.js"},
-		{"id": 101, "type": "effect", "file": "data/weapon2.js"},
-		{"id": 120, "type": "lightweapon", "file": "data/weapon4.js"},
-		{"id": 121, "type": "effect", "file": "data/weapon5.js"},
-		// {"id": 122, "type": "beer", "file": "data/weapon3.js"},
-		{"id": 507, "type": "heavyweapon", "file": "data/weapon1.js"},
-		{"id": 508, "type": "heavyweapon", "file": "data/log.js"},
-		// {"id": 123, "type": "beer", "file": "data/weapon8.js"},
-		{"id": 124, "type": "effect", "file": "data/weapon9.js"},
-		{"id": 217, "type": "heavyweapon", "file": "data/weapon10.js"},
-		{"id": 218, "type": "heavyweapon", "file": "data/weapon11.js"},
-		// {"id": 300, "type": "effect", "file": "data/criminal.js"},
+		{"id": 100, "type": "lightweapon", "file": "data/weapon6.js"}, //healingscroll
+		{"id": 101, "type": "lightweapon", "file": "data/weapon2.js"}, //extag
+		{"id": 120, "type": "lightweapon", "file": "data/weapon4.js"}, //kunai
+		{"id": 121, "type": "lightweapon", "file": "data/weapon5.js"}, //shuriken
+		// {"id": 122, "type": "beer", "file": "data/weapon3.js"},	//healing
+		{"id": 507, "type": "heavyweapon", "file": "data/weapon1.js"},  //stone
+		{"id": 508, "type": "heavyweapon", "file": "data/log.js"},  //log
+		// {"id": 123, "type": "beer", "file": "data/weapon8.js"},  //beer
+		{"id": 124, "type": "lightweapon", "file": "data/weapon9.js"},  //windmill
+		{"id": 217, "type": "heavyweapon", "file": "data/weapon10.js"}, //louis_armor
+		{"id": 218, "type": "heavyweapon", "file": "data/weapon11.js"}, //louis_armor
+		// {"id": 300, "type": "effect", "file": "data/criminal.js"},  //stage mode
 		{id:300, type:'effect', file:'data/effect0.js'}, //blast
 		{id:301, type:'effect', file:'data/effect1.js'}, //blood
 		{"id": 230, "type": "specialattack", "file": "data/karasu.js"},

@@ -5,7 +5,7 @@ define({
         "file(0-99)": "sprite/weapon6.png", w: 48, h: 48, row: 10, col: 10
       }
     ],
-    weapon_hp: 450,
+    weapon_hp: 999,
     weapon_drop_hurt: 35,
     weapon_hit_sound: "1/041",
     weapon_drop_sound: "1/041",
@@ -303,7 +303,7 @@ define({
     }
   },
   44: { name: "throwing",
-    pic: 4, state: 1002, wait: 0, next: 45, dvx: 0, dvy: 0, centerx: 24, centery: 38, hit_a: 0, hit_d: 0, hit_j: 0,
+    pic: 4, state: 1002, wait: 0, next: 45, dvx: -1, dvy: 0, centerx: 24, centery: 38, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 30
     },
@@ -312,7 +312,7 @@ define({
     }
   },
   45: { name: "throwing",
-    pic: 5, state: 1002, wait: 0, next: 46, dvx: 0, dvy: 0, centerx: 24, centery: 37, hit_a: 0, hit_d: 0, hit_j: 0,
+    pic: 5, state: 1002, wait: 0, next: 46, dvx: -1, dvy: 0, centerx: 24, centery: 37, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 30
     },
@@ -321,7 +321,7 @@ define({
     }
   },
   46: { name: "throwing",
-    pic: 6, state: 1002, wait: 0, next: 47, dvx: 0, dvy: 0, centerx: 24, centery: 39, hit_a: 0, hit_d: 0, hit_j: 0,
+    pic: 6, state: 1002, wait: 0, next: 47, dvx: -1, dvy: 0, centerx: 24, centery: 39, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 30
     },
@@ -330,7 +330,7 @@ define({
     }
   },
   47: { name: "throwing",
-    pic: 7, state: 1002, wait: 0, next: 48, dvx: 0, dvy: 0, centerx: 23, centery: 38, hit_a: 0, hit_d: 0, hit_j: 0,
+    pic: 7, state: 1002, wait: 0, next: 48, dvx: -1, dvy: 0, centerx: 23, centery: 38, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 30
     },
@@ -339,7 +339,7 @@ define({
     }
   },
   48: { name: "throwing",
-    pic: 8, state: 1002, wait: 0, next: 49, dvx: 0, dvy: 0, centerx: 25, centery: 37, hit_a: 0, hit_d: 0, hit_j: 0,
+    pic: 8, state: 1002, wait: 0, next: 49, dvx: -1, dvy: 0, centerx: 25, centery: 37, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 30
     },
@@ -411,13 +411,18 @@ define({
     }
   },
   60: { name: "on_ground",
-    pic: 2, state: 1003, wait: 1, next: 61, dvx: 0, dvy: 0, centerx: 24, centery: 35, hit_a: 0, hit_d: 0, hit_j: 0, sound: "1/041"
+    pic: 2, state: 1003, wait: 1, next: 61, dvx: 0, dvy: 0, centerx: 24, centery: 35, hit_a: 0, hit_d: 0, hit_j: 0,
+    sound: "1/041"
   },
   61: { name: "on_ground",
     pic: 5, state: 1003, wait: 2, next: 62, dvx: 0, dvy: 0, centerx: 24, centery: 34, hit_a: 0, hit_d: 0, hit_j: 0
   },
   62: { name: "on_ground",
-    pic: 3, state: 1003, wait: 2, next: 63, dvx: 0, dvy: 0, centerx: 24, centery: 31, hit_a: 0, hit_d: 0, hit_j: 0, sound: "1/041"
+    pic: 3, state: 1003, wait: 2, next: 63, dvx: 0, dvy: 0, centerx: 24, centery: 31, hit_a: 0, hit_d: 0, hit_j: 0,
+    sound: "1/041",
+    opoint: {
+      kind: 1, x: 25, y: 35, action: 50, dvx: 0, dvy: -10, oid: 219, facing: 0
+    }
   },
   63: { name: "on_ground",
     pic: 5, state: 1003, wait: 1, next: 64, dvx: 0, dvy: 0, centerx: 24, centery: 33, hit_a: 0, hit_d: 0, hit_j: 0
@@ -429,13 +434,27 @@ define({
     }
   },
   70: { name: "just_on_ground",
-    pic: 2, state: 1003, wait: 1, next: 71, dvx: 0, dvy: 0, centerx: 24, centery: 38, hit_a: 0, hit_d: 0, hit_j: 0, sound: "1/041"
+    pic: 2, state: 1003, wait: 1, next: 71, dvx: 0, dvy: 0, centerx: 24, centery: 38, hit_a: 0, hit_d: 0, hit_j: 0,
+    sound: "1/041"
   },
   71: { name: "just_on_on_ground",
-    pic: 5, state: 1003, wait: 2, next: 72, dvx: 0, dvy: 0, centerx: 24, centery: 35, hit_a: 0, hit_d: 0, hit_j: 0
+    pic: 5, state: 1003, wait: 2, next: 72, dvx: 0, dvy: 0, centerx: 24, centery: 35, hit_a: 0, hit_d: 0, hit_j: 0,
+    opoint: {
+      kind: 1, x: 25, y: 35, action: 50, dvx: 0, dvy: -10, oid: 219, facing: 0
+    }
   },
   72: { name: "just_on_on_ground",
-    pic: 3, state: 1003, wait: 2, next: 64, dvx: 0, dvy: 0, centerx: 24, centery: 34, hit_a: 0, hit_d: 0, hit_j: 0, sound: "1/041"
+    pic: 3, state: 1003, wait: 2, next: 64, dvx: 0, dvy: 0, centerx: 24, centery: 34, hit_a: 0, hit_d: 0, hit_j: 0,
+    sound: "1/041"
+  },
+  100: { name: "on_hand",
+    pic: 25, state: 1001, wait: 0, next: 0, dvx: 0, dvy: 0, centerx: 24, centery: 40, hit_a: 0, hit_d: 0, hit_j: 0,
+    wpoint: {
+      kind: 2, x: 12, y: 23, weaponact: 0, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
+    },
+    itr: {
+      kind: 5, x: 6, y: 18, w: 24, h: 15, dvx: 8, fall: 20, bdefend: 16, injury: 789
+    }
   },
   399: { name: "dummy",
     pic: 4, state: 0, wait: 0, next: 0, dvx: 0, dvy: 0, centerx: 24, centery: 30, hit_a: 0, hit_d: 0, hit_j: 0,

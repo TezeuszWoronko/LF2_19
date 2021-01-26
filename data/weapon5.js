@@ -2,7 +2,7 @@ define({
   bmp: {
     file: [
       {
-        "file(0-99)": "sprite/weapon5.png", w: 48, h: 48, row: 10, col: 10
+        "file(0-99)": "sprite/shuriken.png", w: 48, h: 48, row: 10, col: 10
       }
     ],
     weapon_hp: 750,
@@ -437,6 +437,7 @@ define({
   72: { name: "just_on_on_ground",
     pic: 3, state: 1003, wait: 2, next: 64, dvx: 0, dvy: 0, centerx: 24, centery: 34, hit_a: 0, hit_d: 0, hit_j: 0, sound: "1/038"
   },
+  
   399: { name: "dummy",
     pic: 4, state: 0, wait: 0, next: 0, dvx: 0, dvy: 0, centerx: 24, centery: 30, hit_a: 0, hit_d: 0, hit_j: 0,
     bdy: {

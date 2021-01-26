@@ -5,90 +5,177 @@ define({
         "file(0-99)": "sprite/weapon3.png", w: 58, h: 58, row: 10, col: 10
       }
     ],
-    weapon_hp: 400,
-    weapon_drop_hurt: 180,
-    weapon_hit_sound: "1/035",
-    weapon_drop_sound: "1/037",
-    weapon_broken_sound: "1/036"
+    weapon_hp: 1,
+    weapon_drop_hurt: 0
   },
   frame: {
   0: { name: "in_the_sky",
-    pic: 0, state: 2000, wait: 3, next: 1, dvx: 0, dvy: 0, centerx: 29, centery: 56,
-    itr: {
-      kind: 0, x: 6, y: 9, w: 44, h: 46, dvx: 5, dvy: -7, fall: 70, vrest: 17, bdefend: 30, injury: 60
-    },
-    bdy: {
-      kind: 0, x: 6, y: 9, w: 44, h: 46
-    }
+    pic: 999, state: 9997, wait: 0, next: 1000, dvx: 0, dvy: 0, centerx: 24, centery: 33, hit_a: 0, hit_d: 0, hit_j: 0
   },
-  1: { name: "in_the_sky",
-    pic: 1, state: 2000, wait: 2, next: 2, dvx: 0, dvy: 0, centerx: 29, centery: 56,
-    itr: {
-      kind: 0, x: 6, y: 9, w: 44, h: 46, dvx: 5, dvy: -7, fall: 70, vrest: 17, bdefend: 30, injury: 60
-    },
-    bdy: {
-      kind: 0, x: 6, y: 9, w: 44, h: 46
-    }
-  },
-  2: { name: "in_the_sky",
-    pic: 2, state: 2000, wait: 3, next: 3, dvx: 0, dvy: 0, centerx: 29, centery: 56,
-    itr: {
-      kind: 0, x: 6, y: 9, w: 44, h: 46, dvx: 5, dvy: -7, fall: 70, vrest: 17, bdefend: 30, injury: 60
-    },
-    bdy: {
-      kind: 0, x: 6, y: 9, w: 44, h: 46
-    }
-  },
-  3: { name: "in_the_sky",
-    pic: 3, state: 2000, wait: 2, next: 4, dvx: 0, dvy: 0, centerx: 29, centery: 56,
-    itr: {
-      kind: 0, x: 6, y: 9, w: 44, h: 46, dvx: 5, dvy: -7, fall: 70, vrest: 17, bdefend: 30, injury: 60
-    },
-    bdy: {
-      kind: 0, x: 6, y: 9, w: 44, h: 46
-    }
-  },
-  4: { name: "in_the_sky",
-    pic: 4, state: 2000, wait: 3, next: 5, dvx: 0, dvy: 0, centerx: 29, centery: 56,
-    itr: {
-      kind: 0, x: 6, y: 9, w: 44, h: 46, dvx: 5, dvy: -7, fall: 70, vrest: 17, bdefend: 30, injury: 60
-    },
-    bdy: {
-      kind: 0, x: 6, y: 9, w: 44, h: 46
-    }
-  },
-  5: { name: "in_the_sky",
-    pic: 5, state: 2000, wait: 2, next: 999, dvx: 0, dvy: 0, centerx: 29, centery: 56,
-    itr: {
-      kind: 0, x: 6, y: 9, w: 44, h: 46, dvx: 5, dvy: -7, fall: 70, vrest: 17, bdefend: 30, injury: 60
-    },
-    bdy: {
-      kind: 0, x: 6, y: 9, w: 44, h: 46
-    }
-  },
-  10: { name: "on_hand",
-    pic: 5, state: 2001, wait: 0, next: 0, dvx: 0, dvy: 0, centerx: 29, centery: 56,
+  20: { name: "on_hand",
+    pic: 999, state: 1001, wait: 0, next: 1000, dvx: 0, dvy: 0, centerx: 24, centery: 40, hit_a: 0, hit_d: 0, hit_j: 0,
     wpoint: {
-      kind: 2, x: 29, y: 56, weaponact: 35, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
-    }
-  },
-  20: { name: "on_ground",
-    pic: 5, state: 2004, wait: 0, next: 0, dvx: 0, dvy: 0, centerx: 29, centery: 51,
-    itr: {
-      kind: 14, x: 21, y: 37, w: 16, h: 18, vrest: 1
+      kind: 2, x: 24, y: 40, weaponact: 0, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
     },
-    bdy: {
-      kind: 0, x: 11, y: 10, w: 36, h: 50
+    itr: {
+      kind: 5, x: 17, y: 2, w: 13, h: 44, fall: 20, bdefend: 16, injury: 789
     }
   },
-  21: { name: "just_on_ground",
-    pic: 3, state: 2000, wait: 1, next: 999, dvx: 0, dvy: 0, centerx: 29, centery: 56,
+  21: { name: "on_hand",
+    pic: 999, state: 1001, wait: 0, next: 1000, dvx: 0, dvy: 0, centerx: 24, centery: 40, hit_a: 0, hit_d: 0, hit_j: 0,
+    wpoint: {
+      kind: 2, x: 17, y: 41, weaponact: 0, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
+    },
     itr: {
-      kind: 0, x: 6, y: 9, w: 44, h: 46, dvx: 5, dvy: -7, fall: 70, vrest: 17, bdefend: 30, injury: 60
+      kind: 5, x: 15, y: 20, w: 12, h: 23, dvx: 8, fall: 20, bdefend: 16, injury: 789
+    }
+  },
+  22: { name: "on_hand",
+    pic: 999, state: 1001, wait: 0, next: 1000, dvx: 0, dvy: 0, centerx: 24, centery: 40, hit_a: 0, hit_d: 0, hit_j: 0,
+    wpoint: {
+      kind: 2, x: 12, y: 37, weaponact: 0, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
+    },
+    itr: {
+      kind: 5, x: 15, y: 21, w: 10, h: 17, dvx: 8, fall: 20, bdefend: 16, injury: 789
+    }
+  },
+  23: { name: "on_hand",
+    pic: 999, state: 1001, wait: 0, next: 1000, dvx: 0, dvy: 0, centerx: 24, centery: 40, hit_a: 0, hit_d: 0, hit_j: 0,
+    wpoint: {
+      kind: 2, x: 9, y: 33, weaponact: 0, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
+    },
+    itr: {
+      kind: 5, x: 9, y: 25, w: 14, h: 13, dvx: 8, fall: 20, bdefend: 16, injury: 789
+    }
+  },
+  24: { name: "on_hand",
+    pic: 999, state: 1001, wait: 0, next: 1000, dvx: 0, dvy: 0, centerx: 24, centery: 40, hit_a: 0, hit_d: 0, hit_j: 0,
+    wpoint: {
+      kind: 2, x: 12, y: 29, weaponact: 0, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
+    },
+    itr: {
+      kind: 5, x: 8, y: 24, w: 18, h: 12, dvx: 8, fall: 20, bdefend: 16, injury: 789
+    }
+  },
+  25: { name: "on_hand",
+    pic: 999, state: 1001, wait: 0, next: 1000, dvx: 0, dvy: 0, centerx: 24, centery: 40, hit_a: 0, hit_d: 0, hit_j: 0,
+    wpoint: {
+      kind: 2, x: 12, y: 24, weaponact: 0, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
+    },
+    itr: {
+      kind: 5, x: 6, y: 18, w: 24, h: 15, dvx: 8, fall: 20, bdefend: 16, injury: 789
+    }
+  },
+  26: { name: "on_hand",
+    pic: 999, state: 1001, wait: 0, next: 1000, dvx: 0, dvy: 0, centerx: 24, centery: 40, hit_a: 0, hit_d: 0, hit_j: 0,
+    wpoint: {
+      kind: 2, x: 15, y: 15, weaponact: 0, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
+    },
+    itr: {
+      kind: 5, x: 12, y: 12, w: 16, h: 17, dvx: 8, fall: 20, bdefend: 16, injury: 789
+    }
+  },
+  27: { name: "on_hand",
+    pic: 999, state: 1001, wait: 0, next: 1000, dvx: 0, dvy: 0, centerx: 24, centery: 40, hit_a: 0, hit_d: 0, hit_j: 0,
+    wpoint: {
+      kind: 2, x: 17, y: 15, weaponact: 0, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
+    },
+    itr: {
+      kind: 5, x: 12, y: 8, w: 14, h: 19, dvx: 8, fall: 20, bdefend: 16, injury: 789
+    }
+  },
+  28: { name: "on_hand",
+    pic: 999, state: 1001, wait: 0, next: 1000, dvx: 0, dvy: 0, centerx: 24, centery: 40, hit_a: 0, hit_d: 0, hit_j: 0,
+    wpoint: {
+      kind: 2, x: 25, y: 14, weaponact: 0, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
+    },
+    itr: {
+      kind: 5, x: 18, y: 9, w: 13, h: 19, dvx: 8, fall: 20, bdefend: 16, injury: 789
+    }
+  },
+  29: { name: "on_hand",
+    pic: 999, state: 1001, wait: 0, next: 1000, dvx: 0, dvy: 0, centerx: 24, centery: 40, hit_a: 0, hit_d: 0, hit_j: 0,
+    wpoint: {
+      kind: 2, x: 27, y: 15, weaponact: 0, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
+    },
+    itr: {
+      kind: 5, x: 18, y: 6, w: 14, h: 24, dvx: 8, fall: 20, bdefend: 16, injury: 789
+    }
+  },
+  30: { name: "on_hand",
+    pic: 999, state: 1001, wait: 0, next: 1000, dvx: 0, dvy: 0, centerx: 24, centery: 40, hit_a: 0, hit_d: 0, hit_j: 0,
+    wpoint: {
+      kind: 2, x: 33, y: 17, weaponact: 0, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
+    },
+    itr: {
+      kind: 5, x: 22, y: 12, w: 19, h: 15, dvx: 8, fall: 20, bdefend: 16, injury: 789
+    }
+  },
+  31: { name: "on_hand",
+    pic: 999, state: 1001, wait: 0, next: 1000, dvx: 0, dvy: 0, centerx: 24, centery: 40, hit_a: 0, hit_d: 0, hit_j: 0,
+    wpoint: {
+      kind: 2, x: 33, y: 21, weaponact: 0, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
+    },
+    itr: {
+      kind: 5, x: 19, y: 15, w: 22, h: 14, dvx: 8, fall: 20, bdefend: 16, injury: 789
+    }
+  },
+  32: { name: "on_hand",
+    pic: 999, state: 1001, wait: 0, next: 1000, dvx: 0, dvy: 0, centerx: 24, centery: 40, hit_a: 0, hit_d: 0, hit_j: 0,
+    wpoint: {
+      kind: 2, x: 33, y: 25, weaponact: 0, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
+    },
+    itr: {
+      kind: 5, x: 20, y: 20, w: 22, h: 12
+    }
+  },
+  33: { name: "on_hand",
+    pic: 999, state: 1001, wait: 0, next: 1000, dvx: 0, dvy: 0, centerx: 24, centery: 40, hit_a: 0, hit_d: 0, hit_j: 0,
+    wpoint: {
+      kind: 2, x: 33, y: 32, weaponact: 0, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
+    },
+    itr: {
+      kind: 5, x: 22, y: 25, w: 20, h: 15, dvx: 8, fall: 20, bdefend: 16, injury: 789
+    }
+  },
+  34: { name: "on_hand",
+    pic: 999, state: 1001, wait: 0, next: 1000, dvx: 0, dvy: 0, centerx: 24, centery: 40, hit_a: 0, hit_d: 0, hit_j: 0,
+    wpoint: {
+      kind: 2, x: 33, y: 34, weaponact: 0, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
+    },
+    itr: {
+      kind: 5, x: 22, y: 25, w: 17, h: 16, dvx: 8, fall: 20, bdefend: 16, injury: 789
+    }
+  },
+  35: { name: "on_hand",
+    pic: 999, state: 1001, wait: 0, next: 1000, dvx: 0, dvy: 0, centerx: 24, centery: 40, hit_a: 0, hit_d: 0, hit_j: 0,
+    wpoint: {
+      kind: 2, x: 26, y: 35, weaponact: 0, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
+    },
+    itr: {
+      kind: 5, x: 19, y: 23, w: 13, h: 21, dvx: 8, fall: 20, bdefend: 16, injury: 789
+    }
+  },
+  40: { name: "throwing",
+    pic: 999, state: 9997, wait: 0, next: 1000, dvx: 0, dvy: 0, centerx: 24, centery: 37, hit_a: 0, hit_d: 0, hit_j: 0
+  },
+  60: { name: "on_ground",
+    pic: 999, state: 9997, wait: 0, next: 1000, dvx: 0, dvy: 0, centerx: 24, centery: 35, hit_a: 0, hit_d: 0, hit_j: 0
+  },
+  70: { name: "just_on_ground",
+    pic: 999, state: 9997, wait: 0, next: 1000, dvx: 0, dvy: 0, centerx: 24, centery: 38, hit_a: 0, hit_d: 0, hit_j: 0
+  },
+  100: { name: "on_hand",
+    pic: 999, state: 1001, wait: 0, next: 1000, dvx: 0, dvy: 0, centerx: 24, centery: 40, hit_a: 0, hit_d: 0, hit_j: 0,
+    wpoint: {
+      kind: 2, x: 12, y: 24, weaponact: 0, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
+    },
+    itr: {
+      kind: 5, x: 6, y: 18, w: 24, h: 15, dvx: 8, fall: 20, bdefend: 16, injury: 789
     }
   },
   399: { name: "dummy",
-    pic: 5, state: 0, wait: 2, next: 999, dvx: 0, dvy: 0, centerx: 29, centery: 56,
+    pic: 999, state: 0, wait: 0, next: 0, dvx: 0, dvy: 0, centerx: 24, centery: 30, hit_a: 0, hit_d: 0, hit_j: 0,
     bdy: {
       kind: 0, x: 1, y: 19, w: 46, h: 15
     }

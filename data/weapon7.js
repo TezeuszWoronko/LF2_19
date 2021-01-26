@@ -486,13 +486,15 @@ define({
     }
   },
   60: { name: "on_ground",
-    pic: 2, state: 1003, wait: 1, next: 61, dvx: 0, dvy: 0, centerx: 36, centery: 56, hit_a: 0, hit_d: 0, hit_j: 0, sound: "1/023"
+    pic: 2, state: 1003, wait: 1, next: 61, dvx: 0, dvy: 0, centerx: 36, centery: 56, hit_a: 0, hit_d: 0, hit_j: 0,
+    sound: "1/023"
   },
   61: { name: "on_ground",
     pic: 5, state: 1003, wait: 2, next: 62, dvx: 0, dvy: 0, centerx: 31, centery: 43, hit_a: 0, hit_d: 0, hit_j: 0
   },
   62: { name: "on_ground",
-    pic: 3, state: 1003, wait: 2, next: 63, dvx: 0, dvy: 0, centerx: 34, centery: 46, hit_a: 0, hit_d: 0, hit_j: 0, sound: "1/023"
+    pic: 3, state: 1003, wait: 2, next: 63, dvx: 0, dvy: 0, centerx: 34, centery: 46, hit_a: 0, hit_d: 0, hit_j: 0,
+    sound: "1/023"
   },
   63: { name: "on_ground",
     pic: 5, state: 1003, wait: 1, next: 64, dvx: 0, dvy: 0, centerx: 32, centery: 41, hit_a: 0, hit_d: 0, hit_j: 0
@@ -504,7 +506,8 @@ define({
     }
   },
   70: { name: "just_on_ground",
-    pic: 2, state: 1003, wait: 1, next: 71, dvx: 0, dvy: 0, centerx: 37, centery: 52, hit_a: 0, hit_d: 0, hit_j: 0, sound: "1/023",
+    pic: 2, state: 1003, wait: 1, next: 71, dvx: 0, dvy: 0, centerx: 37, centery: 52, hit_a: 0, hit_d: 0, hit_j: 0,
+    sound: "1/023",
     itr: {
       kind: 0, x: 16, y: 15, w: 39, h: 46, dvx: 2, fall: 40, arest: 16, bdefend: 16
     }
@@ -516,10 +519,25 @@ define({
     }
   },
   72: { name: "just_on_on_ground",
-    pic: 3, state: 1003, wait: 2, next: 64, dvx: 0, dvy: 0, centerx: 35, centery: 46, hit_a: 0, hit_d: 0, hit_j: 0, sound: "1/023",
+    pic: 3, state: 1003, wait: 2, next: 64, dvx: 0, dvy: 0, centerx: 35, centery: 46, hit_a: 0, hit_d: 0, hit_j: 0,
+    sound: "1/023",
     itr: {
       kind: 0, x: 10, y: 29, w: 52, h: 23, dvx: 2, fall: 40, arest: 16, bdefend: 16
     }
+  },
+  100: { name: "on_hand",
+    pic: 25, state: 1001, wait: 0, next: 0, dvx: 0, dvy: 0, centerx: 32, centery: 56, hit_a: 0, hit_d: 0, hit_j: 0,
+    wpoint: {
+      kind: 2, x: 10, y: 29, weaponact: 0, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
+    },
+    itr: [
+      {
+        kind: 5, x: 2, y: 20, w: 31, h: 18, dvx: 8, fall: 20, bdefend: 16, injury: 789
+      },
+      {
+        kind: 5, x: 29, y: 34, w: 38, h: 22, dvx: 8, fall: 20, bdefend: 16, injury: 789
+      }
+    ]
   },
   399: { name: "dummy",
     pic: 4, state: 0, wait: 0, next: 0, dvx: 0, dvy: 0, centerx: 30, centery: 44, hit_a: 0, hit_d: 0, hit_j: 0,
