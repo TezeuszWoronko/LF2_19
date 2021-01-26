@@ -119,6 +119,7 @@ function id(){//main function
 //create target selection
 //create ego wrapper
 //create moving functions/approaching/fleeing/waiting
+   if(self.uid == -1) return
    inputs();
    var o=get_objects();
    if(stage_clear){controller.keypress('right');controller.keypress('down');}
