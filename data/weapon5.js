@@ -5,122 +5,74 @@ define({
         "file(0-99)": "sprite/shuriken.png", w: 48, h: 48, row: 10, col: 10
       }
     ],
-    weapon_hp: 750,
+    weapon_hp: 400,
     weapon_drop_hurt: 48,
-    weapon_hit_sound: "1/038",
-    weapon_drop_sound: "1/038",
-    weapon_broken_sound: "1/038"
+    weapon_hit_sound: "1/079",
+    weapon_drop_sound: "1/079",
+    weapon_broken_sound: "1/079"
   },
   weapon_strength_list: {
     1: {
-      entry: "normal", dvx: 2, fall: 40, vrest: 10, bdefend: 16, injury: 40
+      entry: "normal", dvx: 2, fall: 40, vrest: 10, bdefend: 16, injury: 15
     },
     2: {
-      entry: "jump", dvx: 7, fall: 70, vrest: 10, bdefend: 16, injury: 60
+      entry: "jump", dvx: 7, fall: 70, vrest: 10, bdefend: 16, injury: 15
     },
     3: {
-      entry: "run", dvx: 10, fall: 70, vrest: 10, bdefend: 16, injury: 85
+      entry: "run", dvx: 10, fall: 70, vrest: 10, bdefend: 16, injury: 15
     },
     4: {
-      entry: "dash", dvx: 12, fall: 70, vrest: 20, bdefend: 60, injury: 100
+      entry: "dash", dvx: 12, fall: 70, vrest: 20, bdefend: 60, injury: 15
     }
   },
   frame: {
   0: { name: "in_the_sky",
-    pic: 0, state: 1000, wait: 0, next: 1, dvx: 0, dvy: 0, centerx: 24, centery: 33, hit_a: 0, hit_d: 0, hit_j: 0,
-    bdy: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19
-    }
+    pic: 0, state: 1000, wait: 0, next: 1, dvx: 0, dvy: 0, centerx: 24, centery: 33, hit_a: 0, hit_d: 0, hit_j: 0
   },
   1: { name: "in_the_sky",
-    pic: 1, state: 1000, wait: 0, next: 2, dvx: 0, dvy: 0, centerx: 24, centery: 32, hit_a: 0, hit_d: 0, hit_j: 0,
-    bdy: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19
-    }
+    pic: 1, state: 1000, wait: 0, next: 2, dvx: 0, dvy: 0, centerx: 24, centery: 32, hit_a: 0, hit_d: 0, hit_j: 0
   },
   2: { name: "in_the_sky",
-    pic: 2, state: 1000, wait: 0, next: 3, dvx: 0, dvy: 0, centerx: 24, centery: 33, hit_a: 0, hit_d: 0, hit_j: 0,
-    bdy: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19
-    }
+    pic: 2, state: 1000, wait: 0, next: 3, dvx: 0, dvy: 0, centerx: 24, centery: 33, hit_a: 0, hit_d: 0, hit_j: 0
   },
   3: { name: "in_the_sky",
-    pic: 3, state: 1000, wait: 0, next: 4, dvx: 0, dvy: 0, centerx: 23, centery: 33, hit_a: 0, hit_d: 0, hit_j: 0,
-    bdy: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19
-    }
+    pic: 3, state: 1000, wait: 0, next: 4, dvx: 0, dvy: 0, centerx: 23, centery: 33, hit_a: 0, hit_d: 0, hit_j: 0
   },
   4: { name: "in_the_sky",
-    pic: 4, state: 1000, wait: 0, next: 5, dvx: 0, dvy: 0, centerx: 24, centery: 35, hit_a: 0, hit_d: 0, hit_j: 0,
-    bdy: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19
-    }
+    pic: 4, state: 1000, wait: 0, next: 5, dvx: 0, dvy: 0, centerx: 24, centery: 35, hit_a: 0, hit_d: 0, hit_j: 0
   },
   5: { name: "in_the_sky",
-    pic: 5, state: 1000, wait: 0, next: 6, dvx: 0, dvy: 0, centerx: 24, centery: 35, hit_a: 0, hit_d: 0, hit_j: 0,
-    bdy: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19
-    }
+    pic: 5, state: 1000, wait: 0, next: 6, dvx: 0, dvy: 0, centerx: 24, centery: 35, hit_a: 0, hit_d: 0, hit_j: 0
   },
   6: { name: "in_the_sky",
-    pic: 6, state: 1000, wait: 0, next: 7, dvx: 0, dvy: 0, centerx: 24, centery: 35, hit_a: 0, hit_d: 0, hit_j: 0,
-    bdy: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19
-    }
+    pic: 6, state: 1000, wait: 0, next: 7, dvx: 0, dvy: 0, centerx: 24, centery: 35, hit_a: 0, hit_d: 0, hit_j: 0
   },
   7: { name: "in_the_sky",
-    pic: 7, state: 1000, wait: 0, next: 8, dvx: 0, dvy: 0, centerx: 23, centery: 35, hit_a: 0, hit_d: 0, hit_j: 0,
-    bdy: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19
-    }
+    pic: 7, state: 1000, wait: 0, next: 8, dvx: 0, dvy: 0, centerx: 23, centery: 35, hit_a: 0, hit_d: 0, hit_j: 0
   },
   8: { name: "in_the_sky",
-    pic: 8, state: 1000, wait: 0, next: 9, dvx: 0, dvy: 0, centerx: 26, centery: 34, hit_a: 0, hit_d: 0, hit_j: 0,
-    bdy: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19
-    }
+    pic: 8, state: 1000, wait: 0, next: 9, dvx: 0, dvy: 0, centerx: 26, centery: 34, hit_a: 0, hit_d: 0, hit_j: 0
   },
   9: { name: "in_the_sky",
-    pic: 9, state: 1000, wait: 0, next: 10, dvx: 0, dvy: 0, centerx: 24, centery: 33, hit_a: 0, hit_d: 0, hit_j: 0,
-    bdy: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19
-    }
+    pic: 9, state: 1000, wait: 0, next: 10, dvx: 0, dvy: 0, centerx: 24, centery: 33, hit_a: 0, hit_d: 0, hit_j: 0
   },
   10: { name: "in_the_sky",
-    pic: 10, state: 1000, wait: 0, next: 11, dvx: 0, dvy: 0, centerx: 25, centery: 33, hit_a: 0, hit_d: 0, hit_j: 0,
-    bdy: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19
-    }
+    pic: 10, state: 1000, wait: 0, next: 11, dvx: 0, dvy: 0, centerx: 25, centery: 33, hit_a: 0, hit_d: 0, hit_j: 0
   },
   11: { name: "in_the_sky",
-    pic: 11, state: 1000, wait: 0, next: 12, dvx: 0, dvy: 0, centerx: 24, centery: 34, hit_a: 0, hit_d: 0, hit_j: 0,
-    bdy: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19
-    }
+    pic: 11, state: 1000, wait: 0, next: 12, dvx: 0, dvy: 0, centerx: 24, centery: 34, hit_a: 0, hit_d: 0, hit_j: 0
   },
   12: { name: "in_the_sky",
-    pic: 12, state: 1000, wait: 0, next: 13, dvx: 0, dvy: 0, centerx: 25, centery: 33, hit_a: 0, hit_d: 0, hit_j: 0,
-    bdy: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19
-    }
+    pic: 12, state: 1000, wait: 0, next: 13, dvx: 0, dvy: 0, centerx: 25, centery: 33, hit_a: 0, hit_d: 0, hit_j: 0
   },
   13: { name: "in_the_sky",
-    pic: 13, state: 1000, wait: 0, next: 14, dvx: 0, dvy: 0, centerx: 25, centery: 32, hit_a: 0, hit_d: 0, hit_j: 0,
-    bdy: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19
-    }
+    pic: 13, state: 1000, wait: 0, next: 14, dvx: 0, dvy: 0, centerx: 25, centery: 32, hit_a: 0, hit_d: 0, hit_j: 0
   },
   14: { name: "in_the_sky",
-    pic: 14, state: 1000, wait: 0, next: 15, dvx: 0, dvy: 0, centerx: 24, centery: 33, hit_a: 0, hit_d: 0, hit_j: 0,
-    bdy: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19
-    }
+    pic: 14, state: 1000, wait: 0, next: 15, dvx: 0, dvy: 0, centerx: 24, centery: 33, hit_a: 0, hit_d: 0, hit_j: 0
   },
   15: { name: "in_the_sky",
-    pic: 15, state: 1000, wait: 0, next: 999, dvx: 0, dvy: 0, centerx: 24, centery: 33, hit_a: 0, hit_d: 0, hit_j: 0,
-    bdy: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19
-    }
+    pic: 15, state: 1000, wait: 0, next: 999, dvx: 0, dvy: 0, centerx: 24, centery: 33, hit_a: 0, hit_d: 0, hit_j: 0
   },
   20: { name: "on_hand",
     pic: 20, state: 1001, wait: 0, next: 0, dvx: 0, dvy: 0, centerx: 24, centery: 40, hit_a: 0, hit_d: 0, hit_j: 0,
@@ -266,178 +218,208 @@ define({
       kind: 5, x: 19, y: 23, w: 13, h: 21, dvx: 8, fall: 20, bdefend: 16, injury: 789
     }
   },
-  40: { name: "throwing",
-    pic: 0, state: 1002, wait: 0, next: 41, dvx: 0, dvy: 0, centerx: 24, centery: 37, hit_a: 0, hit_d: 0, hit_j: 0,
+  36: { name: "on_hand",
+    pic: 36, state: 1001, wait: 0, next: 0, dvx: 0, dvy: 0, centerx: 24, centery: 40, hit_a: 0, hit_d: 0, hit_j: 0,
+    wpoint: {
+      kind: 2, x: 29, y: 40, weaponact: 0, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
+    },
     itr: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 35
+      kind: 5, x: 19, y: 23, w: 13, h: 21, dvx: 8, fall: 20, bdefend: 16, injury: 789
+    }
+  },
+  40: { name: "throwing",
+    pic: 37, state: 1002, wait: 0, next: 41, dvx: 0, dvy: 0, centerx: 24, centery: 37, hit_a: 0, hit_d: 0, hit_j: 0,
+    itr: {
+      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 15, effect: 1
     },
     bdy: {
       kind: 0, x: 16, y: 16, w: 19, h: 19
     }
   },
   41: { name: "throwing",
-    pic: 1, state: 1002, wait: 0, next: 42, dvx: 0, dvy: 0, centerx: 24, centery: 35, hit_a: 0, hit_d: 0, hit_j: 0,
+    pic: 38, state: 1002, wait: 0, next: 42, dvx: 0, dvy: 0, centerx: 24, centery: 35, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 35
+      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 15, effect: 1
     },
     bdy: {
       kind: 0, x: 16, y: 16, w: 19, h: 19
     }
   },
   42: { name: "throwing",
-    pic: 2, state: 1002, wait: 0, next: 43, dvx: 0, dvy: 0, centerx: 24, centery: 36, hit_a: 0, hit_d: 0, hit_j: 0,
+    pic: 37, state: 1002, wait: 0, next: 43, dvx: 0, dvy: 0, centerx: 24, centery: 36, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 35
+      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 15, effect: 1
     },
     bdy: {
       kind: 0, x: 16, y: 16, w: 19, h: 19
     }
   },
   43: { name: "throwing",
-    pic: 3, state: 1002, wait: 0, next: 44, dvx: 0, dvy: 0, centerx: 23, centery: 36, hit_a: 0, hit_d: 0, hit_j: 0,
+    pic: 38, state: 1002, wait: 0, next: 44, dvx: 0, dvy: 0, centerx: 23, centery: 36, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 35
+      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 15, effect: 1
     },
     bdy: {
       kind: 0, x: 16, y: 16, w: 19, h: 19
     }
   },
   44: { name: "throwing",
-    pic: 4, state: 1002, wait: 0, next: 45, dvx: 0, dvy: 0, centerx: 24, centery: 38, hit_a: 0, hit_d: 0, hit_j: 0,
+    pic: 37, state: 1002, wait: 0, next: 45, dvx: 0, dvy: 0, centerx: 24, centery: 38, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 35
+      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 15, effect: 1
     },
     bdy: {
       kind: 0, x: 16, y: 16, w: 19, h: 19
     }
   },
   45: { name: "throwing",
-    pic: 5, state: 1002, wait: 0, next: 46, dvx: 0, dvy: 0, centerx: 24, centery: 37, hit_a: 0, hit_d: 0, hit_j: 0,
+    pic: 38, state: 1002, wait: 0, next: 46, dvx: 0, dvy: 0, centerx: 24, centery: 37, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 35
+      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 15, effect: 1
     },
     bdy: {
       kind: 0, x: 16, y: 16, w: 19, h: 19
     }
   },
   46: { name: "throwing",
-    pic: 6, state: 1002, wait: 0, next: 47, dvx: 0, dvy: 0, centerx: 24, centery: 39, hit_a: 0, hit_d: 0, hit_j: 0,
+    pic: 37, state: 1002, wait: 0, next: 47, dvx: 0, dvy: 0, centerx: 24, centery: 39, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 35
+      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 15, effect: 1
     },
     bdy: {
       kind: 0, x: 16, y: 16, w: 19, h: 19
     }
   },
   47: { name: "throwing",
-    pic: 7, state: 1002, wait: 0, next: 48, dvx: 0, dvy: 0, centerx: 23, centery: 38, hit_a: 0, hit_d: 0, hit_j: 0,
+    pic: 38, state: 1002, wait: 0, next: 48, dvx: 0, dvy: 0, centerx: 23, centery: 38, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 35
+      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 15, effect: 1
     },
     bdy: {
       kind: 0, x: 16, y: 16, w: 19, h: 19
     }
   },
   48: { name: "throwing",
-    pic: 8, state: 1002, wait: 0, next: 49, dvx: 0, dvy: 0, centerx: 25, centery: 37, hit_a: 0, hit_d: 0, hit_j: 0,
+    pic: 37, state: 1002, wait: 0, next: 49, dvx: 0, dvy: 0, centerx: 25, centery: 37, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 35
+      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 15, effect: 1
     },
     bdy: {
       kind: 0, x: 16, y: 16, w: 19, h: 19
     }
   },
   49: { name: "throwing",
-    pic: 9, state: 1002, wait: 0, next: 50, dvx: 0, dvy: 0, centerx: 25, centery: 37, hit_a: 0, hit_d: 0, hit_j: 0,
+    pic: 38, state: 1002, wait: 0, next: 50, dvx: 0, dvy: 0, centerx: 25, centery: 37, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 35
+      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 15, effect: 1
     },
     bdy: {
       kind: 0, x: 16, y: 16, w: 19, h: 19
     }
   },
   50: { name: "throwing",
-    pic: 10, state: 1002, wait: 0, next: 51, dvx: 0, dvy: 0, centerx: 25, centery: 37, hit_a: 0, hit_d: 0, hit_j: 0,
+    pic: 37, state: 1002, wait: 0, next: 51, dvx: 0, dvy: 0, centerx: 25, centery: 37, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 35
+      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 15, effect: 1
     },
     bdy: {
       kind: 0, x: 16, y: 16, w: 19, h: 19
     }
   },
   51: { name: "throwing",
-    pic: 11, state: 1002, wait: 0, next: 52, dvx: 0, dvy: 0, centerx: 25, centery: 37, hit_a: 0, hit_d: 0, hit_j: 0,
+    pic: 38, state: 1002, wait: 0, next: 52, dvx: 0, dvy: 0, centerx: 25, centery: 37, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 35
+      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 15, effect: 1
     },
     bdy: {
       kind: 0, x: 16, y: 16, w: 19, h: 19
     }
   },
   52: { name: "throwing",
-    pic: 12, state: 1002, wait: 0, next: 53, dvx: 0, dvy: 0, centerx: 25, centery: 37, hit_a: 0, hit_d: 0, hit_j: 0,
+    pic: 37, state: 1002, wait: 0, next: 53, dvx: 0, dvy: 0, centerx: 25, centery: 37, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 35
+      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 15, effect: 1
     },
     bdy: {
       kind: 0, x: 16, y: 16, w: 19, h: 19
     }
   },
   53: { name: "throwing",
-    pic: 13, state: 1002, wait: 0, next: 54, dvx: 0, dvy: 0, centerx: 25, centery: 36, hit_a: 0, hit_d: 0, hit_j: 0,
+    pic: 38, state: 1002, wait: 0, next: 54, dvx: 0, dvy: 0, centerx: 25, centery: 36, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 35
+      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 15, effect: 1
     },
     bdy: {
       kind: 0, x: 16, y: 16, w: 19, h: 19
     }
   },
   54: { name: "throwing",
-    pic: 14, state: 1002, wait: 0, next: 55, dvx: 0, dvy: 0, centerx: 25, centery: 36, hit_a: 0, hit_d: 0, hit_j: 0,
+    pic: 37, state: 1002, wait: 0, next: 55, dvx: 0, dvy: 0, centerx: 25, centery: 36, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 35
+      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 15, effect: 1
     },
     bdy: {
       kind: 0, x: 16, y: 16, w: 19, h: 19
     }
   },
   55: { name: "throwing",
-    pic: 15, state: 1002, wait: 0, next: 40, dvx: 0, dvy: 0, centerx: 24, centery: 36, hit_a: 0, hit_d: 0, hit_j: 0,
+    pic: 38, state: 1002, wait: 0, next: 40, dvx: 0, dvy: 0, centerx: 24, centery: 36, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
-      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 35
+      kind: 0, x: 16, y: 16, w: 19, h: 19, fall: 60, bdefend: 16, injury: 15, effect: 1
     },
     bdy: {
       kind: 0, x: 16, y: 16, w: 19, h: 19
     }
   },
   60: { name: "on_ground",
-    pic: 2, state: 1003, wait: 1, next: 61, dvx: 0, dvy: 0, centerx: 24, centery: 35, hit_a: 0, hit_d: 0, hit_j: 0, sound: "1/038"
+    pic: 2, state: 1003, wait: 1, next: 61, dvx: 550, dvy: 550, centerx: 24, centery: 29, hit_a: 0, hit_d: 0, hit_j: 0,
+    sound: "1/034"
   },
   61: { name: "on_ground",
-    pic: 5, state: 1003, wait: 2, next: 62, dvx: 0, dvy: 0, centerx: 24, centery: 34, hit_a: 0, hit_d: 0, hit_j: 0
+    pic: 5, state: 1003, wait: 2, next: 62, dvx: 550, dvy: 550, centerx: 24, centery: 31, hit_a: 0, hit_d: 0, hit_j: 0
   },
   62: { name: "on_ground",
-    pic: 3, state: 1003, wait: 2, next: 63, dvx: 0, dvy: 0, centerx: 24, centery: 31, hit_a: 0, hit_d: 0, hit_j: 0, sound: "1/038"
+    pic: 3, state: 1003, wait: 2, next: 63, dvx: 550, dvy: 550, centerx: 24, centery: 28, hit_a: 0, hit_d: 0, hit_j: 0,
+    sound: "1/034"
   },
   63: { name: "on_ground",
-    pic: 5, state: 1003, wait: 1, next: 64, dvx: 0, dvy: 0, centerx: 24, centery: 33, hit_a: 0, hit_d: 0, hit_j: 0
+    pic: 5, state: 1003, wait: 1, next: 64, dvx: 550, dvy: 550, centerx: 24, centery: 30, hit_a: 0, hit_d: 0, hit_j: 0
   },
   64: { name: "on_ground",
-    pic: 4, state: 1004, wait: 0, next: 0, dvx: 0, dvy: 0, centerx: 24, centery: 33, hit_a: 0, hit_d: 0, hit_j: 0,
+    pic: 4, state: 1004, wait: 0, next: 0, dvx: 550, dvy: 550, centerx: 24, centery: 30, hit_a: 0, hit_d: 0, hit_j: 0,
     bdy: {
       kind: 0, x: 1, y: 19, w: 46, h: 15
     }
   },
   70: { name: "just_on_ground",
-    pic: 2, state: 1003, wait: 1, next: 71, dvx: 0, dvy: 0, centerx: 24, centery: 38, hit_a: 0, hit_d: 0, hit_j: 0, sound: "1/038"
+    pic: 2, state: 1003, wait: 1, next: 71, dvx: 550, dvy: 550, centerx: 24, centery: 35, hit_a: 0, hit_d: 0, hit_j: 0,
+    sound: "1/034",
+    itr: {
+      kind: 0, x: 1, y: 19, w: 46, h: 15, dvx: 2, fall: 40, arest: 16, bdefend: 16
+    }
   },
   71: { name: "just_on_on_ground",
-    pic: 5, state: 1003, wait: 2, next: 72, dvx: 0, dvy: 0, centerx: 24, centery: 35, hit_a: 0, hit_d: 0, hit_j: 0
+    pic: 5, state: 1003, wait: 2, next: 72, dvx: 550, dvy: 550, centerx: 24, centery: 32, hit_a: 0, hit_d: 0, hit_j: 0,
+    itr: {
+      kind: 0, x: 1, y: 19, w: 46, h: 15, dvx: 2, fall: 40, arest: 16, bdefend: 16
+    }
   },
   72: { name: "just_on_on_ground",
-    pic: 3, state: 1003, wait: 2, next: 64, dvx: 0, dvy: 0, centerx: 24, centery: 34, hit_a: 0, hit_d: 0, hit_j: 0, sound: "1/038"
+    pic: 3, state: 1003, wait: 2, next: 64, dvx: 550, dvy: 550, centerx: 24, centery: 31, hit_a: 0, hit_d: 0, hit_j: 0,
+    sound: "1/034",
+    itr: {
+      kind: 0, x: 1, y: 19, w: 46, h: 15, dvx: 2, fall: 40, arest: 16, bdefend: 16
+    }
   },
-  
+  100: { name: "on_hand",
+    pic: 25, state: 1001, wait: 0, next: 0, dvx: 0, dvy: 0, centerx: 24, centery: 40, hit_a: 0, hit_d: 0, hit_j: 0,
+    wpoint: {
+      kind: 2, x: 12, y: 23, weaponact: 0, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
+    },
+    itr: {
+      kind: 5, x: 6, y: 18, w: 24, h: 15, dvx: 8, fall: 20, bdefend: 16, injury: 789
+    }
+  },
   399: { name: "dummy",
     pic: 4, state: 0, wait: 0, next: 0, dvx: 0, dvy: 0, centerx: 24, centery: 30, hit_a: 0, hit_d: 0, hit_j: 0,
     bdy: {

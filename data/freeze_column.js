@@ -279,58 +279,73 @@ define({
     }
   },
   150: { name: "whirlwind",
-    pic: 28, state: 15, wait: 2, next: 151, dvx: -2, dvy: 0, dvz: 0, centerx: 82, centery: 144, hit_a: 0, hit_d: 0, hit_j: 0,
-    sound: "1/073"
+    pic: 28, state: 15, wait: 2, next: 151, dvx: 20, dvy: 0, dvz: 0, centerx: 82, centery: 144, hit_a: 0, hit_d: 0, hit_j: 0,
+    sound: "1/073",
+    itr: {
+      kind: 15, x: 15, y: 21, w: 128, h: 170, dvx: -12, dvy: -18, fall: 70, vrest: 200, bdefend: 16, injury: 75, zwidth: 30, effect: 3
+    }
   },
   151: { name: "whirlwind",
-    pic: 29, state: 15, wait: 2, next: 152, dvx: -2, dvy: 0, dvz: 0, centerx: 82, centery: 144, hit_a: 0, hit_d: 0, hit_j: 0,
+    pic: 29, state: 15, wait: 2, next: 152, dvx: 20, dvy: 0, dvz: 0, centerx: 82, centery: 144, hit_a: 0, hit_d: 0, hit_j: 0,
     opoint: {
       kind: 1, x: 82, y: 144, action: 170, dvx: 0, dvy: 0, oid: 212, facing: 0
+    },
+    itr: {
+      kind: 15, x: 15, y: 21, w: 128, h: 170, dvx: -12, dvy: -18, fall: 70, vrest: 200, bdefend: 16, injury: 75, zwidth: 30, effect: 3
     }
   },
   152: { name: "whirlwind",
-    pic: 30, state: 15, wait: 1, next: 153, dvx: -2, dvy: 0, dvz: 0, centerx: 82, centery: 144, hit_a: 0, hit_d: 0, hit_j: 0
+    pic: 30, state: 15, wait: 1, next: 153, dvx: 20, dvy: 0, dvz: 0, centerx: 82, centery: 144, hit_a: 0, hit_d: 0, hit_j: 0,
+    itr: {
+      kind: 15, x: 15, y: 21, w: 128, h: 170, dvx: -12, dvy: -18, fall: 70, vrest: 200, bdefend: 16, injury: 75, zwidth: 30, effect: 3
+    }
   },
   153: { name: "whirlwind",
-    pic: 31, state: 15, wait: 1, next: 154, dvx: -2, dvy: 0, dvz: 0, centerx: 82, centery: 144, hit_a: 0, hit_d: 0, hit_j: 0,
+    pic: 31, state: 15, wait: 1, next: 154, dvx: 20, dvy: 0, dvz: 0, centerx: 82, centery: 144, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
-      kind: 15, x: 15, y: 21, w: 128, h: 170, dvx: -12, dvy: -18, fall: 70, vrest: 200, bdefend: 16, injury: 75, zwidth: 30
+      kind: 15, x: 15, y: 21, w: 128, h: 170, dvx: -12, dvy: -18, fall: 70, vrest: 200, bdefend: 16, injury: 75, zwidth: 30, effect: 3
     }
   },
   154: { name: "whirlwind",
-    pic: 32, state: 15, wait: 1, next: 155, dvx: -2, dvy: 0, dvz: 0, centerx: 82, centery: 144, hit_a: 0, hit_d: 0, hit_j: 0,
+    pic: 32, state: 15, wait: 1, next: 155, dvx: 20, dvy: 0, dvz: 0, centerx: 82, centery: 144, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
-      kind: 15, x: 15, y: 21, w: 128, h: 170, dvx: -12, dvy: -18, fall: 70, vrest: 200, bdefend: 16, injury: 75, zwidth: 30
+      kind: 15, x: 15, y: 21, w: 128, h: 170, dvx: -12, dvy: -18, fall: 70, vrest: 200, bdefend: 16, injury: 75, zwidth: 30, effect: 3
     }
   },
   155: { name: "whirlwind",
-    pic: 33, state: 15, wait: 1, next: 156, dvx: -2, dvy: 0, dvz: 0, centerx: 82, centery: 144, hit_a: 0, hit_d: 0, hit_j: 0,
+    pic: 33, state: 15, wait: 1, next: 156, dvx: 20, dvy: 0, dvz: 0, centerx: 82, centery: 144, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
-      kind: 15, x: 15, y: 21, w: 128, h: 170, dvx: -12, dvy: -18, fall: 70, vrest: 200, bdefend: 16, injury: 75, zwidth: 30
+      kind: 15, x: 15, y: 21, w: 128, h: 170, dvx: -12, dvy: -18, fall: 70, vrest: 200, bdefend: 16, injury: 75, zwidth: 30, effect: 3
     }
   },
   156: { name: "whirlwind",
-    pic: 34, state: 15, wait: 1, next: 157, dvx: -2, dvy: 0, dvz: 0, centerx: 82, centery: 144, hit_a: 0, hit_d: 0, hit_j: 0,
+    pic: 34, state: 15, wait: 1, next: 157, dvx: 20, dvy: 0, dvz: 0, centerx: 82, centery: 144, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
-      kind: 15, x: 15, y: 21, w: 128, h: 170, dvx: -12, dvy: -18, fall: 70, vrest: 200, bdefend: 16, injury: 75, zwidth: 30
+      kind: 15, x: 15, y: 21, w: 128, h: 170, dvx: -12, dvy: -18, fall: 70, vrest: 200, bdefend: 16, injury: 75, zwidth: 30, effect: 3
     }
   },
   157: { name: "whirlwind",
-    pic: 35, state: 15, wait: 1, next: 154, dvx: -2, dvy: 0, dvz: 0, centerx: 82, centery: 144, hit_a: 50, hit_d: 158, hit_j: 0,
+    pic: 35, state: 15, wait: 1, next: 154, dvx: 20, dvy: 0, dvz: 0, centerx: 82, centery: 144, hit_a: 50, hit_d: 158, hit_j: 0,
     itr: {
-      kind: 15, x: 15, y: 21, w: 128, h: 170, dvx: -12, dvy: -18, fall: 70, vrest: 200, bdefend: 16, injury: 75, zwidth: 30
+      kind: 15, x: 15, y: 21, w: 128, h: 170, dvx: -12, dvy: -18, fall: 70, vrest: 200, bdefend: 16, injury: 75, zwidth: 30, effect: 3
     }
   },
   158: { name: "whirlwind",
-    pic: 36, state: 15, wait: 2, next: 159, dvx: -2, dvy: 0, dvz: 0, centerx: 82, centery: 144, hit_a: 0, hit_d: 0, hit_j: 0
+    pic: 36, state: 15, wait: 2, next: 159, dvx: -2, dvy: 0, dvz: 0, centerx: 82, centery: 144, hit_a: 0, hit_d: 0, hit_j: 0,
+    itr: {
+      kind: 15, x: 15, y: 21, w: 128, h: 170, dvx: -12, dvy: -18, fall: 70, vrest: 200, bdefend: 16, injury: 75, zwidth: 30, effect: 3
+    }
   },
   159: { name: "whirlwind",
-    pic: 37, state: 15, wait: 2, next: 1000, dvx: -2, dvy: 0, dvz: 0, centerx: 82, centery: 144, hit_a: 0, hit_d: 0, hit_j: 0
+    pic: 37, state: 15, wait: 2, next: 1000, dvx: -2, dvy: 0, dvz: 0, centerx: 82, centery: 144, hit_a: 0, hit_d: 0, hit_j: 0,
+    itr: {
+      kind: 15, x: 15, y: 21, w: 128, h: 170, dvx: -12, dvy: -18, fall: 70, vrest: 200, bdefend: 16, injury: 75, zwidth: 30, effect: 3
+    }
   },
   170: { name: "whirlwind",
     pic: 6, state: 15, wait: 50, next: 1000, dvx: -2, dvy: 0, dvz: 0, centerx: 82, centery: 144, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
-      kind: 16, x: 15, y: 21, w: 128, h: 170, dvx: -12, dvy: -18, fall: 70, vrest: 100, bdefend: 16, injury: 75, zwidth: 30
+      kind: 16, x: 15, y: 21, w: 128, h: 170, dvx: -12, dvy: -18, fall: 70, vrest: 100, bdefend: 16, injury: 75, zwidth: 30, effect: 3
     }
   },
   399: { name: "dummy",
