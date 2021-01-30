@@ -5,6 +5,28 @@
 define(function()
 {
 
+var TYPE={};
+
+TYPE['lightweapon'] = {
+	mass: 0.3,
+	just_throw: true,
+	run_throw: true,
+	jump_throw: true,
+	dash_throw: true
+}
+TYPE['character'] = {
+
+}
+TYPE['heavyweapon'] = {
+
+}
+TYPE['specialattack'] = {
+
+}
+TYPE['effect'] = {
+	
+}
+
 var ID={};
 
 // 1: Deep
@@ -13,16 +35,7 @@ ID[1]=
 	//hp:500,mp:500 //optional
 };
 
-// 30: Bandit
-ID[30]=
-{
-	dash_backattack: false, //can attack while dashing and turned back
-	heavy_weapon_dash: false,//extended standard; can dash while holding a heavy weapon
-	heavy_weapon_jump: false //extended standard; can jump while holding a heavy weapon
-};
-
-// lightweapon		id from 100~149
-
+// lightweapon
 ID[100]= //stick (baseball bat)
 {
 	mass: 0.3,
@@ -42,6 +55,14 @@ ID[101]= //hoe
 	attackable: true,
 	run_throw: true,
 	jump_throw: true
+};
+ID[121]= //shuriken
+{
+	mass: 0.3,
+	just_throw: true,
+	run_throw: true,
+	jump_throw: true,
+	dash_throw: true
 };
 
 // heavyweapon		id from 150~199
@@ -86,6 +107,9 @@ ID[302]= //fire
 	oscillate: 3 //oscillation amplitude
 };
 
-return ID;
+return {
+	ID: ID,
+	TYPE: TYPE
+}
 
 });
