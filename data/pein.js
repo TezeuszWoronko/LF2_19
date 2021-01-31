@@ -926,7 +926,7 @@ define({
         kind: 0, x: 21, y: 80000, w: 43, h: 62
       },
       {
-        kind: "0	x", y: -444444444, w: 9999999999999, h: 1000
+        kind: 0, x: -99999999, y: -444444444, w: 9999999999999, h: 1000
       }
     ]
   },
@@ -946,7 +946,7 @@ define({
         kind: 0, x: 21, y: 80000, w: 43, h: 62
       },
       {
-        kind: "0	x", y: -444444444, w: 9999999999999, h: 1000
+        kind: 0, x: -99999999, y: -444444444, w: 9999999999999, h: 1000
       }
     ]
   },
@@ -966,7 +966,7 @@ define({
         kind: 0, x: 21, y: 80000, w: 43, h: 62
       },
       {
-        kind: "0	x", y: -444444444, w: 9999999999999, h: 1000
+        kind: 0, x: -99999999, y: -444444444, w: 9999999999999, h: 1000
       }
     ]
   },
@@ -979,7 +979,7 @@ define({
       kind: 1, x: 35, y: 46, weaponact: 22, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
     },
     bdy: {
-      kind: "0	x", y: -444444444, w: 9999999999999, h: 1000
+      kind: 0, x: -99999999, y: -444444444, w: 9999999999999, h: 1000
     }
   },
   134: { name: "picked_caught",
@@ -991,7 +991,7 @@ define({
       kind: 1, x: 41, y: 36, weaponact: 21, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
     },
     bdy: {
-      kind: "0	x", y: -444444444, w: 9999999999999, h: 1000
+      kind: 0, x: -99999999, y: -444444444, w: 9999999999999, h: 1000
     }
   },
   135: { name: "picked_caught",
@@ -1003,7 +1003,7 @@ define({
       kind: 1, x: 40, y: 39, weaponact: 21, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
     },
     bdy: {
-      kind: "0	x", y: -444444444, w: 9999999999999, h: 1000
+      kind: 0, x: -99999999, y: -444444444, w: 9999999999999, h: 1000
     }
   },
   136: { name: "picked_caught",
@@ -1015,7 +1015,7 @@ define({
       kind: 1, x: 24, y: 32, weaponact: 33, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
     },
     bdy: {
-      kind: "0	x", y: -444444444, w: 9999999999999, h: 1000
+      kind: 0, x: -99999999, y: -444444444, w: 9999999999999, h: 1000
     }
   },
   137: { name: "picked_caught",
@@ -1031,7 +1031,7 @@ define({
         kind: 0, x: 21, y: 80000, w: 43, h: 62
       },
       {
-        kind: "0	x", y: -444444444, w: 9999999999999, h: 1000
+        kind: 0, x: -99999999, y: -444444444, w: 9999999999999, h: 1000
       }
     ],
     wpoint: {
@@ -1047,7 +1047,7 @@ define({
       kind: 1, x: 38, y: 64, weaponact: 31, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
     },
     bdy: {
-      kind: "0	x", y: -444444444, w: 9999999999999, h: 1000
+      kind: 0, x: -99999999, y: -444444444, w: 9999999999999, h: 1000
     }
   },
   139: { name: "picked_caught",
@@ -1059,7 +1059,7 @@ define({
       kind: 1, x: 22, y: 47, weaponact: 35, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
     },
     bdy: {
-      kind: "0	x", y: -444444444, w: 9999999999999, h: 1000
+      kind: 0, x: -99999999, y: -444444444, w: 9999999999999, h: 1000
     }
   },
   140: { name: "picked_caught",
@@ -1071,7 +1071,7 @@ define({
       kind: 1, x: 23, y: 43, weaponact: 20, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
     },
     bdy: {
-      kind: "0	x", y: -444444444, w: 9999999999999, h: 1000
+      kind: 0, x: -99999999, y: -444444444, w: 9999999999999, h: 1000
     }
   },
   141: { name: "picked_caught",
@@ -1083,7 +1083,7 @@ define({
       kind: 1, x: 30, y: 43, weaponact: 23, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
     },
     bdy: {
-      kind: "0	x", y: -444444444, w: 9999999999999, h: 1000
+      kind: 0, x: -99999999, y: -444444444, w: 9999999999999, h: 1000
     }
   },
   142: { name: "picked_caught",
@@ -1095,7 +1095,7 @@ define({
       kind: 1, x: 32, y: 50, weaponact: 26, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
     },
     bdy: {
-      kind: "0	x", y: -444444444, w: 9999999999999, h: 1000
+      kind: 0, x: -99999999, y: -444444444, w: 9999999999999, h: 1000
     }
   },
   143: { name: "picked_caught",
@@ -1107,7 +1107,7 @@ define({
       kind: 1, x: 30, y: 74, weaponact: 24, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
     },
     bdy: {
-      kind: "0	x", y: -444444444, w: 9999999999999, h: 1000
+      kind: 0, x: -99999999, y: -444444444, w: 9999999999999, h: 1000
     }
   },
   144: { name: "picked_caught",
@@ -1119,7 +1119,7 @@ define({
       kind: 1, x: 39, y: 67, weaponact: 25, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
     },
     bdy: {
-      kind: "0	x", y: -444444444, w: 9999999999999, h: 1000
+      kind: 0, x: -99999999, y: -444444444, w: 9999999999999, h: 1000
     }
   },
   145: { name: "watcher",
@@ -1531,7 +1531,7 @@ define({
         kind: 0, x: 29, y: 41, w: 20, h: 37
       },
       {
-        kind: "0	x", y: -444444444, w: 9999999999999, h: 1000
+        kind: 0, x: -99999999, y: -444444444, w: 9999999999999, h: 1000
       }
     ]
   },
@@ -1563,7 +1563,7 @@ define({
         kind: 0, x: 25, y: 53, w: 40, h: 27
       },
       {
-        kind: "0	x", y: -444444444, w: 9999999999999, h: 1000
+        kind: 0, x: -99999999, y: -444444444, w: 9999999999999, h: 1000
       }
     ]
   },
@@ -1594,7 +1594,7 @@ define({
         kind: 0, x: 52, y: 38, w: 20, h: 19
       },
       {
-        kind: "0	x", y: -444444444, w: 9999999999999, h: 1000
+        kind: 0, x: -99999999, y: -444444444, w: 9999999999999, h: 1000
       }
     ]
   },
@@ -1620,7 +1620,7 @@ define({
         kind: 0, x: 27, y: 22, w: 42, h: 58
       },
       {
-        kind: "0	x", y: -444444444, w: 9999999999999, h: 1000
+        kind: 0, x: -99999999, y: -444444444, w: 9999999999999, h: 1000
       }
     ]
   },
@@ -1846,14 +1846,14 @@ define({
     sound: "1/017",
     itr: {
       kind: 3, x: 10, y: 16, w: 50, zwidth: 55, h: 65,
-      catchingact: [267, 267]
+      catchingact: [267, 267], caughtact: [130, 130]
     }
   },
   263: { name: "stab",
     pic: 45, state: 15, wait: 2, next: 264, dvx: 50, dvy: 0, centerx: 39, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 3, x: 10, y: 16, w: 50, h: 65, zwidth: 55,
-      catchingact: [267, 267]
+      catchingact: [267, 267], caughtact: [130, 130]
     }
   },
   264: { name: "stab_finish",
@@ -2263,7 +2263,7 @@ define({
   323: { name: "counter-trigger",
     pic: 999, state: 3, wait: 1, next: 1000, dvx: 0, dvy: 0, centerx: 39, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0,
     bdy: {
-      kind: "0	x", y: -444444444, w: 9999999999999, h: 1000
+      kind: 0, x: -99999999, y: -444444444, w: 9999999999999, h: 1000
     }
   },
   324: { name: "god_realm",
@@ -2527,7 +2527,7 @@ define({
     sound: "1/017",
     itr: {
       kind: 3, x: 10, y: 16, w: 30, h: 65, zwidth: 15,
-      catchingact: [404, 404]
+      catchingact: [404, 404], caughtact: [130, 130]
     }
   },
   403: { name: "sixpathsstab",

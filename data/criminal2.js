@@ -5,13 +5,13 @@ define({
         "file(0)": "sprite/start.png", w: 795, h: 506, row: 1, col: 1
       },
       {
-        "file(1-9)": "sprite//texts1.png", w: 531, h: 399, row: 3, col: 3
+        "file(1-9)": "sprite/texts1.png", w: 531, h: 399, row: 3, col: 3
       },
       {
-        "file(10-18)": "sprite//texts2.png", w: 531, h: 399, row: 3, col: 3
+        "file(10-18)": "sprite/texts2.png", w: 531, h: 399, row: 3, col: 3
       },
       {
-        "file(19-29)": "sprite//texts3.png", w: 531, h: 399, row: 3, col: 3
+        "file(19-29)": "sprite/texts3.png", w: 531, h: 399, row: 3, col: 3
       }
     ]
   },

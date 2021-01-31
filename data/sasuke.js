@@ -2,16 +2,16 @@ define({
   bmp: {
     file: [
       {
-        "file(0-69)": "sprite//sasuke_0.png", w: 79, h: 79, row: 10, col: 7
+        "file(0-69)": "sprite/sasuke_0.png", w: 79, h: 79, row: 10, col: 7
       },
       {
-        "file(70-139)": "sprite//deidara_2.png", w: 79, h: 79, row: 10, col: 7
+        "file(70-139)": "sprite/deidara_2.png", w: 79, h: 79, row: 10, col: 7
       },
       {
-        "file(140-148)": "sprite//sasuke_2.png", w: 155, h: 95, row: 3, col: 3
+        "file(140-148)": "sprite/sasuke_2.png", w: 155, h: 95, row: 3, col: 3
       },
       {
-        "file(149-159)": "sprite//sasuke_3.png", w: 79, h: 79, row: 10, col: 1
+        "file(149-159)": "sprite/sasuke_3.png", w: 79, h: 79, row: 10, col: 1
       }
     ],
     name: "Sasuke",

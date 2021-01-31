@@ -17,7 +17,7 @@ define({
         "file(17)": "sprite/sharingan4_b.png", w: 880, h: 569, row: 1, col: 1
       },
       {
-        "file(18)": "sprite//mists.png", w: 4000, h: 800, row: 1, col: 1
+        "file(18)": "sprite/mists.png", w: 4000, h: 800, row: 1, col: 1
       },
       {
         "file(19)": "sprite/black.png", w: 4000, h: 800, row: 1, col: 1

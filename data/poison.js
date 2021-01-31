@@ -5,10 +5,10 @@ define({
         "file(0-50)": "sprite/amaterasu.png", w: 110, h: 170, row: 5, col: 10
       },
       {
-        "file(51-67)": "sprite//sand2.png", w: 265, h: 190, row: 3, col: 6
+        "file(51-67)": "sprite/sand2.png", w: 265, h: 190, row: 3, col: 6
       },
       {
-        "file(68-137)": "sprite//timer.png", w: 79, h: 79, row: 10, col: 2
+        "file(68-137)": "sprite/timer.png", w: 79, h: 79, row: 10, col: 2
       }
     ],
     weapon_hit_sound: "1/020"
@@ -363,14 +363,14 @@ define({
     pic: 27, state: 3006, wait: 10, next: 118, dvx: 0, dvy: 0, centerx: 54, centery: 170, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 3, x: 35, y: 80000, w: 37, h: 200, zwidth: 16,
-      catchingact: [119, 119]
+      catchingact: [119, 119], caughtact: [130, 130]
     }
   },
   118: { name: "wood_trap",
     pic: 38, state: 3006, wait: 1, next: 130, dvx: 60, dvy: 0, centerx: 54, centery: 170, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 3, x: 35, y: 80000, w: 37, h: 200, zwidth: 16,
-      catchingact: [119, 119]
+      catchingact: [119, 119], caughtact: [130, 130]
     }
   },
   119: { name: "wood_trap",
@@ -499,14 +499,14 @@ define({
     pic: 39, state: 3006, wait: 1, next: 131, dvx: 60, dvy: 0, centerx: 54, centery: 170, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 3, x: 35, y: 80000, w: 37, h: 200, zwidth: 16,
-      catchingact: [119, 119]
+      catchingact: [119, 119], caughtact: [130, 130]
     }
   },
   131: { name: "wood_trap",
     pic: 40, state: 3006, wait: 1, next: 118, dvx: 60, dvy: 0, centerx: 54, centery: 170, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 3, x: 35, y: 80000, w: 37, h: 200, zwidth: 16,
-      catchingact: [119, 119]
+      catchingact: [119, 119], caughtact: [130, 130]
     }
   },
   160: { name: "wood_attack",
@@ -766,7 +766,7 @@ define({
     pic: 999, state: 3005, wait: 1, next: 317, dvx: 65, dvy: 0, centerx: 54, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 3, x: 60, y: 80000, w: 50, h: 65,
-      catchingact: [320, 320]
+      catchingact: [320, 320], caughtact: [130, 130]
     }
   },
   317: { name: "snake",

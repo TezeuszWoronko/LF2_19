@@ -236,7 +236,7 @@ define({
     pic: 24, state: 3000, wait: 1, next: 78, dvx: 20, dvy: 0, centerx: 57, centery: 155, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 3, x: 45, y: 75, w: 70, h: 65,
-      catchingact: [85, 85]
+      catchingact: [85, 85], caughtact: [130, 130]
     }
   },
   78: { name: "water_clone",
@@ -250,21 +250,21 @@ define({
     pic: 24, state: 3000, wait: 1, next: 80, dvx: 20, dvy: 0, centerx: 57, centery: 155, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 3, x: 45, y: 75, w: 70, h: 65,
-      catchingact: [85, 85]
+      catchingact: [85, 85], caughtact: [130, 130]
     }
   },
   80: { name: "water_clone",
     pic: 25, state: 3000, wait: 0, next: 81, dvx: 20, dvy: 0, centerx: 57, centery: 155, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 3, x: 45, y: 75, w: 70, h: 65,
-      catchingact: [85, 85]
+      catchingact: [85, 85], caughtact: [130, 130]
     }
   },
   81: { name: "water_clone",
     pic: 25, state: 3000, wait: 1, next: 82, dvx: 0, dvy: 0, centerx: 57, centery: 155, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 3, x: 45, y: 75, w: 70, h: 65,
-      catchingact: [85, 85]
+      catchingact: [85, 85], caughtact: [130, 130]
     }
   },
   82: { name: "water_clone",
@@ -274,7 +274,7 @@ define({
     },
     itr: {
       kind: 3, x: 45, y: 75, w: 70, h: 65,
-      catchingact: [85, 85]
+      catchingact: [85, 85], caughtact: [130, 130]
     }
   },
   85: { name: "water_clone_catch",

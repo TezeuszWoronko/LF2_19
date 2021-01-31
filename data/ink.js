@@ -136,21 +136,21 @@ define({
     pic: 24, state: 3003, wait: 3, next: 63, dvx: 18, dvy: 550, dvz: 0, centerx: 60, centery: 67, hit_a: 0, hit_d: 0, hit_j: 0, hit_Fa: 3,
     itr: {
       kind: 3, x: 60, y: 16, w: 30, h: 65,
-      catchingact: [65, 65]
+      catchingact: [65, 65], caughtact: [130, 130]
     }
   },
   63: { name: "snake",
     pic: 25, state: 3003, wait: 3, next: 64, dvx: 18, dvy: 550, dvz: 0, centerx: 60, centery: 67, hit_a: 0, hit_d: 0, hit_j: 0, hit_Fa: 3,
     itr: {
       kind: 3, x: 60, y: 16, w: 30, h: 65,
-      catchingact: [65, 65]
+      catchingact: [65, 65], caughtact: [130, 130]
     }
   },
   64: { name: "snake",
     pic: 26, state: 3003, wait: 3, next: 62, dvx: 18, dvy: 550, dvz: 0, centerx: 60, centery: 67, hit_a: 0, hit_d: 0, hit_j: 0, hit_Fa: 3,
     itr: {
       kind: 3, x: 60, y: 16, w: 30, h: 65,
-      catchingact: [65, 65]
+      catchingact: [65, 65], caughtact: [130, 130]
     }
   },
   65: { name: "snake_caught",

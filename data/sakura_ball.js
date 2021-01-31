@@ -2,13 +2,13 @@ define({
   bmp: {
     file: [
       {
-        "file(0-39)": "sprite//sakura_ball.png", w: 81, h: 82, row: 8, col: 5
+        "file(0-39)": "sprite/sakura_ball.png", w: 81, h: 82, row: 8, col: 5
       },
       {
-        "file(40-45)": "sprite//kami.png", w: 230, h: 230, row: 3, col: 2
+        "file(40-45)": "sprite/kami.png", w: 230, h: 230, row: 3, col: 2
       },
       {
-        "file(46-100)": "sprite//evil.png", w: 115, h: 80, row: 7, col: 6
+        "file(46-100)": "sprite/evil.png", w: 115, h: 80, row: 7, col: 6
       }
     ]
   },

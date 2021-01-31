@@ -3200,7 +3200,7 @@ define({
     },
     itr: {
       kind: 3, x: 60, y: 16, w: 25, h: 65,
-      catchingact: [319, 319]
+      catchingact: [319, 319], caughtact: [130, 130]
     },
     wpoint: {
       kind: 1, x: 45, y: 51, weaponact: 35, attacking: 0, cover: 1, dvx: 0, dvy: 0, dvz: 0

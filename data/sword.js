@@ -387,7 +387,7 @@ define({
     pic: 999, state: 3005, wait: 3, next: 1000, dvx: 0, dvy: 0, centerx: 54, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 3, x: 0, y: 16, w: 10, h: 65,
-      catchingact: [165, 165]
+      catchingact: [165, 165], caughtact: [130, 130]
     }
   },
   165: { name: "hiting2",

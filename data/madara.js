@@ -1710,7 +1710,7 @@ define({
     },
     itr: {
       kind: 3, x: 61, y: 31, w: 40, h: 49, zwidth: 15,
-      catchingact: [160, 160]
+      catchingact: [160, 160], caughtact: [130, 130]
     },
     bdy: [
       {
@@ -1728,7 +1728,7 @@ define({
     },
     itr: {
       kind: 3, x: 61, y: 31, w: 40, h: 49, zwidth: 15,
-      catchingact: [160, 160]
+      catchingact: [160, 160], caughtact: [130, 130]
     },
     bdy: [
       {
@@ -1746,7 +1746,7 @@ define({
     },
     itr: {
       kind: 3, x: 61, y: 31, w: 40, h: 49, zwidth: 15,
-      catchingact: [160, 160]
+      catchingact: [160, 160], caughtact: [130, 130]
     },
     bdy: [
       {
@@ -3023,7 +3023,7 @@ define({
     },
     itr: {
       kind: 3, x: 61, y: 31, w: 30, h: 49, zwidth: 10,
-      catchingact: [288, 288]
+      catchingact: [288, 288], caughtact: [130, 130]
     },
     bdy: [
       {
@@ -3041,7 +3041,7 @@ define({
     },
     itr: {
       kind: 3, x: 61, y: 31, w: 30, h: 49, zwidth: 10,
-      catchingact: [288, 288]
+      catchingact: [288, 288], caughtact: [130, 130]
     },
     bdy: [
       {

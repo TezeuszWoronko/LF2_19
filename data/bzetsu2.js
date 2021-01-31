@@ -9,7 +9,7 @@ define({
       }
     ],
     name: "White_Zetsu",
-    head: "sprite//wzetsu_f.png",
+    head: "sprite/wzetsu_f.png",
     small: "sprite/wzetsu_s.png",
     walking_frame_rate: 3,
     walking_speed: 4,
@@ -1170,7 +1170,7 @@ define({
     },
     itr: {
       kind: 3, x: 61, y: 31, w: 40, h: 49, zwidth: 15,
-      catchingact: [160, 160]
+      catchingact: [160, 160], caughtact: [130, 130]
     },
     bdy: [
       {
@@ -1188,7 +1188,7 @@ define({
     },
     itr: {
       kind: 3, x: 61, y: 31, w: 40, h: 49, zwidth: 15,
-      catchingact: [160, 160]
+      catchingact: [160, 160], caughtact: [130, 130]
     },
     bdy: [
       {
@@ -1206,7 +1206,7 @@ define({
     },
     itr: {
       kind: 3, x: 61, y: 31, w: 40, h: 49, zwidth: 15,
-      catchingact: [160, 160]
+      catchingact: [160, 160], caughtact: [130, 130]
     },
     bdy: [
       {

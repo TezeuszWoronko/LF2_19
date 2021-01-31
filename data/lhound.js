@@ -23,7 +23,7 @@ define({
         "file(18-37)": "sprite/edotensei.png", w: 79, h: 79, row: 10, col: 2
       },
       {
-        "file(38)": "sprite//underwater.png", w: 4000, h: 800, row: 1, col: 1
+        "file(38)": "sprite/underwater.png", w: 4000, h: 800, row: 1, col: 1
       },
       {
         "file(39-79)": "sprite/small.png", w: 79, h: 79, row: 10, col: 4

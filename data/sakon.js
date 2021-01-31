@@ -2418,7 +2418,7 @@ define({
     ],
     itr: {
       kind: 3, x: 30, y: 16, zwidth: 12, w: 25, h: 65,
-      catchingact: [293, 293]
+      catchingact: [293, 293], caughtact: [130, 130]
     }
   },
   291: { name: "grab_rape",
@@ -2739,7 +2739,7 @@ define({
     ],
     itr: {
       kind: 3, x: 30, y: 16, zwidth: 5, w: 25, h: 65,
-      catchingact: [315, 315]
+      catchingact: [315, 315], caughtact: [130, 130]
     }
   },
   326: { name: "grab_toss",
@@ -2758,7 +2758,7 @@ define({
     ],
     itr: {
       kind: 3, x: 30, y: 16, zwidth: 5, w: 25, h: 65,
-      catchingact: [315, 315]
+      catchingact: [315, 315], caughtact: [130, 130]
     }
   },
   350: { name: "jiro",

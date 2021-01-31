@@ -1815,7 +1815,8 @@ define({
       kind: 1, x: 39, y: 39, weaponact: 21, attacking: 0, cover: 1, dvx: 0, dvy: 0, dvz: 0
     },
     itr: {
-      kind: "3 x"
+      kind: 3, x: 49, y: 10, w: 44, h: 67,
+      catchingact: [244, 244], caughtact: [130, 130]
     }
   },
   243: { name: "arm_grab",
@@ -1832,7 +1833,8 @@ define({
       kind: 1, x: 39, y: 39, weaponact: 21, attacking: 0, cover: 1, dvx: 0, dvy: 0, dvz: 0
     },
     itr: {
-      kind: "3 x"
+      kind: 3, x: 49, y: 10, w: 44, h: 67,
+      catchingact: [244, 244], caughtact: [130, 130]
     }
   },
   244: { name: "arm_grab",
@@ -2921,7 +2923,7 @@ define({
     ],
     itr: {
       kind: 3, x: 81, y: 80000, w: 29, h: 100,
-      catchingact: [150, 150]
+      catchingact: [150, 150], caughtact: [130, 130]
     },
     wpoint: {
       kind: 1, x: 39, y: -999, weaponact: 21, attacking: 0, cover: 1, dvx: 0, dvy: 0, dvz: 0
@@ -2939,7 +2941,7 @@ define({
     ],
     itr: {
       kind: 3, x: 114, y: 80000, w: 30, h: 100,
-      catchingact: [150, 150]
+      catchingact: [150, 150], caughtact: [130, 130]
     },
     wpoint: {
       kind: 1, x: 39, y: -999, weaponact: 21, attacking: 0, cover: 1, dvx: 0, dvy: 0, dvz: 0
@@ -2957,7 +2959,7 @@ define({
     ],
     itr: {
       kind: 3, x: 157, y: 80000, w: 38, h: 100,
-      catchingact: [150, 150]
+      catchingact: [150, 150], caughtact: [130, 130]
     },
     wpoint: {
       kind: 1, x: 39, y: -999, weaponact: 21, attacking: 0, cover: 1, dvx: 0, dvy: 0, dvz: 0

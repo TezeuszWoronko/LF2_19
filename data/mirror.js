@@ -203,35 +203,35 @@ define({
     pic: 28, state: 3005, wait: 1, next: 81, dvx: 550, dvy: 550, dvz: 550, centerx: 45, centery: 110, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 3, x: 7, y: 80088, w: 76, h: 33, zwidth: 20,
-      catchingact: [85, 85]
+      catchingact: [85, 85], caughtact: [130, 130]
     }
   },
   81: { name: "ice_field",
     pic: 29, state: 3005, wait: 1, next: 82, dvx: 550, dvy: 550, dvz: 550, centerx: 45, centery: 110, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 3, x: 7, y: 80088, w: 76, h: 33, zwidth: 20,
-      catchingact: [85, 85]
+      catchingact: [85, 85], caughtact: [130, 130]
     }
   },
   82: { name: "ice_field",
     pic: 30, state: 3005, wait: 3, next: 83, dvx: 550, dvy: 550, dvz: 550, centerx: 45, centery: 110, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 3, x: 7, y: 80088, w: 76, h: 33, zwidth: 20,
-      catchingact: [85, 85]
+      catchingact: [85, 85], caughtact: [130, 130]
     }
   },
   83: { name: "ice_field",
     pic: 29, state: 3005, wait: 1, next: 84, dvx: 550, dvy: 550, dvz: 550, centerx: 45, centery: 110, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 3, x: 7, y: 80088, w: 76, h: 33, zwidth: 20,
-      catchingact: [85, 85]
+      catchingact: [85, 85], caughtact: [130, 130]
     }
   },
   84: { name: "ice_field",
     pic: 28, state: 3005, wait: 1, next: 1000, dvx: 550, dvy: 550, dvz: 550, centerx: 45, centery: 110, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 3, x: 7, y: 80088, w: 76, h: 33, zwidth: 20,
-      catchingact: [85, 85]
+      catchingact: [85, 85], caughtact: [130, 130]
     }
   },
   85: { name: "ice_field",

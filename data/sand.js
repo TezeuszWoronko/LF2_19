@@ -8,10 +8,10 @@ define({
         "file(12-20)": "sprite/spear.png", w: 230, h: 60, row: 3, col: 3
       },
       {
-        "file(21-40)": "sprite//zabuza2.png", w: 200, h: 206, row: 5, col: 4
+        "file(21-40)": "sprite/zabuza2.png", w: 200, h: 206, row: 5, col: 4
       },
       {
-        "file(41-56)": "sprite//zabuza4.png", w: 200, h: 135, row: 4, col: 4
+        "file(41-56)": "sprite/zabuza4.png", w: 200, h: 135, row: 4, col: 4
       },
       {
         "file(57-72)": "sprite/raikiri4.png", w: 425, h: 500, row: 3, col: 1

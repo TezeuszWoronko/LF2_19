@@ -429,11 +429,11 @@ define({
     itr: [
       {
         kind: 3, x: 60, y: 80000, w: 30, h: 65,
-        catchingact: [265, 265]
+        catchingact: [265, 265], caughtact: [130, 130]
       },
       {
         kind: 3, x: 60, y: 0, w: 30, h: 100,
-        catchingact: [265, 265]
+        catchingact: [265, 265], caughtact: [130, 130]
       }
     ]
   },

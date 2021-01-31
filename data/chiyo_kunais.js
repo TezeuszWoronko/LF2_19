@@ -85,7 +85,7 @@ define({
     pic: 1, state: 3000, wait: 0, next: 33, dvx: 60, dvy: 0, centerx: 34, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 3, x: 21, y: 34, w: 40, h: 28, vrest: 7,
-      catchingact: [44, 44]
+      catchingact: [44, 44], caughtact: [132, 132]
     },
     opoint: {
       kind: 1, x: 42, y: 79, action: 39, dvx: 10, dvy: 0, oid: 419, facing: 0
@@ -95,7 +95,7 @@ define({
     pic: 2, state: 3000, wait: 0, next: 34, dvx: 60, dvy: 0, centerx: 34, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 3, x: 21, y: 34, w: 40, h: 28, vrest: 7,
-      catchingact: [44, 44]
+      catchingact: [44, 44], caughtact: [132, 132]
     },
     opoint: {
       kind: 1, x: 42, y: 79, action: 39, dvx: 10, dvy: 0, oid: 419, facing: 0
@@ -105,7 +105,7 @@ define({
     pic: 3, state: 3000, wait: 0, next: 35, dvx: 60, dvy: 0, centerx: 34, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 3, x: 21, y: 34, w: 40, h: 28, vrest: 7,
-      catchingact: [44, 44]
+      catchingact: [44, 44], caughtact: [132, 132]
     },
     opoint: {
       kind: 1, x: 42, y: 79, action: 39, dvx: 10, dvy: 0, oid: 419, facing: 0
@@ -115,7 +115,7 @@ define({
     pic: 4, state: 3000, wait: 0, next: 36, dvx: 60, dvy: 0, centerx: 34, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 3, x: 21, y: 34, w: 40, h: 28, vrest: 7,
-      catchingact: [44, 44]
+      catchingact: [44, 44], caughtact: [132, 132]
     },
     opoint: {
       kind: 1, x: 42, y: 79, action: 39, dvx: 10, dvy: 0, oid: 419, facing: 0
@@ -125,7 +125,7 @@ define({
     pic: 1, state: 3000, wait: 0, next: 37, dvx: 60, dvy: 0, centerx: 34, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 3, x: 21, y: 34, w: 40, h: 28, vrest: 7,
-      catchingact: [44, 44]
+      catchingact: [44, 44], caughtact: [132, 132]
     },
     opoint: {
       kind: 1, x: 42, y: 79, action: 39, dvx: 10, dvy: 0, oid: 419, facing: 0
@@ -135,7 +135,7 @@ define({
     pic: 2, state: 3000, wait: 0, next: 38, dvx: 60, dvy: 0, centerx: 34, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 3, x: 21, y: 34, w: 40, h: 28, vrest: 7,
-      catchingact: [44, 44]
+      catchingact: [44, 44], caughtact: [132, 132]
     },
     opoint: {
       kind: 1, x: 42, y: 79, action: 39, dvx: 10, dvy: 0, oid: 419, facing: 0
@@ -145,7 +145,7 @@ define({
     pic: 3, state: 3000, wait: 0, next: 1000, dvx: 60, dvy: 0, centerx: 34, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 3, x: 21, y: 34, w: 40, h: 28, vrest: 7,
-      catchingact: [44, 44]
+      catchingact: [44, 44], caughtact: [132, 132]
     },
     opoint: {
       kind: 1, x: 42, y: 79, action: 39, dvx: 10, dvy: 0, oid: 419, facing: 0

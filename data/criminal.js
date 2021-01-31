@@ -455,7 +455,7 @@ define({
     pic: 36, state: 15, wait: 2, next: 320, dvx: 0, dvy: 0, dvz: 0, centerx: 39, centery: 77, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 3, x: 10, y: 16, w: 50, zwidth: 55, h: 65,
-      catchingact: [341, 341]
+      catchingact: [341, 341], caughtact: [130, 130]
     }
   },
   341: { name: "tobi",

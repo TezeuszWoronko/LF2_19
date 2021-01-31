@@ -2,10 +2,10 @@ define({
   bmp: {
     file: [
       {
-        "file(0-29)": "sprite//deidara_3.png", w: 159, h: 159, row: 5, col: 6
+        "file(0-29)": "sprite/deidara_3.png", w: 159, h: 159, row: 5, col: 6
       },
       {
-        "file(30-69)": "sprite//deidara_4.png", w: 159, h: 159, row: 5, col: 6
+        "file(30-69)": "sprite/deidara_4.png", w: 159, h: 159, row: 5, col: 6
       }
     ],
     name: "Deidara_Bird",

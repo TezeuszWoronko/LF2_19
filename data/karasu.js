@@ -197,35 +197,35 @@ define({
     pic: 4, state: 9, wait: 1, next: 51, dvx: 40, dvy: 0, centerx: 39, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0, hit_fa: 1,
     itr: {
       kind: 3, x: 40, y: 16, w: 25, h: 65,
-      catchingact: [55, 55]
+      catchingact: [55, 55], caughtact: [130, 130]
     }
   },
   51: { name: "special_kill",
     pic: 5, state: 9, wait: 1, next: 52, dvx: 40, dvy: 0, centerx: 39, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0, hit_fa: 1,
     itr: {
       kind: 3, x: 40, y: 16, w: 25, h: 65,
-      catchingact: [55, 55]
+      catchingact: [55, 55], caughtact: [130, 130]
     }
   },
   52: { name: "special_kill",
     pic: 6, state: 9, wait: 1, next: 53, dvx: 40, dvy: 0, centerx: 39, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0, hit_fa: 1,
     itr: {
       kind: 3, x: 40, y: 16, w: 25, h: 65,
-      catchingact: [55, 55]
+      catchingact: [55, 55], caughtact: [130, 130]
     }
   },
   53: { name: "special_kill",
     pic: 7, state: 9, wait: 1, next: 54, dvx: 40, dvy: 0, centerx: 39, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0, hit_fa: 1,
     itr: {
       kind: 3, x: 40, y: 16, w: 25, h: 65,
-      catchingact: [55, 55]
+      catchingact: [55, 55], caughtact: [130, 130]
     }
   },
   54: { name: "special_kill",
     pic: 8, state: 9, wait: 1, next: 4, dvx: 550, dvy: 0, centerx: 39, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 3, x: 40, y: 16, w: 25, h: 65,
-      catchingact: [55, 55]
+      catchingact: [55, 55], caughtact: [130, 130]
     }
   },
   55: { name: "special2_catcg",

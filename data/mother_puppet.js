@@ -1,5 +1,11 @@
 define({
-  bmp: { file: [],
+  bmp: {
+    file: [
+      {
+        "file(0-29)": "sprite/chiyo_puppet_2.png",
+        w: 79, h: 79, row: 10, col: 3
+      }
+    ],
     weapon_hit_sound: "1/002"
   },
   frame: {

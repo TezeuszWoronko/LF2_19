@@ -1446,7 +1446,7 @@ define({
     sound: "1/017",
     itr: {
       kind: 3, x: 10, y: 16, w: 250, zwidth: 255, h: 65,
-      catchingact: [341, 341]
+      catchingact: [341, 341], caughtact: [130, 130]
     }
   },
   341: { name: "tobi",

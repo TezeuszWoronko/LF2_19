@@ -5,7 +5,7 @@ define({
         "file(0-69)": "sprite/kiba_0.png", w: 79, h: 79, row: 10, col: 7
       },
       {
-        "file(70-139)": "sprite//deidara_2.png", w: 79, h: 79, row: 10, col: 7
+        "file(70-139)": "sprite/deidara_2.png", w: 79, h: 79, row: 10, col: 7
       },
       {
         "file(140-148)": "sprite/kiba_2.png", w: 155, h: 95, row: 3, col: 5

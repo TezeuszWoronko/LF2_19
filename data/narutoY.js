@@ -2978,7 +2978,7 @@ define({
     ],
     itr: {
       kind: 3, x: 40, y: 16, w: 25, h: 65,
-      catchingact: [297, 297]
+      catchingact: [297, 297], caughtact: [130, 130]
     },
     wpoint: {
       kind: 1, x: 45, y: 51, weaponact: 35, attacking: 0, cover: 1, dvx: 0, dvy: 0, dvz: 0
@@ -2996,7 +2996,7 @@ define({
     ],
     itr: {
       kind: 3, x: 40, y: 16, w: 25, h: 65,
-      catchingact: [297, 297]
+      catchingact: [297, 297], caughtact: [130, 130]
     },
     wpoint: {
       kind: 1, x: 45, y: 51, weaponact: 35, attacking: 0, cover: 1, dvx: 0, dvy: 0, dvz: 0
@@ -3208,7 +3208,7 @@ define({
     ],
     itr: {
       kind: 3, x: 40, y: 16, w: 25, h: 65,
-      catchingact: [297, 297]
+      catchingact: [297, 297], caughtact: [130, 130]
     },
     wpoint: {
       kind: 1, x: 45, y: 51, weaponact: 35, attacking: 0, cover: 1, dvx: 0, dvy: 0, dvz: 0

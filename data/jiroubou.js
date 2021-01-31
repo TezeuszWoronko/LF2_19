@@ -14,7 +14,7 @@ define({
         "file(210-279)": "sprite/jiroubou_2.png", w: 79, h: 79, row: 10, col: 7
       },
       {
-        "file(280-292)": "sprite//jiroubou_3.png", w: 159, h: 159, row: 5, col: 2
+        "file(280-292)": "sprite/jiroubou_3.png", w: 159, h: 159, row: 5, col: 2
       },
       {
         "file(293-302)": "sprite/cave.png", w: 229, h: 190, row: 5, col: 2
@@ -1881,7 +1881,7 @@ define({
     },
     itr: {
       kind: 3, x: 27, y: 19, w: 41, h: 45,
-      catchingact: [283, 283]
+      catchingact: [283, 283], caughtact: [130, 130]
     },
     wpoint: {
       kind: 3, x: 58, y: 35, weaponact: 21, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
@@ -2659,7 +2659,7 @@ define({
     pic: 999, state: 9, wait: 3, next: 1000, dvx: 0, dvy: 0, centerx: 14, centery: 173, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 3, x: 14, y: 153, w: 203, h: 38,
-      catchingact: [370, 370]
+      catchingact: [370, 370], caughtact: [130, 130]
     }
   },
   370: { name: "cave",

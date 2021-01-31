@@ -2,13 +2,13 @@ define({
   bmp: {
     file: [
       {
-        "file(0-69)": "sprite//sasukeO.png", w: 79, h: 79, row: 10, col: 7
+        "file(0-69)": "sprite/sasukeO.png", w: 79, h: 79, row: 10, col: 7
       },
       {
-        "file(70-139)": "sprite//sasukeO_3.png", w: 79, h: 79, row: 10, col: 7
+        "file(70-139)": "sprite/sasukeO_3.png", w: 79, h: 79, row: 10, col: 7
       },
       {
-        "file(140-148)": "sprite//sasukeO_2.png", w: 155, h: 95, row: 3, col: 3
+        "file(140-148)": "sprite/sasukeO_2.png", w: 155, h: 95, row: 3, col: 3
       },
       {
         "file(149-169)": "sprite/sasuke_3O.png", w: 79, h: 79, row: 10, col: 2

@@ -765,7 +765,7 @@ define({
     pic: 55, state: 3, wait: 2, next: 87, dvx: 0, dvy: 0, centerx: 39, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 3, x: 40, y: 80000, w: 25, h: 65,
-      catchingact: [120, 120]
+      catchingact: [120, 120], caughtact: [130, 130]
     },
     bdy: [
       {
@@ -1397,7 +1397,7 @@ define({
     },
     itr: {
       kind: 3, x: 61, y: 31, w: 40, h: 49, zwidth: 15,
-      catchingact: [160, 160]
+      catchingact: [160, 160], caughtact: [130, 130]
     },
     bdy: [
       {
@@ -1415,7 +1415,7 @@ define({
     },
     itr: {
       kind: 3, x: 61, y: 31, w: 40, h: 49, zwidth: 15,
-      catchingact: [160, 160]
+      catchingact: [160, 160], caughtact: [130, 130]
     },
     bdy: [
       {
@@ -1433,7 +1433,7 @@ define({
     },
     itr: {
       kind: 3, x: 61, y: 31, w: 40, h: 49, zwidth: 15,
-      catchingact: [160, 160]
+      catchingact: [160, 160], caughtact: [130, 130]
     },
     bdy: [
       {

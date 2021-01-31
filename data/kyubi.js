@@ -5,24 +5,24 @@ define({
         "file(0-69)": "sprite/kyubi.png", w: 79, h: 79, row: 10, col: 7
       },
       {
-        "file(70-139)": "sprite//naruto_2.png", w: 79, h: 79, row: 10, col: 7
+        "file(70-139)": "sprite/naruto_2.png", w: 79, h: 79, row: 10, col: 7
       },
       {
-        "file(195-145)": "sprite//kyubi_3.png", w: 711, h: 95, row: 1, col: 6
+        "file(195-145)": "sprite/kyubi_3.png", w: 711, h: 95, row: 1, col: 6
       },
       {
-        "file(146-165)": "sprite//4tk.png", w: 200, h: 135, row: 4, col: 5
+        "file(146-165)": "sprite/4tk.png", w: 200, h: 135, row: 4, col: 5
       },
       {
-        "file(166-200)": "sprite//4tk2.png", w: 200, h: 135, row: 4, col: 8
+        "file(166-200)": "sprite/4tk2.png", w: 200, h: 135, row: 4, col: 8
       },
       {
-        "file(201-220)": "sprite//kyubi_3.png", w: 711, h: 95, row: 1, col: 12
+        "file(201-220)": "sprite/kyubi_3.png", w: 711, h: 95, row: 1, col: 12
       }
     ],
     name: "Naruto",
     head: "sprite/kyubi_f.png",
-    small: "sprite//kyubi_s.png",
+    small: "sprite/kyubi_s.png",
     walking_frame_rate: 3,
     walking_speed: 9,
     walking_speedz: 2.5,
@@ -638,7 +638,7 @@ define({
     },
     itr: {
       kind: 3, x: 335, y: 16, w: 52, h: 65,
-      catchingact: [153, 153]
+      catchingact: [153, 153], caughtact: [130, 130]
     }
   },
   97: { name: "hand",
@@ -648,7 +648,7 @@ define({
     },
     itr: {
       kind: 3, x: 415, y: 16, w: 52, h: 65,
-      catchingact: [153, 153]
+      catchingact: [153, 153], caughtact: [130, 130]
     }
   },
   98: { name: "hand",
@@ -658,7 +658,7 @@ define({
     },
     itr: {
       kind: 3, x: 480, y: 16, w: 52, h: 65,
-      catchingact: [152, 152]
+      catchingact: [152, 152], caughtact: [130, 130]
     }
   },
   99: { name: "hand",
@@ -1096,7 +1096,7 @@ define({
     },
     itr: {
       kind: 3, x: 510, y: 16, w: 52, h: 65,
-      catchingact: [151, 151]
+      catchingact: [151, 151], caughtact: [130, 130]
     }
   },
   155: { name: "hand",
@@ -1726,7 +1726,7 @@ define({
     },
     itr: {
       kind: 3, x: 100, y: 16, w: 52, h: 65,
-      catchingact: [266, 266]
+      catchingact: [266, 266], caughtact: [130, 130]
     }
   },
   259: { name: "hand",
@@ -1736,7 +1736,7 @@ define({
     },
     itr: {
       kind: 3, x: 182, y: 16, w: 52, h: 65,
-      catchingact: [266, 266]
+      catchingact: [266, 266], caughtact: [130, 130]
     }
   },
   260: { name: "hand",
@@ -1746,7 +1746,7 @@ define({
     },
     itr: {
       kind: 3, x: 255, y: 16, w: 52, h: 65,
-      catchingact: [265, 265]
+      catchingact: [265, 265], caughtact: [130, 130]
     }
   },
   261: { name: "hand",

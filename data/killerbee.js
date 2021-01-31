@@ -4469,7 +4469,8 @@ define({
       }
     ],
     itr: {
-      kind: 3, x: "28 y"
+      kind: 3, x: 28, y: 43, w: 90, h: 56, zwidth: 20,
+      catchingact: [358, 358], caughtact: [130, 130]
     }
   },
   356: { name: "7_sword_spin2",
@@ -4964,7 +4965,8 @@ define({
       }
     ],
     itr: {
-      kind: 3, x: "28 y"
+      kind: 3, x: 28, y: 43, w: 75, h: 56,
+      catchingact: [381, 381], caughtact: [130, 130]
     }
   },
   379: { name: "7_sword_spin3",

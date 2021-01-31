@@ -14,16 +14,16 @@ define({
         "file(56-87)": "sprite/manhit.png", w: 147, h: 144, row: 4, col: 8
       },
       {
-        "file(88-119)": "sprite//susanoo_itachi.PNG", w: 415, h: 241, row: 4, col: 8
+        "file(88-119)": "sprite/susanoo_itachi.PNG", w: 415, h: 241, row: 4, col: 8
       },
       {
-        "file(120-151)": "sprite//susanoo_sasuke.PNG", w: 415, h: 241, row: 4, col: 8
+        "file(120-151)": "sprite/susanoo_sasuke.PNG", w: 415, h: 241, row: 4, col: 8
       },
       {
-        "file(152-182)": "sprite//susanoo_sasuke2.PNG", w: 415, h: 241, row: 4, col: 8
+        "file(152-182)": "sprite/susanoo_sasuke2.PNG", w: 415, h: 241, row: 4, col: 8
       },
       {
-        "file(183-220)": "sprite//susanoo_madara.PNG", w: 415, h: 390, row: 6, col: 5
+        "file(183-220)": "sprite/susanoo_madara.PNG", w: 415, h: 390, row: 6, col: 5
       }
     ]
   },

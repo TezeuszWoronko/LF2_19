@@ -2,10 +2,10 @@ define({
   bmp: {
     file: [
       {
-        "file(0-9)": "sprite//susanoo.png", w: 110, h: 100, row: 5, col: 2
+        "file(0-9)": "sprite/susanoo.png", w: 110, h: 100, row: 5, col: 2
       },
       {
-        "file(10-34)": "sprite//susanoo2.png", w: 200, h: 135, row: 4, col: 16
+        "file(10-34)": "sprite/susanoo2.png", w: 200, h: 135, row: 4, col: 16
       },
       {
         "file(35-99)": "sprite/puppet2.png", w: 275, h: 235, row: 3, col: 3

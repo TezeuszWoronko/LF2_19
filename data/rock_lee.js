@@ -2,7 +2,7 @@ define({
   bmp: {
     file: [
       {
-        "file(0-69)": "sprite//rock_lee.png", w: 79, h: 79, row: 10, col: 7
+        "file(0-69)": "sprite/rock_lee.png", w: 79, h: 79, row: 10, col: 7
       },
       {
         "file(70-139)": "sprite/rock_lee2.png", w: 79, h: 79, row: 10, col: 7
@@ -3375,7 +3375,7 @@ define({
     },
     itr: {
       kind: 3, x: 40, y: 16, zwidth: 25, w: 25, h: 65,
-      catchingact: [320, 320]
+      catchingact: [320, 320], caughtact: [132, 132]
     }
   },
   314: { name: "gate2",
@@ -3388,7 +3388,7 @@ define({
     },
     itr: {
       kind: 3, x: 40, y: 16, zwidth: 25, w: 25, h: 65,
-      catchingact: [320, 320]
+      catchingact: [320, 320], caughtact: [132, 132]
     }
   },
   315: { name: "gate2",
@@ -3401,7 +3401,7 @@ define({
     },
     itr: {
       kind: 3, x: 40, y: 16, zwidth: 25, w: 25, h: 65,
-      catchingact: [320, 320]
+      catchingact: [320, 320], caughtact: [132, 132]
     }
   },
   316: { name: "gate2",
@@ -3414,7 +3414,7 @@ define({
     },
     itr: {
       kind: 3, x: 40, y: 16, zwidth: 25, w: 25, h: 65,
-      catchingact: [320, 320]
+      catchingact: [320, 320], caughtact: [132, 132]
     }
   },
   317: { name: "konoha_sempu",

@@ -2,10 +2,10 @@ define({
   bmp: {
     file: [
       {
-        "file(0-63)": "sprite//zabuza.png", w: 200, h: 135, row: 4, col: 16
+        "file(0-63)": "sprite/zabuza.png", w: 200, h: 135, row: 4, col: 16
       },
       {
-        "file(64-95)": "sprite//zabuza3.png", w: 200, h: 135, row: 4, col: 9
+        "file(64-95)": "sprite/zabuza3.png", w: 200, h: 135, row: 4, col: 9
       },
       {
         "file(96-139)": "sprite/kisame_2.png", w: 79, h: 79, row: 10, col: 7
@@ -15,8 +15,8 @@ define({
       }
     ],
     name: "Zabuza",
-    head: "sprite//zabuza_f.png",
-    small: "sprite//zabuza_s.png",
+    head: "sprite/zabuza_f.png",
+    small: "sprite/zabuza_s.png",
     walking_frame_rate: 3,
     walking_speed: 4,
     walking_speedz: 2,

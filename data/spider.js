@@ -246,14 +246,14 @@ define({
     sound: "1/017",
     itr: {
       kind: 3, x: 10, y: 16, w: 30, zwidth: 15, h: 65,
-      catchingact: [267, 267]
+      catchingact: [267, 267], caughtact: [130, 130]
     }
   },
   263: { name: "stab",
     pic: 22, state: 15, wait: 2, next: 264, dvx: 50, dvy: 0, centerx: 39, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0,
     itr: {
       kind: 3, x: 10, y: 16, w: 30, h: 65, zwidth: 15,
-      catchingact: [267, 267]
+      catchingact: [267, 267], caughtact: [130, 130]
     }
   },
   264: { name: "stab_finish",
