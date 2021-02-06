@@ -49,7 +49,7 @@ define({
     ]
   },
   1: { name: "standing",
-    pic: 1, state: 0, wait: 4, next: 2, dvx: 0, dvy: 0, centerx: 38, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0, hit_Fj: 240, hit_Fa: 263, hit_Da: 430, hit_Ua: 265, hit_ja: 290, hit_Dj: 271, hit_Uj: 300,
+    pic: 1, state: 0, wait: 4, next: 2, dvx: 0, dvy: 0, centerx: 39, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0, hit_Fj: 240, hit_Fa: 263, hit_Da: 430, hit_Ua: 265, hit_ja: 290, hit_Dj: 271, hit_Uj: 300,
     wpoint: {
       kind: 1, x: 33, y: 60, weaponact: 21, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
     },
@@ -91,7 +91,7 @@ define({
     ]
   },
   5: { name: "walking",
-    pic: 4, state: 1, wait: 3, next: 999, dvx: 0, dvy: 0, centerx: 39, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0, hit_Fj: 240, hit_Fa: 263, hit_Da: 430, hit_Ua: 265, hit_ja: 290, hit_Dj: 271, hit_Uj: 300,
+    pic: 4, state: 1, wait: 3, next: 999, dvx: 0, dvy: 0, centerx: 39, centery: 78, hit_a: 0, hit_d: 0, hit_j: 0, hit_Fj: 240, hit_Fa: 263, hit_Da: 430, hit_Ua: 265, hit_ja: 290, hit_Dj: 271, hit_Uj: 300,
     wpoint: {
       kind: 1, x: 53, y: 55, weaponact: 21, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
     },
@@ -105,7 +105,7 @@ define({
     ]
   },
   6: { name: "walking",
-    pic: 5, state: 1, wait: 3, next: 999, dvx: 0, dvy: 0, centerx: 39, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0, hit_Fj: 240, hit_Fa: 263, hit_Da: 430, hit_Ua: 265, hit_ja: 290, hit_Dj: 271, hit_Uj: 300,
+    pic: 5, state: 1, wait: 3, next: 999, dvx: 0, dvy: 0, centerx: 39, centery: 78, hit_a: 0, hit_d: 0, hit_j: 0, hit_Fj: 240, hit_Fa: 263, hit_Da: 430, hit_Ua: 265, hit_ja: 290, hit_Dj: 271, hit_Uj: 300,
     wpoint: {
       kind: 1, x: 48, y: 57, weaponact: 21, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
     },
@@ -119,7 +119,7 @@ define({
     ]
   },
   7: { name: "walking",
-    pic: 6, state: 1, wait: 3, next: 999, dvx: 0, dvy: 0, centerx: 39, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0, hit_Fj: 240, hit_Fa: 263, hit_Da: 430, hit_Ua: 265, hit_ja: 290, hit_Dj: 271, hit_Uj: 300,
+    pic: 6, state: 1, wait: 3, next: 999, dvx: 0, dvy: 0, centerx: 39, centery: 78, hit_a: 0, hit_d: 0, hit_j: 0, hit_Fj: 240, hit_Fa: 263, hit_Da: 430, hit_Ua: 265, hit_ja: 290, hit_Dj: 271, hit_Uj: 300,
     wpoint: {
       kind: 1, x: 41, y: 59, weaponact: 22, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
     },
@@ -133,7 +133,7 @@ define({
     ]
   },
   8: { name: "walking",
-    pic: 7, state: 1, wait: 3, next: 999, dvx: 0, dvy: 0, centerx: 39, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0, hit_Fj: 240, hit_Fa: 263, hit_Da: 430, hit_Ua: 265, hit_ja: 290, hit_Dj: 271, hit_Uj: 300,
+    pic: 7, state: 1, wait: 3, next: 999, dvx: 0, dvy: 0, centerx: 39, centery: 78, hit_a: 0, hit_d: 0, hit_j: 0, hit_Fj: 240, hit_Fa: 263, hit_Da: 430, hit_Ua: 265, hit_ja: 290, hit_Dj: 271, hit_Uj: 300,
     wpoint: {
       kind: 1, x: 32, y: 58, weaponact: 23, attacking: 0, cover: 0, dvx: 0, dvy: 0, dvz: 0
     },
