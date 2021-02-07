@@ -28,7 +28,8 @@ define({
     dash_distance: 1,
     dash_distancez: 3.75,
     rowing_height: -2,
-    rowing_distance: 30
+    rowing_distance: 30,
+	hidden: 1
   },
   frame: {
   0: { name: "standing",
