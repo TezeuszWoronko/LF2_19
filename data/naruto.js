@@ -3150,7 +3150,7 @@ define({
   305: { name: "rasenganshuriken",
     pic: 47, state: 15, wait: 0, next: 306, dvx: 0, dvy: 0, dvz: 0, centerx: 39, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0,
     opoint: {
-      kind: 1, x: 10, y: 80, action: 50, dvx: 0, dvy: 0, oid: 216, facing: 0
+      kind: 1, x: 10, y: 80, action: 350, dvx: 0, dvy: 0, oid: 216, facing: 0
     },
     wpoint: {
       kind: 1, x: 46, y: 49, weaponact: 30, attacking: 0, cover: 1, dvx: 0, dvy: 0, dvz: 0
@@ -3203,7 +3203,7 @@ define({
   310: { name: "rasenganshuriken",
     pic: 47, state: 15, wait: 0, next: 311, dvx: 0, dvy: 0, dvz: 0, centerx: 39, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0,
     opoint: {
-      kind: 1, x: 10, y: 80, action: 52, dvx: 0, dvy: 0, oid: 216, facing: 0
+      kind: 1, x: 10, y: 80, action: 350, dvx: 0, dvy: 0, oid: 216, facing: 0
     },
     wpoint: {
       kind: 1, x: 46, y: 49, weaponact: 30, attacking: 0, cover: 1, dvx: 0, dvy: 0, dvz: 0
@@ -3233,7 +3233,7 @@ define({
   313: { name: "rasenganshuriken2",
     pic: 36, state: 15, wait: 2, next: 314, dvx: 0, dvy: 0, dvz: 0, centerx: 39, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0,
     opoint: {
-      kind: 1, x: 39, y: 47, action: 55, dvx: 0, dvy: 0, oid: 216, facing: 0
+      kind: 1, x: 39, y: 47, action: 350, dvx: 0, dvy: 0, oid: 216, facing: 0
     },
     wpoint: {
       kind: 1, x: 46, y: 49, weaponact: 30, attacking: 0, cover: 1, dvx: 0, dvy: 0, dvz: 0
@@ -3252,7 +3252,7 @@ define({
     }
   },
   315: { name: "rasenganshuriken2",
-    pic: 36, state: 15, wait: 2, next: 145, dvx: 0, dvy: 0, dvz: 0, centerx: 39, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0,
+    pic: 36, state: 15, wait: 0, next: 145, dvx: 0, dvy: 0, dvz: 0, centerx: 39, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0,
     wpoint: {
       kind: 1, x: 46, y: 49, weaponact: 30, attacking: 0, cover: 1, dvx: 0, dvy: 0, dvz: 0
     },
@@ -3300,7 +3300,7 @@ define({
     }
   },
   319: { name: "catching2 ",
-    pic: 80, state: 9, wait: 1, next: 320, dvx: 550, dvy: 550, centerx: 38, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0,
+    pic: 81, state: 9, wait: 1, next: 320, dvx: 550, dvy: 550, centerx: 38, centery: 79, hit_a: 0, hit_d: 0, hit_j: 0,
     sound: "1/1885",
     cpoint: {
       kind: 1, x: 80, y: 39, vaction: 130, throwvz: -842150451, hurtable: 1, throwinjury: -842150451, decrease: 7
