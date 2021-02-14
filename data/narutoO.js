@@ -2852,9 +2852,9 @@ define({
     }
   },
   313: { name: "rasenganshuriken2",
-    pic: 36, state: 4, wait: 2, next: 314, dvx: 0, dvy: 550, dvz: 0, centerx: 39, centery: 79, hit_a: 145, hit_d: 0, hit_j: 0,
+    pic: 36, state: 4, wait: 1, next: 314, dvx: 0, dvy: 550, dvz: 0, centerx: 39, centery: 79, hit_a: 145, hit_d: 0, hit_j: 0,
     opoint: {
-      kind: 1, x: 39, y: 47, action: 55, dvx: 0, dvy: 0, oid: 216, facing: 0
+      kind: 1, x: 39, y: 47, action: 350, dvx: 0, dvy: 0, oid: 216, facing: 0
     },
     wpoint: {
       kind: 1, x: 46, y: 49, weaponact: 30, attacking: 0, cover: 1, dvx: 0, dvy: 0, dvz: 0
@@ -2873,7 +2873,7 @@ define({
     }
   },
   315: { name: "rasenganshuriken2",
-    pic: 36, state: 4, wait: 2, next: 316, dvx: 0, dvy: 550, dvz: 0, centerx: 39, centery: 79, hit_a: 145, hit_d: 0, hit_j: 0,
+    pic: 36, state: 4, wait: 1, next: 316, dvx: 0, dvy: 550, dvz: 0, centerx: 39, centery: 79, hit_a: 145, hit_d: 0, hit_j: 0,
     wpoint: {
       kind: 1, x: 46, y: 49, weaponact: 30, attacking: 0, cover: 1, dvx: 0, dvy: 0, dvz: 0
     },
@@ -2882,7 +2882,7 @@ define({
     }
   },
   316: { name: "rasenganshuriken2",
-    pic: 27, state: 4, wait: 2, next: 313, dvx: 0, dvy: 550, dvz: 0, centerx: 39, centery: 79, hit_a: 145, hit_d: 0, hit_j: 0,
+    pic: 27, state: 4, wait: 1, next: 313, dvx: 0, dvy: 550, dvz: 0, centerx: 39, centery: 79, hit_a: 145, hit_d: 0, hit_j: 0,
     wpoint: {
       kind: 1, x: 46, y: 49, weaponact: 30, attacking: 0, cover: 1, dvx: 0, dvy: 0, dvz: 0
     },
